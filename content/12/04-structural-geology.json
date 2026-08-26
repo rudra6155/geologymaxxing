@@ -1,0 +1,1840 @@
+{
+  "id": "12-04",
+  "std": 12,
+  "chapterNumber": 4,
+  "title": "Structural Geology",
+  "slug": "structural-geology",
+  "textbookPages": "44-55",
+  "marksWeightage": 17,
+  "estimatedMinutes": 55,
+  "summary": "Folds, faults, joints and unconformities — how rocks deform and how to read them in the field.",
+  "topics": [
+    {
+      "id": "12-04-intro",
+      "title": "Introduction and Stress-Strain",
+      "slug": "introduction-and-stress-strain",
+      "order": 1,
+      "estimatedMinutes": 6,
+      "blocks": [
+        {
+          "id": "12-04-b001",
+          "type": "definition",
+          "depth": 1,
+          "title": "Structural Geology",
+          "body": "The branch of geology that deals with the study of the architecture of the Earth's crust — rock deformation, origin, and mechanism of geological structures such as folds, faults, joints, and unconformities.",
+          "source": { "type": "notes", "ref": "notes p.1" },
+          "verified": true,
+          "tags": ["structural geology", "definition"]
+        },
+        {
+          "id": "12-04-b002",
+          "type": "definition",
+          "depth": 2,
+          "title": "Stress",
+          "body": "Stress is the pressure applied to rocks, expressed as **force per unit area (F/A)**.",
+          "source": { "type": "textbook", "ref": "p.44" },
+          "verified": true,
+          "tags": ["stress", "definition"]
+        },
+        {
+          "id": "12-04-b003",
+          "type": "list",
+          "depth": 2,
+          "title": "Types of Stress",
+          "items": [
+            "**Lithostatic stress:** Equal pressure exerted on rocks from all directions due to the weight of overlying rocks. Similar to hydrostatic stress.",
+            "**Directional/Differential stress:** Unequal stress due to tectonic forces. Three types: (i) Tensional stress (stretching/extension), (ii) Compressional stress (squeezing), (iii) Shearing stress."
+          ],
+          "source": { "type": "textbook", "ref": "p.44" },
+          "verified": true,
+          "tags": ["stress", "lithostatic", "directional", "tensional", "compressional", "shearing"]
+        },
+        {
+          "id": "12-04-b004",
+          "type": "definition",
+          "depth": 2,
+          "title": "Strain",
+          "body": "Strain is the **deformation of rocks in response to stress**.",
+          "source": { "type": "textbook", "ref": "p.44" },
+          "verified": true,
+          "tags": ["strain", "definition"]
+        },
+        {
+          "id": "12-04-b005",
+          "type": "list",
+          "depth": 2,
+          "title": "Types of Deformation",
+          "items": [
+            "**Elastic deformation:** For small directional stresses (less than yield strength), rock deforms like a spring (Hooke's Law). Deformation is **not permanent** — rock returns to original shape when stress is released.",
+            "**Plastic deformation:** When differential stress exceeds yield strength, rock flows permanently. Occurs in the lower continental crust and mantle.",
+            "**Brittle deformation:** Near the Earth's surface, if differential stress exceeds yield strength, rock **fractures or fails** with development of a weak zone/plane.",
+            "**Ductile deformation:** At depths greater than **10 km**, enormous lithostatic stress and high temperature make rock softer, less brittle and more malleable, preventing fracture."
+          ],
+          "source": { "type": "textbook", "ref": "p.44-45" },
+          "verified": true,
+          "tags": ["deformation", "elastic", "plastic", "brittle", "ductile"]
+        },
+        {
+          "id": "12-04-b006",
+          "type": "definition",
+          "depth": 2,
+          "title": "Outcrop",
+          "body": "The exposure of solid rock on the Earth's surface.",
+          "source": { "type": "notes", "ref": "notes p.1" },
+          "verified": true,
+          "tags": ["outcrop", "definition"]
+        }
+      ]
+    },
+    {
+      "id": "12-04-strike-dip",
+      "title": "Strike and Dip of Beds",
+      "slug": "strike-and-dip",
+      "order": 2,
+      "estimatedMinutes": 6,
+      "blocks": [
+        {
+          "id": "12-04-b007",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Attitude of Beds",
+          "body": "The simplest form of deformation is **tilting of initially horizontal sedimentary beds**. The position of the bed on the ground surface is expressed as its **attitude**, quantified by Strike and Dip.",
+          "source": { "type": "textbook", "ref": "p.45" },
+          "verified": true,
+          "tags": ["attitude", "beds"]
+        },
+        {
+          "id": "12-04-b008",
+          "type": "definition",
+          "depth": 1,
+          "title": "Strike",
+          "body": "The direction of a line formed by the **intersection of a horizontal plane with an inclined bedding plane**. It is the direction of the line of intersection of a geological feature with a horizontal plane.",
+          "source": { "type": "notes", "ref": "notes p.2" },
+          "verified": true,
+          "tags": ["strike", "definition"]
+        },
+        {
+          "id": "12-04-b009",
+          "type": "definition",
+          "depth": 1,
+          "title": "Dip",
+          "body": "The **angle of inclination** of a rock bed relative to the horizontal plane. Measured in a plane **perpendicular to the strike direction**. Expressed in degrees (0°–90°).",
+          "source": { "type": "notes", "ref": "notes p.2" },
+          "verified": true,
+          "tags": ["dip", "definition"]
+        },
+        {
+          "id": "12-04-b010",
+          "type": "definition",
+          "depth": 1,
+          "title": "True Dip",
+          "body": "The **maximum angle of inclination** of a bed, measured perpendicular to the strike direction. True dip is always **greater than or equal to** apparent dip.",
+          "source": { "type": "notes", "ref": "notes p.2" },
+          "verified": true,
+          "tags": ["true dip", "definition"]
+        },
+        {
+          "id": "12-04-b011",
+          "type": "definition",
+          "depth": 1,
+          "title": "Apparent Dip",
+          "body": "The angle of inclination of a bed measured in **any direction other than perpendicular to the strike**. Apparent dip is always **less than** true dip. It is zero parallel to strike and increases to equal true dip when measured perpendicular to strike.",
+          "source": { "type": "notes", "ref": "notes p.2" },
+          "verified": true,
+          "tags": ["apparent dip", "definition"]
+        },
+        {
+          "id": "12-04-b012",
+          "type": "callout",
+          "depth": 2,
+          "title": "Orientation Table",
+          "body": "**Horizontal bed:** Strike absent, Dip absent, Dip angle = 0°. **Vertical bed:** Strike present, Dip absent, Dip angle = 90°. **Inclined bed:** Strike present, Dip present, Dip angle >0° and <90°.",
+          "source": { "type": "textbook", "ref": "p.46" },
+          "verified": true,
+          "tags": ["orientation", "table", "strike", "dip"]
+        },
+        {
+          "id": "12-04-b013",
+          "type": "explanation",
+          "depth": 3,
+          "title": "Brunton Compass",
+          "body": "A **Brunton Pocket Transit** is a precision compass used to measure **strike and dip** of geological features. It uses the Earth's magnetic field and can be adjusted for declination angle. Strike is measured by leveling the compass along the plane; dip is measured by laying the compass perpendicular to strike and using the clinometer.",
+          "source": { "type": "textbook", "ref": "p.45-46" },
+          "verified": true,
+          "tags": ["brunton compass", "tool", "measurement"]
+        }
+      ]
+    },
+    {
+      "id": "12-04-folds",
+      "title": "Folds",
+      "slug": "folds",
+      "order": 3,
+      "estimatedMinutes": 14,
+      "blocks": [
+        {
+          "id": "12-04-b014",
+          "type": "definition",
+          "depth": 1,
+          "title": "Fold",
+          "body": "A wave-like **bend or curve** formed in rock strata due to **compressive forces**. Folds may occur singly, isolated, or as extensive fold trains of different sizes.",
+          "source": { "type": "notes", "ref": "notes p.3" },
+          "verified": true,
+          "tags": ["fold", "definition"]
+        },
+        {
+          "id": "12-04-b015",
+          "type": "list",
+          "depth": 1,
+          "title": "Parts of a Fold",
+          "items": [
+            "**Axial plane:** An imaginary plane that divides the fold into two halves as symmetrically as possible.",
+            "**Axis/Hinge:** An imaginary line along which the bedding plane has suffered **maximum bending or curvature**. It may or may not coincide with the axial plane.",
+            "**Crest:** The convex or up-arched (highest) part of the fold.",
+            "**Trough:** The concave or down-arched (lowest) part of the fold.",
+            "**Limbs/Flanks:** The sides of a fold. In a series of folds, the part between the crest of one fold and the trough of the adjacent fold."
+          ],
+          "source": { "type": "notes", "ref": "notes p.3" },
+          "verified": true,
+          "tags": ["fold", "parts", "axial plane", "axis", "crest", "trough", "limbs"]
+        },
+        {
+          "id": "12-04-b016",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d001",
+          "source": { "type": "textbook", "ref": "p.47" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b017",
+          "type": "definition",
+          "depth": 1,
+          "title": "Anticline",
+          "body": "A fold that is **convex upward**. The limbs dip **away from each other** with reference to its axial plane. The **oldest beds** occur towards the core or centre of curvature.",
+          "source": { "type": "textbook", "ref": "p.47" },
+          "verified": true,
+          "tags": ["fold", "anticline"]
+        },
+        {
+          "id": "12-04-b018",
+          "type": "definition",
+          "depth": 1,
+          "title": "Syncline",
+          "body": "A fold that is **convex downward** (opposite of anticline). The limbs dip **towards each other** with reference to its axial plane. The **youngest beds** occur towards the core or centre of curvature.",
+          "source": { "type": "textbook", "ref": "p.47" },
+          "verified": true,
+          "tags": ["fold", "syncline"]
+        },
+        {
+          "id": "12-04-b019",
+          "type": "definition",
+          "depth": 1,
+          "title": "Symmetrical Fold",
+          "body": "A fold in which the **axial plane is vertical** and the two limbs dip at the **same angle** in opposite directions. Formed when compressive forces from both sides are **equal** (P₁ = P₂). One half is the mirror image of the other.",
+          "source": { "type": "notes", "ref": "notes p.4" },
+          "verified": true,
+          "tags": ["fold", "symmetrical"]
+        },
+        {
+          "id": "12-04-b020",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d002",
+          "source": { "type": "textbook", "ref": "p.47" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b021",
+          "type": "definition",
+          "depth": 1,
+          "title": "Asymmetrical Fold",
+          "body": "A fold in which the **axial plane is inclined** and the two limbs dip at **different angles** on either side of the axial plane. Formed when compressive forces from two sides are **unequal** (P₁ > P₂).",
+          "source": { "type": "notes", "ref": "notes p.4" },
+          "verified": true,
+          "tags": ["fold", "asymmetrical"]
+        },
+        {
+          "id": "12-04-b022",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d003",
+          "source": { "type": "textbook", "ref": "p.47" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b023",
+          "type": "definition",
+          "depth": 2,
+          "title": "Overturned Fold",
+          "body": "A fold in which the axial plane is **highly inclined** and both limbs dip in the **same direction** at different angles. Formed when compressive force is very high on one side (P₁ ≫ P₂).",
+          "source": { "type": "notes", "ref": "notes p.5" },
+          "verified": true,
+          "tags": ["fold", "overturned"]
+        },
+        {
+          "id": "12-04-b024",
+          "type": "definition",
+          "depth": 2,
+          "title": "Recumbent Fold",
+          "body": "A fold in which the axial plane is **horizontal or nearly horizontal** (dip angle approximately 0°). Formed when compressive force is extremely high on one side.",
+          "source": { "type": "notes", "ref": "notes p.5" },
+          "verified": true,
+          "tags": ["fold", "recumbent"]
+        },
+        {
+          "id": "12-04-b025",
+          "type": "definition",
+          "depth": 2,
+          "title": "Isoclinal Fold",
+          "body": "A fold in which the limbs dip at the **same angle in the same direction** — the limbs are parallel to each other. The axial plane is inclined.",
+          "source": { "type": "notes", "ref": "notes p.6" },
+          "verified": true,
+          "tags": ["fold", "isoclinal"]
+        },
+        {
+          "id": "12-04-b026",
+          "type": "definition",
+          "depth": 3,
+          "title": "Fan Fold",
+          "body": "A fold in which the limbs dip **towards each other** (synclinal fan fold) or **away from each other** (anticlinal fan fold), resembling a fan. Crests and troughs are broad and rounded.",
+          "source": { "type": "notes", "ref": "notes p.6" },
+          "verified": true,
+          "tags": ["fold", "fan"]
+        },
+        {
+          "id": "12-04-b027",
+          "type": "definition",
+          "depth": 3,
+          "title": "Open and Closed Fold",
+          "body": "**Open Fold:** Angle between limbs is **obtuse** (>90° but <180°). Bed thickness remains uniform. **Closed Fold:** Angle between limbs is **acute** (<90°). Beds are thicker at the hinge and thinner at the limbs.",
+          "source": { "type": "notes", "ref": "notes p.7" },
+          "verified": true,
+          "tags": ["fold", "open", "closed"]
+        },
+        {
+          "id": "12-04-b028",
+          "type": "definition",
+          "depth": 3,
+          "title": "Chevron Fold",
+          "body": "Folds with **sharp, angular hinges** and **straight limbs**.",
+          "source": { "type": "notes", "ref": "notes p.8" },
+          "verified": true,
+          "tags": ["fold", "chevron"]
+        },
+        {
+          "id": "12-04-b029",
+          "type": "definition",
+          "depth": 3,
+          "title": "Box Fold",
+          "body": "A fold with a **flat-topped crest** and two **vertical/steep limbs**, forming a box-like shape.",
+          "source": { "type": "notes", "ref": "notes p.8" },
+          "verified": true,
+          "tags": ["fold", "box"]
+        },
+        {
+          "id": "12-04-b030",
+          "type": "definition",
+          "depth": 3,
+          "title": "Monoclinal Fold",
+          "body": "A fold with a **local steepening** in horizontal or gently dipping strata. Only **one limb** is inclined.",
+          "source": { "type": "notes", "ref": "notes p.8" },
+          "verified": true,
+          "tags": ["fold", "monoclinal"]
+        },
+        {
+          "id": "12-04-b031",
+          "type": "definition",
+          "depth": 2,
+          "title": "Anticlinorium and Synclinorium",
+          "body": "**Anticlinorium:** A large anticlinal structure consisting of a series of smaller folds (anticlines and synclines) superimposed on it. **Synclinorium:** A large synclinal structure consisting of a series of smaller folds superimposed on it.",
+          "source": { "type": "notes", "ref": "notes p.9" },
+          "verified": true,
+          "tags": ["fold", "anticlinorium", "synclinorium"]
+        },
+        {
+          "id": "12-04-b032",
+          "type": "definition",
+          "depth": 3,
+          "title": "Plunging and Non-plunging Fold",
+          "body": "**Plunging fold:** A fold whose axis is **inclined to the horizontal plane**. The angle of inclination is the plunge angle. **Non-plunging fold:** A fold whose axis is **horizontal** (plunge angle = 0°).",
+          "source": { "type": "notes", "ref": "notes p.10" },
+          "verified": true,
+          "tags": ["fold", "plunging", "non-plunging"]
+        },
+        {
+          "id": "12-04-b033",
+          "type": "definition",
+          "depth": 3,
+          "title": "Dome and Basin",
+          "body": "**Dome (Pericline):** A double-folded structure where beds dip **away from a central point** in all directions, forming an inverted bowl shape. **Basin:** Beds dip **towards a central point** from all directions, forming a bowl shape.",
+          "source": { "type": "notes", "ref": "notes p.11" },
+          "verified": true,
+          "tags": ["fold", "dome", "basin", "pericline"]
+        },
+        {
+          "id": "12-04-b034",
+          "type": "list",
+          "depth": 1,
+          "title": "Significance of Folds",
+          "items": [
+            "**Mountain building:** Folds create valleys, hills, and mountain ranges. The Himalayas are fold mountains.",
+            "**Groundwater occurrence:** Synclines provide favourable conditions for groundwater; artesian springs and wells owe their origin to synclinal structures.",
+            "**Oil and Gas deposits:** Anticlinal folds serve as good structural traps for oil and gas deposits."
+          ],
+          "source": { "type": "textbook", "ref": "p.48" },
+          "verified": true,
+          "tags": ["fold", "significance", "mountains", "groundwater", "oil"]
+        },
+        {
+          "id": "12-04-b035",
+          "type": "diagramRef",
+          "depth": 2,
+          "diagramId": "12-04-d004",
+          "source": { "type": "textbook", "ref": "p.48" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b036",
+          "type": "example",
+          "depth": 3,
+          "title": "Mumbai High Field",
+          "body": "Mumbai High (Bombay High) is an offshore oilfield in the Arabian Sea, ~160 km west of Mumbai coast. Discovered in 1974. The structure is a **north-northwest to south-southeast trending doubly plunging anticline** with a faulted east limb, 65 km long and 23 km wide. Operated by ONGC.",
+          "source": { "type": "textbook", "ref": "p.48" },
+          "verified": true,
+          "tags": ["mumbai high", "oil field", "anticline", "example"]
+        }
+      ]
+    },
+    {
+      "id": "12-04-faults",
+      "title": "Faults",
+      "slug": "faults",
+      "order": 4,
+      "estimatedMinutes": 14,
+      "blocks": [
+        {
+          "id": "12-04-b037",
+          "type": "definition",
+          "depth": 1,
+          "title": "Fault",
+          "body": "A **planar fracture** in a volume of rock across which there has been **significant displacement** along the fracture as a result of Earth movements. Energy release associated with rapid movement on active faults is the main cause of **earthquakes**.",
+          "source": { "type": "notes", "ref": "notes p.12" },
+          "verified": true,
+          "tags": ["fault", "definition"]
+        },
+        {
+          "id": "12-04-b038",
+          "type": "list",
+          "depth": 1,
+          "title": "Parts of a Fault",
+          "items": [
+            "**Fault Plane:** The fracture plane along which displacement occurs. Its intersection with the horizontal plane gives the **strike** of the fault.",
+            "**Footwall:** The rock block that lies **below** the fault plane.",
+            "**Hanging wall:** The rock block that lies **above** the fault plane.",
+            "**Slip/Displacement:** The relative movement of blocks along the fault plane. Total displacement is the **net slip** (may be strike-slip, dip-slip, or both).",
+            "**Heave:** The **horizontal** component of displacement.",
+            "**Throw:** The **vertical** component of displacement."
+          ],
+          "source": { "type": "notes", "ref": "notes p.12" },
+          "verified": true,
+          "tags": ["fault", "parts", "fault plane", "footwall", "hanging wall", "slip", "heave", "throw"]
+        },
+        {
+          "id": "12-04-b039",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d005",
+          "source": { "type": "textbook", "ref": "p.49" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b040",
+          "type": "definition",
+          "depth": 1,
+          "title": "Normal Fault",
+          "body": "A fault in which the **hanging wall moves downward** relative to the footwall. Also called **gravity fault**. Results from **tensional forces** (stretching/extension). Lengthening of the crust occurs.",
+          "source": { "type": "notes", "ref": "notes p.13" },
+          "verified": true,
+          "tags": ["fault", "normal fault", "tensional"]
+        },
+        {
+          "id": "12-04-b041",
+          "type": "conflict",
+          "depth": 1,
+          "title": "Normal fault dip angle",
+          "body": "**Confirm with Vandana Miss.** There are two answers here: the teacher's notes do not specify a particular dip angle range for normal faults (or suggest 0°-45°), while the textbook states normal faults have dips **greater than 45°** (p.49). Leave this for the students to ask the teacher.",
+          "source": { "type": "notes", "ref": "notes p.13" },
+          "verified": false,
+          "tags": ["fault", "conflict", "dip angle"]
+        },
+        {
+          "id": "12-04-b042",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d006",
+          "source": { "type": "textbook", "ref": "p.49" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b043",
+          "type": "definition",
+          "depth": 1,
+          "title": "Reverse Fault",
+          "body": "A fault in which the **hanging wall moves upward** relative to the footwall. Results from **compressional forces**. Shortening of the crust occurs.",
+          "source": { "type": "notes", "ref": "notes p.13" },
+          "verified": true,
+          "tags": ["fault", "reverse fault", "compressional"]
+        },
+        {
+          "id": "12-04-b044",
+          "type": "conflict",
+          "depth": 1,
+          "title": "Reverse Fault vs Thrust Fault",
+          "body": "**Confirm with Vandana Miss.** There are two answers here: the teacher's notes treat **reverse fault and thrust fault as synonymous**, while the textbook **splits** them (reverse faults have dips **>45°**, thrust faults have dips **<45°**). Leave this for the students to ask the teacher.",
+          "source": { "type": "notes", "ref": "notes p.13" },
+          "verified": true,
+          "tags": ["fault", "conflict", "reverse", "thrust"]
+        },
+        {
+          "id": "12-04-b045",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d007",
+          "source": { "type": "textbook", "ref": "p.50" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b046",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Thrust Fault (Textbook detail)",
+          "body": "According to the textbook, a thrust fault is a **special case of reverse fault** characterised by **low dip angles (less than 45°)**.",
+          "source": { "type": "textbook", "ref": "p.50" },
+          "verified": true,
+          "tags": ["fault", "thrust fault"]
+        },
+        {
+          "id": "12-04-b047",
+          "type": "definition",
+          "depth": 1,
+          "title": "Strike-Slip Fault",
+          "body": "A fault in which the blocks slide past each other along the **direction of strike**. Displacement is **horizontal**, parallel to the strike of the fault plane. Also called **lateral fault, trans-current fault, wrench fault, or tear fault**.",
+          "source": { "type": "notes", "ref": "notes p.14" },
+          "verified": true,
+          "tags": ["fault", "strike-slip", "lateral", "wrench"]
+        },
+        {
+          "id": "12-04-b048",
+          "type": "definition",
+          "depth": 2,
+          "title": "Dip-Slip Fault",
+          "body": "A fault in which the displacement is **vertical/inclined**, parallel to the dip of the fault plane.",
+          "source": { "type": "notes", "ref": "notes p.14" },
+          "verified": true,
+          "tags": ["fault", "dip-slip"]
+        },
+        {
+          "id": "12-04-b049",
+          "type": "definition",
+          "depth": 2,
+          "title": "Oblique-Slip Fault",
+          "body": "A fault in which displacement has **both horizontal (strike) and vertical (dip) components**.",
+          "source": { "type": "notes", "ref": "notes p.14" },
+          "verified": true,
+          "tags": ["fault", "oblique-slip"]
+        },
+        {
+          "id": "12-04-b050",
+          "type": "definition",
+          "depth": 1,
+          "title": "Step Faults",
+          "body": "A series of **parallel normal faults** occurring at regular intervals, with blocks displaced in the same direction, giving a **step-like appearance**.",
+          "source": { "type": "notes", "ref": "notes p.15" },
+          "verified": true,
+          "tags": ["fault", "step fault"]
+        },
+        {
+          "id": "12-04-b051",
+          "type": "definition",
+          "depth": 1,
+          "title": "Horst and Graben",
+          "body": "**Horst:** When normal faults with mutually diverging/converging fault planes occur, the **central block is displaced upward** relative to adjacent blocks. Forms **block mountains**. **Graben:** The **central block is displaced downward** relative to adjacent blocks. Forms **rift valleys**.",
+          "source": { "type": "notes", "ref": "notes p.17" },
+          "verified": true,
+          "tags": ["fault", "horst", "graben", "block mountain", "rift valley"]
+        },
+        {
+          "id": "12-04-b052",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d008",
+          "source": { "type": "textbook", "ref": "p.50" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b053",
+          "type": "list",
+          "depth": 2,
+          "title": "Additional Fault Classifications (Notes)",
+          "items": [
+            "**Strike Fault:** Fault plane strike is parallel to the strike of inclined beds.",
+            "**Dip Fault:** Fault plane strike is parallel to the dip direction of inclined beds.",
+            "**Oblique Fault:** Fault plane strike is neither parallel to strike nor dip of the bedding plane.",
+            "**Bedding Fault:** Fault plane is parallel to the bedding plane.",
+            "**Radial Fault:** Multiple fault lines diverging from a central point."
+          ],
+          "source": { "type": "notes", "ref": "notes p.16-19" },
+          "verified": true,
+          "tags": ["fault", "classification", "strike fault", "dip fault", "oblique fault", "bedding fault"]
+        },
+        {
+          "id": "12-04-b054",
+          "type": "list",
+          "depth": 1,
+          "title": "Significance of Faults",
+          "items": [
+            "Faults cause damage to rocks — real hazards in **mining and engineering works**.",
+            "Fault breccia and fault gouge have low strength — **poor foundation materials**.",
+            "**Earthquakes and landslides** are triggered by faults.",
+            "Knowledge of faults helps in proper designing of large civil structures (dams, tunnels).",
+            "Many fault zones are suitable sites for **mineralization** (gold, silver, copper).",
+            "Faults may create **lakes, swamps, hot water springs** (sources of geothermal energy).",
+            "Some fault zones form potential **oil traps**."
+          ],
+          "source": { "type": "textbook", "ref": "p.50-51" },
+          "verified": true,
+          "tags": ["fault", "significance"]
+        }
+      ]
+    },
+    {
+      "id": "12-04-joints",
+      "title": "Joints",
+      "slug": "joints",
+      "order": 5,
+      "estimatedMinutes": 8,
+      "blocks": [
+        {
+          "id": "12-04-b055",
+          "type": "definition",
+          "depth": 1,
+          "title": "Joint",
+          "body": "A **fracture or crack** in a rock along which there has been **little to no displacement**. Joints divide rocks into blocks. Unlike faults, joints have **no significant displacement** along the fracture plane.",
+          "source": { "type": "notes", "ref": "notes p.20" },
+          "verified": true,
+          "tags": ["joint", "definition"]
+        },
+        {
+          "id": "12-04-b056",
+          "type": "callout",
+          "depth": 1,
+          "title": "Joint vs Fault",
+          "body": "**Key difference:** Fault has displacement; Joint has **no displacement**. Both are fractures in rock.",
+          "source": { "type": "notes", "ref": "notes p.20" },
+          "verified": true,
+          "tags": ["joint", "fault", "difference"]
+        },
+        {
+          "id": "12-04-b057",
+          "type": "list",
+          "depth": 2,
+          "title": "Genetic Classification of Joints (Notes)",
+          "items": [
+            "**Tensional Joint:** Formed due to pulling apart forces (tension).",
+            "**Compressional Joint:** Formed due to pushing together forces (compression).",
+            "**Shear Joint:** Formed due to sliding/tearing forces (shear)."
+          ],
+          "source": { "type": "notes", "ref": "notes p.20" },
+          "verified": true,
+          "tags": ["joint", "tensional", "compressional", "shear"]
+        },
+        {
+          "id": "12-04-b058",
+          "type": "list",
+          "depth": 1,
+          "title": "Geometric Classification of Joints",
+          "items": [
+            "**Strike Joint:** Joint runs **parallel to the strike** of the inclined bedding plane.",
+            "**Dip Joint:** Joint runs **parallel to the dip direction** of the inclined bedding plane.",
+            "**Diagonal/Oblique Joint:** Joint runs at an **angle oblique** to both strike and dip of the bedding plane.",
+            "**Bedding Joint:** Joint is **parallel to the bedding plane**."
+          ],
+          "source": { "type": "notes", "ref": "notes p.23-24" },
+          "verified": true,
+          "tags": ["joint", "strike joint", "dip joint", "diagonal joint", "bedding joint"]
+        },
+        {
+          "id": "12-04-b059",
+          "type": "definition",
+          "depth": 1,
+          "title": "Columnar Joints",
+          "body": "Sets of intersecting closely spaced fractures formed as rock **cools and contracts**. Cracks develop vertically, dividing rock into **hexagonal or pentagonal columns**. Most commonly observed in **basalt**. Columns can vary from a few centimetres to few metres in diameter, and can be several hundred metres in height. Number of sides can vary from **3 to 8**.",
+          "source": { "type": "notes", "ref": "notes p.22" },
+          "verified": true,
+          "tags": ["joint", "columnar", "basalt"]
+        },
+        {
+          "id": "12-04-b060",
+          "type": "example",
+          "depth": 2,
+          "title": "Columnar Joint Examples",
+          "body": "Naldurga Fort (Osmanabad), Panhala Fort (Kolhapur), **Gilbert Hill (Mumbai)**, St. Mary's Island (Malpe, Udupi, Karnataka). Columnar joints in **rhyolite** at Utan in Thane district.",
+          "source": { "type": "textbook", "ref": "p.52" },
+          "verified": true,
+          "tags": ["columnar joints", "examples", "gilbert hill", "st mary"]
+        },
+        {
+          "id": "12-04-b061",
+          "type": "definition",
+          "depth": 2,
+          "title": "Mural (Cuboidal) Joint",
+          "body": "A set of **three mutually perpendicular joints** (two vertical and one horizontal) that divide rock into **cuboidal blocks**. Commonly seen in **granites**.",
+          "source": { "type": "notes", "ref": "notes p.21" },
+          "verified": true,
+          "tags": ["joint", "mural", "cuboidal", "granite"]
+        },
+        {
+          "id": "12-04-b062",
+          "type": "definition",
+          "depth": 2,
+          "title": "Sheet Joint",
+          "body": "Fractures that are essentially **horizontal and concentric**, cutting rock into **sheet or slab-like forms**. Commonly seen in plutonic igneous rocks (e.g., granite domes).",
+          "source": { "type": "notes", "ref": "notes p.22" },
+          "verified": true,
+          "tags": ["joint", "sheet", "granite"]
+        },
+        {
+          "id": "12-04-b063",
+          "type": "list",
+          "depth": 1,
+          "title": "Significance of Joints",
+          "items": [
+            "Split rocks into blocks, **reducing competence** of rock mass.",
+            "Increase **porosity and permeability**, making rocks susceptible to quick decay and weathering.",
+            "Increase the **groundwater potential** in any area.",
+            "Minerals are exposed on the surface through joint planes.",
+            "Groundwater is exposed as **springs** through joint planes.",
+            "Different shapes of rock weathering (columnar, cuboidal) are due to joint planes.",
+            "Joints can be improved by suitable methods such as **cement grouting or plugging**."
+          ],
+          "source": { "type": "notes", "ref": "notes p.24" },
+          "verified": true,
+          "tags": ["joint", "significance"]
+        }
+      ]
+    },
+    {
+      "id": "12-04-unconformities",
+      "title": "Unconformities",
+      "slug": "unconformities",
+      "order": 6,
+      "estimatedMinutes": 8,
+      "blocks": [
+        {
+          "id": "12-04-b064",
+          "type": "definition",
+          "depth": 1,
+          "title": "Unconformity",
+          "body": "A **surface of erosion or non-deposition** separating younger strata from older rocks, representing a **gap in the geologic record**. A buried erosional surface where an expected age of rock layers is missing due to erosion. This gap in time is called a **hiatus**.",
+          "source": { "type": "notes", "ref": "notes p.24" },
+          "verified": true,
+          "tags": ["unconformity", "definition", "hiatus"]
+        },
+        {
+          "id": "12-04-b065",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Conformable vs Unconformable Series",
+          "body": "**Conformable series:** An unbroken sequence of sedimentary beds deposited one above another **without any tectonic disturbance**, weathering, or erosion. All beds have the same strike, dip direction, and dip amount. **Unconformable series:** A sequence where older beds have undergone tectonic movement, weathering, or erosion, followed by deposition of a younger series.",
+          "source": { "type": "notes", "ref": "notes p.25" },
+          "verified": true,
+          "tags": ["conformable", "unconformable"]
+        },
+        {
+          "id": "12-04-b066",
+          "type": "definition",
+          "depth": 1,
+          "title": "Angular Unconformity",
+          "body": "An unconformity where older sedimentary beds are **inclined/tilted at an angle**, while younger beds above are **horizontal or less tilted**. The older and younger beds are **not mutually parallel**.",
+          "source": { "type": "notes", "ref": "notes p.25" },
+          "verified": true,
+          "tags": ["unconformity", "angular"]
+        },
+        {
+          "id": "12-04-b067",
+          "type": "steps",
+          "depth": 2,
+          "title": "Formation of Angular Unconformity",
+          "items": [
+            "Deposition and stratification of older sediments to form the older series.",
+            "Upliftment and tilting/folding of the older beds.",
+            "Weathering and erosion of the tilted beds to form an eroded surface.",
+            "Deposition of a younger series of sediments on top of the eroded surface."
+          ],
+          "source": { "type": "notes", "ref": "notes p.26" },
+          "verified": true,
+          "tags": ["unconformity", "angular", "formation"]
+        },
+        {
+          "id": "12-04-b068",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d009",
+          "source": { "type": "textbook", "ref": "p.53" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b069",
+          "type": "example",
+          "depth": 3,
+          "title": "Hutton's Angular Unconformity",
+          "body": "At **Siccar Point**, 345-million-year-old Devonian Old Red Sandstone overlies 425-million-year-old Silurian greywacke. James Hutton first recognized angular unconformity.",
+          "source": { "type": "textbook", "ref": "p.53" },
+          "verified": true,
+          "tags": ["unconformity", "hutton", "siccar point"]
+        },
+        {
+          "id": "12-04-b070",
+          "type": "definition",
+          "depth": 1,
+          "title": "Disconformity (Parallel Unconformity)",
+          "body": "An unconformity where the older and younger series are **parallel to each other**, both in horizontal position (dip angle = 0°). It is an **erosional contact** that separates parallel bedding planes. Hard to recognize — often discovered through **fossil study**. May result from erosion or non-deposition.",
+          "source": { "type": "notes", "ref": "notes p.26" },
+          "verified": true,
+          "tags": ["unconformity", "disconformity", "parallel"]
+        },
+        {
+          "id": "12-04-b071",
+          "type": "steps",
+          "depth": 2,
+          "title": "Formation of Disconformity",
+          "items": [
+            "Deposition of sediments to form the older series.",
+            "Upliftment of the older series **without tilting**.",
+            "Erosion of the upper/youngest layers of the older series.",
+            "Deposition of beds of the younger series."
+          ],
+          "source": { "type": "notes", "ref": "notes p.27" },
+          "verified": true,
+          "tags": ["unconformity", "disconformity", "formation"]
+        },
+        {
+          "id": "12-04-b072",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d010",
+          "source": { "type": "textbook", "ref": "p.53" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b073",
+          "type": "definition",
+          "depth": 1,
+          "title": "Nonconformity",
+          "body": "An unconformity in which the underlying older formation is **igneous or metamorphic rock** and the overlying younger formation is **sedimentary rock**. Suggests a period of long-term **uplift, weathering, and erosion** to expose the deeper crystalline rock before burial by younger sediments.",
+          "source": { "type": "notes", "ref": "notes p.26" },
+          "verified": true,
+          "tags": ["unconformity", "nonconformity"]
+        },
+        {
+          "id": "12-04-b074",
+          "type": "steps",
+          "depth": 2,
+          "title": "Formation of Nonconformity",
+          "items": [
+            "Formation of plutonic igneous or metamorphic rock.",
+            "Upliftment of this crystalline basement.",
+            "Erosion of the upper layer of the older rock.",
+            "Deposition of sedimentary beds of the younger series."
+          ],
+          "source": { "type": "notes", "ref": "notes p.27" },
+          "verified": true,
+          "tags": ["unconformity", "nonconformity", "formation"]
+        },
+        {
+          "id": "12-04-b075",
+          "type": "diagramRef",
+          "depth": 1,
+          "diagramId": "12-04-d011",
+          "source": { "type": "textbook", "ref": "p.53-54" },
+          "verified": true
+        },
+        {
+          "id": "12-04-b076",
+          "type": "example",
+          "depth": 3,
+          "title": "Disconformity Example",
+          "body": "Disconformity between sedimentary rocks in **California**, with conglomerate deposited upon an erosion surface on the underlying rocks.",
+          "source": { "type": "textbook", "ref": "p.53" },
+          "verified": true,
+          "tags": ["unconformity", "disconformity", "california"]
+        },
+        {
+          "id": "12-04-b077",
+          "type": "example",
+          "depth": 3,
+          "title": "Nonconformity Example",
+          "body": "Nonconformity at **Yellowstone Highway, Wyoming**.",
+          "source": { "type": "textbook", "ref": "p.54" },
+          "verified": true,
+          "tags": ["unconformity", "nonconformity", "yellowstone"]
+        },
+        {
+          "id": "12-04-b078",
+          "type": "list",
+          "depth": 1,
+          "title": "Significance of Unconformities",
+          "items": [
+            "Represents a **gap/break in deposition** of beds and a record of a gap in time.",
+            "Useful for **subdividing stratigraphic units**, determining timing of tectonic activity, correlating stratigraphic boundaries, interpreting sea-level changes.",
+            "Produces **oil traps and aquifers** in certain situations.",
+            "Helps in visualizing and reconstructing **palaeogeography** of a region.",
+            "Favourable sites for **mineralization** (uranium, aluminium, phosphates, gold).",
+            "Forms a **weak zone** affecting site conditions for engineering works.",
+            "Tells the **relative age** of rock layers."
+          ],
+          "source": { "type": "notes", "ref": "notes p.27" },
+          "verified": true,
+          "tags": ["unconformity", "significance"]
+        }
+      ]
+    },
+    {
+      "id": "12-04-applications",
+      "title": "Applications of Structural Geology",
+      "slug": "applications",
+      "order": 7,
+      "estimatedMinutes": 3,
+      "blocks": [
+        {
+          "id": "12-04-b079",
+          "type": "list",
+          "depth": 2,
+          "title": "Applications of Structural Geology",
+          "items": [
+            "**Engineering geology and geotechnology:** Construction of bridges, dams, power plants, highways, airports, building foundations.",
+            "**Environmental geology:** Land use planning, earthquake hazard, volcanic hazard, distribution of groundwater.",
+            "**Petroleum and mining geology:** Geometric techniques, projection of faults, geologic contacts, trends of regional processes controlling mineral and hydrocarbon concentration."
+          ],
+          "source": { "type": "textbook", "ref": "p.54" },
+          "verified": true,
+          "tags": ["applications", "engineering", "environmental", "petroleum"]
+        }
+      ]
+    }
+  ],
+  "diagrams": [
+    {
+      "id": "12-04-d001",
+      "title": "Parts / Elements of a Fold",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:11px;fill:#e0e0e0}path,line{stroke:#4fc3f7;stroke-width:2;fill:none}.label-line{stroke:#90a4ae;stroke-width:1;stroke-dasharray:4 2}</style></defs><path d=\"M10,120 Q50,30 90,120 Q130,140 170,40 Q210,120 250,130 Q290,30 330,120\" /><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"140\" class=\"label-line\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"140\" class=\"label-line\"/><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"140\" class=\"label-line\"/><text x=\"85\" y=\"15\" text-anchor=\"middle\">Axial Plane</text><text x=\"170\" y=\"15\" text-anchor=\"middle\">Axial Plane</text><text x=\"38\" y=\"85\" text-anchor=\"middle\">Left Limb</text><text x=\"135\" y=\"85\" text-anchor=\"middle\">Right Limb</text><text x=\"205\" y=\"85\" text-anchor=\"middle\">Left Limb</text><text x=\"295\" y=\"85\" text-anchor=\"middle\">Right Limb</text><text x=\"55\" y=\"55\" text-anchor=\"middle\" fill=\"#81c784\">Crest</text><text x=\"130\" y=\"145\" text-anchor=\"middle\" fill=\"#ef9a9a\">Trough</text><text x=\"210\" y=\"55\" text-anchor=\"middle\" fill=\"#81c784\">Crest</text><text x=\"285\" y=\"55\" text-anchor=\"middle\" fill=\"#81c784\">Hinge line</text></svg>",
+      "alt": "Diagram showing parts of a fold including axial plane, left limb, right limb, crest, trough, and hinge line.",
+      "caption": "Key parts of folds — anticlines (crests) and synclines (troughs) with their axial planes and limbs.",
+      "requiredLabels": ["axial plane", "left limb", "right limb", "crest", "trough", "hinge line"],
+      "topicId": "12-04-folds",
+      "source": { "type": "textbook", "ref": "p.47, Fig. 4.6" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d002",
+      "title": "Symmetrical Folds (Anticline and Syncline)",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}path{stroke:#4fc3f7;stroke-width:2;fill:none}.ax{stroke:#ff8a65;stroke-width:1.5;stroke-dasharray:5 3}</style></defs><path d=\"M10,130 Q85,30 160,130 Q235,140 310,30\"/><path d=\"M10,120 Q85,40 160,120 Q235,130 310,40\"/><path d=\"M10,110 Q85,50 160,110 Q235,120 310,50\"/><line x1=\"85\" y1=\"10\" x2=\"85\" y2=\"150\" class=\"ax\"/><line x1=\"235\" y1=\"10\" x2=\"235\" y2=\"150\" class=\"ax\"/><text x=\"85\" y=\"10\" text-anchor=\"middle\" fill=\"#ff8a65\">Axial Plane</text><text x=\"235\" y=\"10\" text-anchor=\"middle\" fill=\"#ff8a65\">Axial Plane</text><text x=\"85\" y=\"155\" text-anchor=\"middle\">Anticline</text><text x=\"235\" y=\"155\" text-anchor=\"middle\">Syncline</text><text x=\"40\" y=\"100\" font-size=\"9\">Left Limb</text><text x=\"120\" y=\"100\" font-size=\"9\">Right Limb</text></svg>",
+      "alt": "Symmetrical anticline and syncline with vertical axial planes and equal limb dips on both sides.",
+      "caption": "In symmetrical folds, the axial plane is vertical and both limbs dip at equal angles.",
+      "requiredLabels": ["axial plane", "left limb", "right limb"],
+      "topicId": "12-04-folds",
+      "source": { "type": "textbook", "ref": "p.47, Fig. 4.7" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d003",
+      "title": "Asymmetrical Folds (Anticline and Syncline)",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}path{stroke:#4fc3f7;stroke-width:2;fill:none}.ax{stroke:#ff8a65;stroke-width:1.5;stroke-dasharray:5 3}</style></defs><path d=\"M10,130 Q70,25 130,130 Q200,140 280,30\"/><path d=\"M10,120 Q70,35 130,120 Q200,130 280,40\"/><path d=\"M10,110 Q70,45 130,110 Q200,120 280,50\"/><line x1=\"80\" y1=\"10\" x2=\"60\" y2=\"150\" class=\"ax\"/><line x1=\"210\" y1=\"10\" x2=\"190\" y2=\"150\" class=\"ax\"/><text x=\"75\" y=\"10\" text-anchor=\"middle\" fill=\"#ff8a65\">Axial Plane</text><text x=\"215\" y=\"10\" text-anchor=\"middle\" fill=\"#ff8a65\">(inclined)</text><text x=\"80\" y=\"155\" text-anchor=\"middle\">Anticline</text><text x=\"210\" y=\"155\" text-anchor=\"middle\">Syncline</text><text x=\"30\" y=\"90\" font-size=\"9\" fill=\"#a5d6a7\">Steep limb</text><text x=\"110\" y=\"90\" font-size=\"9\" fill=\"#ef9a9a\">Gentle limb</text></svg>",
+      "alt": "Asymmetrical anticline and syncline with inclined axial planes and unequal limb dips.",
+      "caption": "In asymmetrical folds, the axial plane is inclined and limbs dip at different angles.",
+      "requiredLabels": ["axial plane", "left limb", "right limb"],
+      "topicId": "12-04-folds",
+      "source": { "type": "textbook", "ref": "p.47, Fig. 4.8" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d004",
+      "title": "Anticlinal Trap (Oil and Gas)",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 140\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}path{stroke-width:2;fill:none}</style></defs><path d=\"M10,120 Q160,30 310,120\" stroke=\"#78909c\" fill=\"#37474f\"/><path d=\"M30,120 Q160,50 290,120\" stroke=\"#78909c\" fill=\"#455a64\"/><ellipse cx=\"160\" cy=\"80\" rx=\"50\" ry=\"15\" fill=\"#2e7d32\" opacity=\"0.7\"/><ellipse cx=\"160\" cy=\"70\" rx=\"30\" ry=\"10\" fill=\"#e65100\" opacity=\"0.7\"/><ellipse cx=\"160\" cy=\"62\" rx=\"15\" ry=\"6\" fill=\"#b71c1c\" opacity=\"0.7\"/><text x=\"160\" y=\"55\" text-anchor=\"middle\" fill=\"#ef9a9a\" font-weight=\"bold\">Gas</text><text x=\"160\" y=\"75\" text-anchor=\"middle\" fill=\"#ffab91\" font-weight=\"bold\">Oil</text><text x=\"160\" y=\"95\" text-anchor=\"middle\" fill=\"#a5d6a7\" font-weight=\"bold\">Water</text><text x=\"60\" y=\"115\" fill=\"#90a4ae\">Cap rock</text><text x=\"220\" y=\"115\" fill=\"#90a4ae\">Reservoir rock</text></svg>",
+      "alt": "Cross-section of an anticlinal trap showing gas at top, oil in middle, and water at base.",
+      "caption": "Anticlinal folds serve as structural traps for oil and gas deposits.",
+      "requiredLabels": ["gas", "oil", "water", "cap rock", "reservoir rock"],
+      "topicId": "12-04-folds",
+      "source": { "type": "textbook", "ref": "p.48, Fig. 4.9" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d005",
+      "title": "Parts of a Fault",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.fault{stroke:#ef5350;stroke-width:2.5}.block{stroke:#4fc3f7;stroke-width:1.5;fill:none}</style></defs><line x1=\"60\" y1=\"20\" x2=\"260\" y2=\"160\" class=\"fault\"/><rect x=\"10\" y=\"10\" width=\"120\" height=\"150\" rx=\"3\" class=\"block\" fill=\"#263238\" opacity=\"0.5\"/><rect x=\"190\" y=\"20\" width=\"120\" height=\"150\" rx=\"3\" class=\"block\" fill=\"#37474f\" opacity=\"0.5\"/><text x=\"160\" y=\"15\" text-anchor=\"middle\" fill=\"#ef5350\" font-weight=\"bold\">Fault Plane</text><text x=\"60\" y=\"90\" text-anchor=\"middle\" font-weight=\"bold\">Hanging</text><text x=\"60\" y=\"105\" text-anchor=\"middle\" font-weight=\"bold\">Wall</text><text x=\"260\" y=\"100\" text-anchor=\"middle\" font-weight=\"bold\">Foot</text><text x=\"260\" y=\"115\" text-anchor=\"middle\" font-weight=\"bold\">Wall</text><polygon points=\"140,60 145,50 150,60\" fill=\"#ffab91\"/><line x1=\"147\" y1=\"60\" x2=\"147\" y2=\"90\" stroke=\"#ffab91\" stroke-width=\"1.5\"/><text x=\"155\" y=\"80\" fill=\"#ffab91\" font-size=\"9\">Arrow</text></svg>",
+      "alt": "Diagram showing parts of a fault: fault plane, hanging wall, footwall, and arrow for movement direction.",
+      "caption": "The hanging wall is above the fault plane; the footwall is below.",
+      "requiredLabels": ["fault plane", "foot wall", "hanging wall", "arrow"],
+      "topicId": "12-04-faults",
+      "source": { "type": "textbook", "ref": "p.49, Figs. 4.11-4.12" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d006",
+      "title": "Normal Fault (Tensional Forces)",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 140\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.fault{stroke:#ef5350;stroke-width:2;stroke-dasharray:6 3}.block{fill:none;stroke:#4fc3f7;stroke-width:1.5}</style></defs><rect x=\"10\" y=\"10\" width=\"140\" height=\"100\" class=\"block\" fill=\"#263238\" opacity=\"0.5\"/><rect x=\"170\" y=\"40\" width=\"140\" height=\"90\" class=\"block\" fill=\"#37474f\" opacity=\"0.5\"/><line x1=\"150\" y1=\"5\" x2=\"170\" y2=\"135\" class=\"fault\"/><text x=\"75\" y=\"100\" text-anchor=\"middle\" fill=\"#ffab91\">HW moves down</text><text x=\"75\" y=\"35\" text-anchor=\"middle\" font-weight=\"bold\">Hanging Wall</text><text x=\"240\" y=\"65\" text-anchor=\"middle\" font-weight=\"bold\">Foot Wall</text><text x=\"160\" y=\"15\" text-anchor=\"middle\" fill=\"#ef5350\">Fault Plane</text><text x=\"20\" y=\"130\" fill=\"#90a4ae\">Tension</text><text x=\"270\" y=\"130\" fill=\"#90a4ae\">Tension</text></svg>",
+      "alt": "Normal fault showing hanging wall displaced downward relative to footwall due to tensional forces.",
+      "caption": "In a normal fault, the hanging wall moves down. Caused by tensional forces.",
+      "requiredLabels": ["fault plane", "foot wall", "hanging wall", "arrow"],
+      "topicId": "12-04-faults",
+      "source": { "type": "textbook", "ref": "p.49, Fig. 4.14" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d007",
+      "title": "Reverse Fault (Compressional Forces)",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 140\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.fault{stroke:#ef5350;stroke-width:2;stroke-dasharray:6 3}.block{fill:none;stroke:#4fc3f7;stroke-width:1.5}</style></defs><rect x=\"10\" y=\"10\" width=\"140\" height=\"100\" class=\"block\" fill=\"#263238\" opacity=\"0.5\"/><rect x=\"170\" y=\"30\" width=\"140\" height=\"100\" class=\"block\" fill=\"#37474f\" opacity=\"0.5\"/><line x1=\"150\" y1=\"5\" x2=\"170\" y2=\"135\" class=\"fault\"/><text x=\"75\" y=\"18\" text-anchor=\"middle\" fill=\"#ffab91\">HW moves up</text><text x=\"75\" y=\"75\" text-anchor=\"middle\" font-weight=\"bold\">Hanging Wall</text><text x=\"240\" y=\"65\" text-anchor=\"middle\" font-weight=\"bold\">Foot Wall</text><text x=\"160\" y=\"15\" text-anchor=\"middle\" fill=\"#ef5350\">Fault Plane</text><text x=\"20\" y=\"130\" fill=\"#90a4ae\">Compression</text><text x=\"240\" y=\"130\" fill=\"#90a4ae\">Compression</text></svg>",
+      "alt": "Reverse fault showing hanging wall displaced upward relative to footwall due to compressional forces.",
+      "caption": "In a reverse fault, the hanging wall moves up. Caused by compressional forces.",
+      "requiredLabels": ["fault plane", "foot wall", "hanging wall", "arrow"],
+      "topicId": "12-04-faults",
+      "source": { "type": "textbook", "ref": "p.50, Fig. 4.15" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d008",
+      "title": "Horst and Graben",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 340 140\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.fault{stroke:#ef5350;stroke-width:2}.block{stroke:#4fc3f7;stroke-width:1.5;fill:none}</style></defs><rect x=\"10\" y=\"50\" width=\"80\" height=\"80\" class=\"block\" fill=\"#37474f\" opacity=\"0.5\"/><rect x=\"100\" y=\"20\" width=\"60\" height=\"110\" class=\"block\" fill=\"#263238\" opacity=\"0.5\"/><rect x=\"170\" y=\"60\" width=\"80\" height=\"70\" class=\"block\" fill=\"#37474f\" opacity=\"0.5\"/><rect x=\"260\" y=\"20\" width=\"70\" height=\"110\" class=\"block\" fill=\"#263238\" opacity=\"0.5\"/><line x1=\"90\" y1=\"10\" x2=\"100\" y2=\"135\" class=\"fault\"/><line x1=\"160\" y1=\"10\" x2=\"170\" y2=\"135\" class=\"fault\"/><line x1=\"250\" y1=\"10\" x2=\"260\" y2=\"135\" class=\"fault\"/><text x=\"130\" y=\"15\" text-anchor=\"middle\" fill=\"#81c784\" font-weight=\"bold\">Horst</text><text x=\"50\" y=\"45\" text-anchor=\"middle\" fill=\"#ef9a9a\">Graben</text><text x=\"210\" y=\"55\" text-anchor=\"middle\" fill=\"#ef9a9a\">Graben</text><text x=\"295\" y=\"15\" text-anchor=\"middle\" fill=\"#81c784\" font-weight=\"bold\">Horst</text></svg>",
+      "alt": "Horst and graben structure showing uplifted blocks (horsts) between downthrown blocks (grabens).",
+      "caption": "Horsts form block mountains; grabens form rift valleys.",
+      "requiredLabels": ["horst", "graben", "fault plane"],
+      "topicId": "12-04-faults",
+      "source": { "type": "textbook", "ref": "p.50, Fig. 4.19" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d009",
+      "title": "Angular Unconformity",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.unc{stroke:#ffd54f;stroke-width:2.5;stroke-dasharray:8 4}.layer{stroke-width:1.5;fill-opacity:0.4}</style></defs><rect x=\"10\" y=\"90\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#5d4037\" stroke=\"#8d6e63\"/><rect x=\"10\" y=\"105\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#4e342e\" stroke=\"#795548\"/><rect x=\"10\" y=\"120\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#3e2723\" stroke=\"#6d4c41\"/><line x1=\"10\" y1=\"88\" x2=\"310\" y2=\"88\" class=\"unc\"/><line x1=\"30\" y1=\"85\" x2=\"50\" y2=\"30\" stroke=\"#4fc3f7\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"85\" x2=\"100\" y2=\"30\" stroke=\"#4fc3f7\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"85\" x2=\"150\" y2=\"30\" stroke=\"#4fc3f7\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"85\" x2=\"200\" y2=\"30\" stroke=\"#4fc3f7\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"85\" x2=\"250\" y2=\"30\" stroke=\"#4fc3f7\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"85\" x2=\"300\" y2=\"30\" stroke=\"#4fc3f7\" stroke-width=\"1.5\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" fill=\"#4fc3f7\">Older tilted beds</text><text x=\"160\" y=\"100\" text-anchor=\"middle\" fill=\"#8d6e63\">Younger horizontal beds</text><text x=\"160\" y=\"150\" text-anchor=\"middle\" fill=\"#ffd54f\" font-weight=\"bold\">U — Unconformity surface</text></svg>",
+      "alt": "Angular unconformity showing tilted older beds below overlain by horizontal younger beds.",
+      "caption": "Older beds are tilted while younger beds above are horizontal. U marks the unconformity.",
+      "requiredLabels": ["older tilted beds", "younger horizontal beds", "unconformity surface"],
+      "topicId": "12-04-unconformities",
+      "source": { "type": "textbook", "ref": "p.53, Fig. 4.27" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d010",
+      "title": "Disconformity",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 140\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.unc{stroke:#ffd54f;stroke-width:2.5;stroke-dasharray:8 4}.layer{stroke-width:1.5;fill-opacity:0.4}</style></defs><rect x=\"10\" y=\"20\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#5d4037\" stroke=\"#8d6e63\"/><rect x=\"10\" y=\"35\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#4e342e\" stroke=\"#795548\"/><rect x=\"10\" y=\"50\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#3e2723\" stroke=\"#6d4c41\"/><line x1=\"10\" y1=\"68\" x2=\"310\" y2=\"68\" class=\"unc\"/><path d=\"M10,70 Q40,75 80,70 Q120,65 160,72 Q200,78 240,70 Q280,65 310,70\" stroke=\"#ffd54f\" stroke-width=\"1\" fill=\"none\"/><rect x=\"10\" y=\"75\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#1b5e20\" stroke=\"#388e3c\"/><rect x=\"10\" y=\"90\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#2e7d32\" stroke=\"#4caf50\"/><rect x=\"10\" y=\"105\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#1b5e20\" stroke=\"#388e3c\"/><text x=\"160\" y=\"15\" text-anchor=\"middle\" fill=\"#8d6e63\">Younger beds (parallel)</text><text x=\"160\" y=\"125\" text-anchor=\"middle\" fill=\"#4caf50\">Older beds (parallel)</text><text x=\"160\" y=\"135\" text-anchor=\"middle\" fill=\"#ffd54f\" font-weight=\"bold\">U — Erosion surface</text></svg>",
+      "alt": "Disconformity showing parallel older and younger beds separated by an irregular erosion surface.",
+      "caption": "In a disconformity, both older and younger beds are parallel but separated by an erosion surface.",
+      "requiredLabels": ["older beds", "younger beds", "unconformity surface"],
+      "topicId": "12-04-unconformities",
+      "source": { "type": "textbook", "ref": "p.53, Fig. 4.29" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d011",
+      "title": "Nonconformity",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 140\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.unc{stroke:#ffd54f;stroke-width:2.5;stroke-dasharray:8 4}.layer{stroke-width:1.5;fill-opacity:0.4}</style></defs><rect x=\"10\" y=\"20\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#5d4037\" stroke=\"#8d6e63\"/><rect x=\"10\" y=\"35\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#4e342e\" stroke=\"#795548\"/><rect x=\"10\" y=\"50\" width=\"300\" height=\"15\" class=\"layer\" fill=\"#3e2723\" stroke=\"#6d4c41\"/><line x1=\"10\" y1=\"68\" x2=\"310\" y2=\"68\" class=\"unc\"/><rect x=\"10\" y=\"72\" width=\"300\" height=\"60\" fill=\"#880e4f\" opacity=\"0.4\" stroke=\"#c2185b\" stroke-width=\"1.5\"/><text x=\"160\" y=\"15\" text-anchor=\"middle\" fill=\"#8d6e63\">Younger sedimentary beds</text><text x=\"160\" y=\"100\" text-anchor=\"middle\" fill=\"#e91e63\">Igneous / Metamorphic rock</text><text x=\"160\" y=\"135\" text-anchor=\"middle\" fill=\"#ffd54f\" font-weight=\"bold\">U — Nonconformity surface</text></svg>",
+      "alt": "Nonconformity showing sedimentary beds overlying igneous or metamorphic rock.",
+      "caption": "In a nonconformity, sedimentary rocks overlie igneous or metamorphic basement.",
+      "requiredLabels": ["younger sedimentary beds", "igneous or metamorphic rock", "unconformity surface"],
+      "topicId": "12-04-unconformities",
+      "source": { "type": "textbook", "ref": "p.53-54, Fig. 4.31" },
+      "verified": true
+    },
+    {
+      "id": "12-04-d012",
+      "title": "Step Faults",
+      "format": "svg",
+      "svg": "<svg viewBox=\"0 0 320 140\" xmlns=\"http://www.w3.org/2000/svg\"><defs><style>text{font-family:sans-serif;font-size:10px;fill:#e0e0e0}.fault{stroke:#ef5350;stroke-width:2}.block{stroke:#4fc3f7;stroke-width:1.5;fill-opacity:0.4}</style></defs><rect x=\"10\" y=\"20\" width=\"70\" height=\"110\" class=\"block\" fill=\"#263238\"/><rect x=\"90\" y=\"40\" width=\"70\" height=\"90\" class=\"block\" fill=\"#37474f\"/><rect x=\"170\" y=\"60\" width=\"70\" height=\"70\" class=\"block\" fill=\"#455a64\"/><rect x=\"250\" y=\"80\" width=\"60\" height=\"50\" class=\"block\" fill=\"#546e7a\"/><line x1=\"80\" y1=\"10\" x2=\"90\" y2=\"135\" class=\"fault\"/><line x1=\"160\" y1=\"10\" x2=\"170\" y2=\"135\" class=\"fault\"/><line x1=\"240\" y1=\"10\" x2=\"250\" y2=\"135\" class=\"fault\"/><text x=\"160\" y=\"12\" text-anchor=\"middle\" fill=\"#ef5350\" font-weight=\"bold\">Step Faults</text></svg>",
+      "alt": "Step faults showing a series of parallel normal faults creating step-like displacement.",
+      "caption": "Step faults occur as a set of parallel normal faults at regular intervals.",
+      "requiredLabels": ["fault plane", "step blocks"],
+      "topicId": "12-04-faults",
+      "source": { "type": "textbook", "ref": "p.50, Fig. 4.18" },
+      "verified": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "12-04-q001",
+      "topicId": "12-04-strike-dip",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "The direction of a line formed due to intersection of an inclined bed with the horizontal plane is called:",
+      "options": [
+        { "id": "a", "text": "Strike" },
+        { "id": "b", "text": "Dip" },
+        { "id": "c", "text": "Hade" },
+        { "id": "d", "text": "Heave" }
+      ],
+      "correct": "a",
+      "explanation": "Strike is the direction of the line formed by the intersection of an inclined bedding plane with a horizontal plane. Dip is the angle of inclination, hade is the complement of dip, and heave is horizontal fault displacement.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.54, Exercise Q.1(1)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q002",
+      "topicId": "12-04-folds",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "An imaginary plane that divides the fold into two equal halves is known as:",
+      "options": [
+        { "id": "a", "text": "Axis" },
+        { "id": "b", "text": "Axial plane" },
+        { "id": "c", "text": "Fault plane" },
+        { "id": "d", "text": "Crest" }
+      ],
+      "correct": "b",
+      "explanation": "The axial plane is the imaginary plane that divides a fold as symmetrically as possible. The axis is a line, the fault plane relates to faults, and the crest is the highest point.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.54, Exercise Q.1(2)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q003",
+      "topicId": "12-04-folds",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "An anticline is a fold that is:",
+      "options": [
+        { "id": "a", "text": "Convex upwards and has its youngest bed at the core" },
+        { "id": "b", "text": "Convex downwards and has its youngest bed at the core" },
+        { "id": "c", "text": "Convex downwards and has its oldest bed at the core" },
+        { "id": "d", "text": "Convex upwards and has its oldest bed at the core" }
+      ],
+      "correct": "d",
+      "explanation": "An anticline is convex upward and the oldest beds are at the core because erosion exposes progressively older layers. A syncline is convex downward with youngest beds at the core.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.54, Exercise Q.1(3)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q004",
+      "topicId": "12-04-folds",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "In an asymmetrical syncline, the two limbs:",
+      "options": [
+        { "id": "a", "text": "Dip towards each other by the same angle" },
+        { "id": "b", "text": "Dip away from each other by the same angle" },
+        { "id": "c", "text": "Dip towards each other by different angles" },
+        { "id": "d", "text": "Dip away from each other by different angles" }
+      ],
+      "correct": "c",
+      "explanation": "In a syncline, limbs dip towards each other. In an asymmetrical fold, the angles are different. So limbs dip towards each other by different angles.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.55, Exercise Q.1(4)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q005",
+      "topicId": "12-04-joints",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "A fracture along which there has been no slipping or displacement of rocks is called a:",
+      "options": [
+        { "id": "a", "text": "Joint" },
+        { "id": "b", "text": "Unconformity" },
+        { "id": "c", "text": "Fault" },
+        { "id": "d", "text": "Fold" }
+      ],
+      "correct": "a",
+      "explanation": "A joint is a fracture with no displacement. A fault has displacement. An unconformity is a gap in deposition. A fold is a bend.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.55, Exercise Q.1(5)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q006",
+      "topicId": "12-04-faults",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "A type of fault in which the hanging wall block has been displaced upwards with respect to the footwall block is called:",
+      "options": [
+        { "id": "a", "text": "Graben" },
+        { "id": "b", "text": "Normal fault" },
+        { "id": "c", "text": "Horst" },
+        { "id": "d", "text": "Reverse fault" }
+      ],
+      "correct": "d",
+      "explanation": "In a reverse fault, the hanging wall moves upward due to compression. In a normal fault, the hanging wall moves downward.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.55, Exercise Q.1(6)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q007",
+      "topicId": "12-04-unconformities",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "An unconformity in which the older bed is made up of igneous or metamorphic rocks is called:",
+      "options": [
+        { "id": "a", "text": "Conformity" },
+        { "id": "b", "text": "Nonconformity" },
+        { "id": "c", "text": "Angular unconformity" },
+        { "id": "d", "text": "Disconformity" }
+      ],
+      "correct": "b",
+      "explanation": "In a nonconformity, the underlying formation is igneous or metamorphic rock, overlain by sedimentary rock.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.55, Exercise Q.1(7)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q008",
+      "topicId": "12-04-faults",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Cracks or fractures in the Earth's crust along which there has been slipping or displacement of rocks are called:",
+      "options": [
+        { "id": "a", "text": "Folds" },
+        { "id": "b", "text": "Faults" },
+        { "id": "c", "text": "Joints" },
+        { "id": "d", "text": "Unconformities" }
+      ],
+      "correct": "b",
+      "explanation": "Faults are fractures with significant displacement. Joints have no displacement. Folds are bends. Unconformities are gaps in deposition.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(1)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q009",
+      "topicId": "12-04-folds",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Wavy undulations or bends developed in rocks are called:",
+      "options": [
+        { "id": "a", "text": "Joints" },
+        { "id": "b", "text": "Unconformities" },
+        { "id": "c", "text": "Folds" },
+        { "id": "d", "text": "Faults" }
+      ],
+      "correct": "c",
+      "explanation": "Folds are wave-like bends formed in rock strata due to compressive forces.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(2)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q010",
+      "topicId": "12-04-faults",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "A set of parallel normal faults which occur at regular intervals gives rise to a ______ fault.",
+      "options": [
+        { "id": "a", "text": "Normal" },
+        { "id": "b", "text": "Reverse" },
+        { "id": "c", "text": "Step" },
+        { "id": "d", "text": "Horst" }
+      ],
+      "correct": "c",
+      "explanation": "Step faults are formed when parallel normal faults occur at regular intervals, creating a staircase pattern.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(3)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q011",
+      "topicId": "12-04-unconformities",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Surface of erosion or non-deposition that separates two series of beds is termed as:",
+      "options": [
+        { "id": "a", "text": "Anticline" },
+        { "id": "b", "text": "Graben" },
+        { "id": "c", "text": "Oblique" },
+        { "id": "d", "text": "Unconformity" }
+      ],
+      "correct": "d",
+      "explanation": "An unconformity is a surface of erosion or non-deposition representing a gap in the geologic record.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(4)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q012",
+      "topicId": "12-04-joints",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "A joint which is parallel to the dip direction of adjacent beds is called a ______ joint.",
+      "options": [
+        { "id": "a", "text": "Diagonal" },
+        { "id": "b", "text": "Dip" },
+        { "id": "c", "text": "Strike" },
+        { "id": "d", "text": "Bedding" }
+      ],
+      "correct": "b",
+      "explanation": "A dip joint runs parallel to the dip direction. Strike joint is parallel to strike, diagonal is oblique, bedding is parallel to the bedding plane.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(5)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q013",
+      "topicId": "12-04-folds",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "In a symmetrical syncline, the two limbs:",
+      "options": [
+        { "id": "a", "text": "Dip towards each other by the same angle" },
+        { "id": "b", "text": "Dip away from each other by different angles" },
+        { "id": "c", "text": "Dip towards each other by different angles" },
+        { "id": "d", "text": "Dip away from each other by the same angle" }
+      ],
+      "correct": "a",
+      "explanation": "Syncline = limbs dip towards each other. Symmetrical = same angle. Therefore: dip towards each other by the same angle.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(6)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q014",
+      "topicId": "12-04-faults",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Which statement about a reverse fault is correct?",
+      "options": [
+        { "id": "a", "text": "A reverse fault is a result of tensional forces in which hanging wall is displaced downwards." },
+        { "id": "b", "text": "A reverse fault is a result of compressional forces in which footwall is displaced upwards." },
+        { "id": "c", "text": "A reverse fault is a result of compressional forces in which hanging wall is displaced upwards." },
+        { "id": "d", "text": "A reverse fault is a result of tensional forces in which footwall is displaced downwards." }
+      ],
+      "correct": "c",
+      "explanation": "A reverse fault results from compression and the hanging wall moves upward relative to the footwall.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(7)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q015",
+      "topicId": "12-04-joints",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "At Gilbert Hill, Mumbai, columnar joints are well exhibited in ______ rocks.",
+      "options": [
+        { "id": "a", "text": "Granite" },
+        { "id": "b", "text": "Basalt" },
+        { "id": "c", "text": "Sandstone" },
+        { "id": "d", "text": "Marble" }
+      ],
+      "correct": "b",
+      "explanation": "Gilbert Hill is a famous example of columnar joints in basalt, formed when Deccan lava cooled and contracted.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(9)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q016",
+      "topicId": "12-04-folds",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "The part between the crest of one fold and the trough of the adjacent fold is its:",
+      "options": [
+        { "id": "a", "text": "Crest" },
+        { "id": "b", "text": "Trough" },
+        { "id": "c", "text": "Axis" },
+        { "id": "d", "text": "Limb" }
+      ],
+      "correct": "d",
+      "explanation": "The limb is the side of a fold — the part between the crest of one fold and the trough of the adjacent fold.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(10)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q017",
+      "topicId": "12-04-faults",
+      "type": "matchPairs",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Match the following fault-related terms:",
+      "pairs": [
+        { "left": "Throw", "right": "Vertical displacement" },
+        { "left": "Normal fault", "right": "Hanging wall displaced downwards" },
+        { "left": "Heave", "right": "Horizontal displacement" },
+        { "left": "Reverse fault", "right": "Hanging wall displaced upwards" }
+      ],
+      "explanation": "Throw is vertical; Heave is horizontal. Normal = HW down; Reverse = HW up.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.55, Exercise Q.2(1)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q018",
+      "topicId": "12-04-folds",
+      "type": "matchPairs",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Match the following fold-related terms:",
+      "pairs": [
+        { "left": "Anticline", "right": "Convex upward" },
+        { "left": "Asymmetrical fold", "right": "Limbs dip by unequal angles" },
+        { "left": "Syncline", "right": "Convex downwards" },
+        { "left": "Symmetrical fold", "right": "Limbs dip by equal angle" }
+      ],
+      "explanation": "Anticline arches up; Syncline bows down. Symmetrical = equal angles; Asymmetrical = unequal.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.55, Exercise Q.2(2)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q019",
+      "topicId": "12-04-unconformities",
+      "type": "matchPairs",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Match the following unconformity-related terms:",
+      "pairs": [
+        { "left": "Angular unconformity", "right": "Older series not parallel to younger series" },
+        { "left": "Nonconformity", "right": "Older bed made up of plutonic igneous rocks" },
+        { "left": "Unconformity", "right": "Surface of erosion or non-deposition" },
+        { "left": "Disconformity", "right": "Older series parallel to younger series" }
+      ],
+      "explanation": "Angular = not parallel. Nonconformity = igneous/metamorphic below. Disconformity = parallel beds.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "textbook", "ref": "p.55, Exercise Q.2(3)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q020",
+      "topicId": "12-04-joints",
+      "type": "matchPairs",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Match the following terms:",
+      "pairs": [
+        { "left": "Bedding joint", "right": "Parallel to bedding plane" },
+        { "left": "Angular unconformity", "right": "Older and younger beds are not parallel" },
+        { "left": "Syncline", "right": "Convex downwards" },
+        { "left": "Thrust fault", "right": "Low dip angles" }
+      ],
+      "explanation": "Bedding joint follows the bedding plane. Angular unconformity has non-parallel beds. Syncline is concave. Thrust fault has low dip (<45°).",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Q1(8)" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q021",
+      "topicId": "12-04-folds",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Enlist and describe the parts of a fold.",
+      "answer": "The parts of a fold are: (1) **Axial plane** — an imaginary plane dividing the fold symmetrically. (2) **Axis/Hinge** — the line of maximum bending. (3) **Crest** — the highest up-arched part. (4) **Trough** — the lowest down-arched part. (5) **Limbs/Flanks** — the sides of the fold.",
+      "explanation": "Draw a labelled diagram showing all five parts. This is a frequently asked question.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q11" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q022",
+      "topicId": "12-04-folds",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Write a note on an Anticline and draw a labelled diagram.",
+      "answer": "An anticline is a fold **convex upward** (Greek: opposite inclined). Limbs dip **away from each other**. **Oldest beds** at the core. Diagram labels: axial plane (vertical for symmetrical), left limb, right limb, crest.",
+      "explanation": "Anticlines are important as structural traps for oil and gas. Oldest beds at core (opposite of syncline).",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q9" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q023",
+      "topicId": "12-04-folds",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "What are Symmetrical folds?",
+      "answer": "Folds with a **vertical axial plane** dividing the fold into mirror-image halves. Both limbs dip at the **same angle**. Forces from both sides are **equal** (P₁ = P₂). Types: Symmetrical Anticline (limbs away, equal) and Symmetrical Syncline (limbs towards, equal).",
+      "explanation": "Key difference from asymmetrical: vertical axial plane, equal limb angles, equal forces.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q10" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q024",
+      "topicId": "12-04-faults",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Describe the different parts of a fault with a neatly labelled diagram.",
+      "answer": "Parts: (1) **Fault Plane** — the fracture surface. (2) **Footwall** — block below fault plane. (3) **Hanging Wall** — block above. (4) **Slip** — the displacement (net, strike, or dip). (5) **Heave** — horizontal component. (6) **Throw** — vertical component. Diagram must label: fault plane, footwall, hanging wall, arrow.",
+      "explanation": "Teacher-confirmed labels for fault diagrams: fault plane, foot wall, hanging wall, arrow.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q7" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q025",
+      "topicId": "12-04-faults",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Describe a Thrust fault with a neat diagram.",
+      "answer": "A thrust fault is a **special case of reverse fault** with **low dip angles (<45°)**. Hanging wall moves upward. Caused by compression. Note: teacher's notes treat reverse and thrust as synonymous.",
+      "explanation": "Known teacher-textbook conflict. If asked specifically about thrust, mention the textbook's low dip angle distinction.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q5" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q026",
+      "topicId": "12-04-faults",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "What is a Horst and Graben? Draw a suitable diagram.",
+      "answer": "**Horst:** Central block displaced **upward** between diverging normal faults. Forms **block mountains**. **Graben:** Central block displaced **downward**. Forms **rift valleys**. Both formed by normal faulting (tensional forces).",
+      "explanation": "Horst = up = block mountain. Graben = down = rift valley.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q4" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q027",
+      "topicId": "12-04-faults",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "What are Strike-slip faults?",
+      "answer": "Blocks slide past each other along the **direction of strike**. Displacement is **horizontal**. Also called lateral, trans-current, wrench, or tear fault. Types: Left-lateral (sinistral) and Right-lateral (dextral).",
+      "explanation": "Strike-slip faults are caused by shearing forces.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q8" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q028",
+      "topicId": "12-04-unconformities",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Describe and draw a diagram of an Angular unconformity.",
+      "answer": "Older beds are **inclined/tilted**, younger beds above are **horizontal**. Beds are **not mutually parallel**. Formation: deposition → tilting → erosion → new deposition. Example: Siccar Point.",
+      "explanation": "The key feature is non-parallel older and younger beds.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q1" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q029",
+      "topicId": "12-04-joints",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "easy",
+      "prompt": "What is a Bedding joint?",
+      "answer": "A joint (fracture) that is **parallel to the bedding plane** of sedimentary rocks. Develops along the weak planes between successive layers.",
+      "explanation": "Simplest joint type to identify — follows the bedding plane orientation.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-C Q2" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q030",
+      "topicId": "12-04-folds",
+      "type": "shortAnswer",
+      "marks": 4,
+      "difficulty": "hard",
+      "prompt": "Write a note on Asymmetrical folds, giving their types with a diagram.",
+      "answer": "Asymmetrical folds have an **inclined axial plane** with limbs dipping at **different angles**. Unequal forces (P₁ > P₂). Types: Asymmetrical Anticline (limbs away, different angles) and Asymmetrical Syncline (limbs towards, different angles). Progressive types from notes: Overturned (both limbs same direction), Recumbent (horizontal axial plane), Isoclinal (parallel limbs).",
+      "explanation": "Compare with symmetrical folds: vertical axial plane, equal angles, equal forces.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-D Q4" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q031",
+      "topicId": "12-04-faults",
+      "type": "shortAnswer",
+      "marks": 4,
+      "difficulty": "hard",
+      "prompt": "Explain the different types of faults with neatly labelled diagrams.",
+      "answer": "Types: (1) **Normal** — HW down, tension. (2) **Reverse** — HW up, compression, dip >45°. (3) **Thrust** — reverse with dip <45°. (4) **Strike-Slip** — horizontal movement along strike. (5) **Step** — parallel normal faults. (6) **Horst/Graben** — raised/sunken blocks. Each diagram: fault plane, footwall, hanging wall, arrow.",
+      "explanation": "For 4 marks, draw at least 3 types with labelled diagrams.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-D Q3" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q032",
+      "topicId": "12-04-joints",
+      "type": "shortAnswer",
+      "marks": 4,
+      "difficulty": "hard",
+      "prompt": "Explain Columnar joints and give an example.",
+      "answer": "Formed when lava **cools and contracts**. Cracks create **polygonal columns** (3-8 sides, mostly hexagonal). A few cm to metres diameter, hundreds of metres tall. Most common in **basalt**. Examples: Gilbert Hill (Mumbai), Naldurga Fort, Panhala Fort, St. Mary's Island. Rhyolite columns at Utan, Thane.",
+      "explanation": "Key: cooling and contraction of lava. Gilbert Hill is the most exam-relevant example.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-D Q2" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q033",
+      "topicId": "12-04-unconformities",
+      "type": "shortAnswer",
+      "marks": 4,
+      "difficulty": "hard",
+      "prompt": "Describe Disconformity and Nonconformity, giving diagrams of each.",
+      "answer": "**Disconformity:** Both series **parallel** and sedimentary. Erosional contact. Discovered through fossils. **Nonconformity:** Older formation is **igneous/metamorphic**, younger is sedimentary. Suggests long-term uplift and erosion of crystalline basement.",
+      "explanation": "Key: disconformity = both sedimentary, parallel. Nonconformity = crystalline basement below.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-D Q1" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q034",
+      "topicId": "12-04-strike-dip",
+      "type": "shortAnswer",
+      "marks": 4,
+      "difficulty": "medium",
+      "prompt": "What is meant by Strike and Dip of beds? Name the tool used to measure it.",
+      "answer": "**Strike:** Direction of intersection line of inclined bed with horizontal plane. **Dip:** Angle of inclination perpendicular to strike (0°-90°). **True dip** is maximum (perpendicular to strike). **Apparent dip** is less (any other direction). Tool: **Brunton Compass** (Pocket Transit) or Clinometer Compass.",
+      "explanation": "Strike = direction, Dip = angle. They are always perpendicular.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": { "type": "questionBank", "ref": "QB Ch4 Sec-D Q5" },
+      "verified": true
+    },
+    {
+      "id": "12-04-q035",
+      "topicId": "12-04-folds",
+      "type": "oddOneOut",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Which of the following is NOT a part of a fold?",
+      "options": [
+        { "id": "a", "text": "Axial plane" },
+        { "id": "b", "text": "Crest" },
+        { "id": "c", "text": "Footwall" },
+        { "id": "d", "text": "Limb" }
+      ],
+      "correct": "c",
+      "explanation": "Footwall is a part of a fault (block below the fault plane), not a fold. Axial plane, crest, and limb are all parts of a fold.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": { "type": "textbook", "ref": "p.47-49" },
+      "verified": true
+    }
+  ],
+  "distinguishPairs": [
+    {
+      "id": "12-04-dp001",
+      "topicId": "12-04-folds",
+      "itemA": "Anticline",
+      "itemB": "Syncline",
+      "rows": [
+        { "aspect": "Shape", "a": "Convex upward (arch)", "b": "Convex downward (trough)" },
+        { "aspect": "Limbs", "a": "Dip away from each other", "b": "Dip towards each other" },
+        { "aspect": "Beds at core", "a": "Oldest beds at core", "b": "Youngest beds at core" },
+        { "aspect": "Greek meaning", "a": "Opposite inclined", "b": "Together inclined" }
+      ],
+      "marks": 3,
+      "source": { "type": "textbook", "ref": "p.47" },
+      "verified": true
+    },
+    {
+      "id": "12-04-dp002",
+      "topicId": "12-04-folds",
+      "itemA": "Symmetrical Fold",
+      "itemB": "Asymmetrical Fold",
+      "rows": [
+        { "aspect": "Axial plane", "a": "Vertical", "b": "Inclined" },
+        { "aspect": "Limb dip", "a": "Equal angles on both sides", "b": "Unequal angles on both sides" },
+        { "aspect": "Compressive forces", "a": "Equal (P1 = P2)", "b": "Unequal (P1 > P2)" },
+        { "aspect": "Mirror image", "a": "One half is mirror image of other", "b": "Halves are not mirror images" }
+      ],
+      "marks": 3,
+      "source": { "type": "notes", "ref": "notes p.4" },
+      "verified": true
+    },
+    {
+      "id": "12-04-dp003",
+      "topicId": "12-04-faults",
+      "itemA": "Normal Fault",
+      "itemB": "Reverse Fault",
+      "rows": [
+        { "aspect": "Hanging wall movement", "a": "Moves downward", "b": "Moves upward" },
+        { "aspect": "Stress type", "a": "Tensional forces (extension)", "b": "Compressional forces (shortening)" },
+        { "aspect": "Crustal effect", "a": "Lengthening/extension of crust", "b": "Shortening of crust" },
+        { "aspect": "Also called", "a": "Gravity fault", "b": "Compressional fault / Thrust fault (per notes)" }
+      ],
+      "marks": 3,
+      "source": { "type": "notes", "ref": "notes p.13" },
+      "verified": true
+    },
+    {
+      "id": "12-04-dp004",
+      "topicId": "12-04-strike-dip",
+      "itemA": "True Dip",
+      "itemB": "Apparent Dip",
+      "rows": [
+        { "aspect": "Direction of measurement", "a": "Perpendicular to strike", "b": "Any other direction" },
+        { "aspect": "Value", "a": "Maximum angle of inclination", "b": "Always less than true dip" },
+        { "aspect": "Parallel to strike", "a": "Not measured in this direction", "b": "Zero when parallel to strike" }
+      ],
+      "marks": 2,
+      "source": { "type": "notes", "ref": "notes p.2" },
+      "verified": true
+    },
+    {
+      "id": "12-04-dp005",
+      "topicId": "12-04-joints",
+      "itemA": "Joint",
+      "itemB": "Fault",
+      "rows": [
+        { "aspect": "Displacement", "a": "No displacement along fracture", "b": "Significant displacement along fracture" },
+        { "aspect": "Nature", "a": "Crack or fracture only", "b": "Fracture with block movement" },
+        { "aspect": "Scale", "a": "Usually smaller in scale", "b": "Can be very large scale" }
+      ],
+      "marks": 2,
+      "source": { "type": "notes", "ref": "notes p.20" },
+      "verified": true
+    },
+    {
+      "id": "12-04-dp006",
+      "topicId": "12-04-unconformities",
+      "itemA": "Disconformity",
+      "itemB": "Nonconformity",
+      "rows": [
+        { "aspect": "Older formation", "a": "Sedimentary rocks (parallel to younger)", "b": "Igneous or metamorphic rocks" },
+        { "aspect": "Younger formation", "a": "Sedimentary rocks (parallel to older)", "b": "Sedimentary rocks" },
+        { "aspect": "Recognition", "a": "Hard to recognize; found through fossils", "b": "Easier to recognize (different rock types)" },
+        { "aspect": "Bed orientation", "a": "Both sets horizontal/parallel", "b": "Crystalline basement below sedimentary" }
+      ],
+      "marks": 4,
+      "source": { "type": "notes", "ref": "notes p.26" },
+      "verified": true
+    },
+    {
+      "id": "12-04-dp007",
+      "topicId": "12-04-faults",
+      "itemA": "Horst",
+      "itemB": "Graben",
+      "rows": [
+        { "aspect": "Block movement", "a": "Central block displaced upward", "b": "Central block displaced downward" },
+        { "aspect": "Landform", "a": "Block mountain", "b": "Rift valley" },
+        { "aspect": "Relative position", "a": "Elevated between fault planes", "b": "Depressed between fault planes" }
+      ],
+      "marks": 2,
+      "source": { "type": "notes", "ref": "notes p.17" },
+      "verified": true
+    }
+  ],
+  "glossary": [
+    { "term": "Structural Geology", "definition": "The branch of geology dealing with rock deformation, origin, and mechanism of geological structures.", "topicId": "12-04-intro", "source": { "type": "notes", "ref": "notes p.1" } },
+    { "term": "Stress", "definition": "Pressure applied to rocks, expressed as force per unit area (F/A).", "topicId": "12-04-intro", "source": { "type": "textbook", "ref": "p.44" } },
+    { "term": "Strain", "definition": "The deformation of rocks in response to stress.", "topicId": "12-04-intro", "source": { "type": "textbook", "ref": "p.44" } },
+    { "term": "Outcrop", "definition": "The exposure of solid rock on the Earth's surface.", "topicId": "12-04-intro", "source": { "type": "notes", "ref": "notes p.1" } },
+    { "term": "Strike", "definition": "Direction of line formed by intersection of a horizontal plane with an inclined bedding plane.", "topicId": "12-04-strike-dip", "source": { "type": "notes", "ref": "notes p.2" } },
+    { "term": "Dip", "definition": "Angle of inclination of a rock bed relative to horizontal, measured perpendicular to strike.", "topicId": "12-04-strike-dip", "source": { "type": "notes", "ref": "notes p.2" } },
+    { "term": "True Dip", "definition": "Maximum angle of inclination of a bed, measured perpendicular to the strike direction.", "topicId": "12-04-strike-dip", "source": { "type": "notes", "ref": "notes p.2" } },
+    { "term": "Apparent Dip", "definition": "Angle of inclination measured in any direction other than perpendicular to strike. Always less than true dip.", "topicId": "12-04-strike-dip", "source": { "type": "notes", "ref": "notes p.2" } },
+    { "term": "Fold", "definition": "A wave-like bend or curve formed in rock strata due to compressive forces.", "topicId": "12-04-folds", "source": { "type": "notes", "ref": "notes p.3" } },
+    { "term": "Axial Plane", "definition": "An imaginary plane that divides a fold as symmetrically as possible.", "topicId": "12-04-folds", "source": { "type": "notes", "ref": "notes p.3" } },
+    { "term": "Anticline", "definition": "A fold convex upward with limbs dipping away from each other. Oldest beds at the core.", "topicId": "12-04-folds", "source": { "type": "textbook", "ref": "p.47" } },
+    { "term": "Syncline", "definition": "A fold convex downward with limbs dipping towards each other. Youngest beds at the core.", "topicId": "12-04-folds", "source": { "type": "textbook", "ref": "p.47" } },
+    { "term": "Fault", "definition": "A planar fracture in rock across which there has been significant displacement.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.12" } },
+    { "term": "Fault Plane", "definition": "The plane along which adjacent blocks are relatively displaced.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.12" } },
+    { "term": "Footwall", "definition": "The rock block that lies below the fault plane.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.12" } },
+    { "term": "Hanging Wall", "definition": "The rock block that lies above the fault plane.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.12" } },
+    { "term": "Normal Fault", "definition": "Fault where hanging wall moves downward relative to footwall, caused by tensional forces.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.13" } },
+    { "term": "Reverse Fault", "definition": "Fault where hanging wall moves upward relative to footwall, caused by compressional forces.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.13" } },
+    { "term": "Heave", "definition": "Horizontal component of displacement along a fault.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.12" } },
+    { "term": "Throw", "definition": "Vertical component of displacement along a fault.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.12" } },
+    { "term": "Joint", "definition": "A fracture or crack in rock along which there has been little to no displacement.", "topicId": "12-04-joints", "source": { "type": "notes", "ref": "notes p.20" } },
+    { "term": "Columnar Joint", "definition": "Joints formed during cooling of lava, dividing rock into polygonal columns. Most common in basalt.", "topicId": "12-04-joints", "source": { "type": "notes", "ref": "notes p.22" } },
+    { "term": "Unconformity", "definition": "Surface of erosion or non-deposition separating younger strata from older rocks.", "topicId": "12-04-unconformities", "source": { "type": "notes", "ref": "notes p.24" } },
+    { "term": "Hiatus", "definition": "Gap in time represented by an unconformity where expected rock layers are missing.", "topicId": "12-04-unconformities", "source": { "type": "textbook", "ref": "p.52" } },
+    { "term": "Angular Unconformity", "definition": "Unconformity where older beds are tilted/folded while younger beds above are horizontal.", "topicId": "12-04-unconformities", "source": { "type": "notes", "ref": "notes p.25" } },
+    { "term": "Disconformity", "definition": "Unconformity where older and younger series are parallel, separated by erosion surface.", "topicId": "12-04-unconformities", "source": { "type": "notes", "ref": "notes p.26" } },
+    { "term": "Nonconformity", "definition": "Unconformity where older igneous or metamorphic rock is overlain by younger sedimentary rock.", "topicId": "12-04-unconformities", "source": { "type": "notes", "ref": "notes p.26" } },
+    { "term": "Horst", "definition": "Raised block between normal faults, forming block mountains.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.17" } },
+    { "term": "Graben", "definition": "Sunken block between normal faults, forming rift valleys.", "topicId": "12-04-faults", "source": { "type": "notes", "ref": "notes p.17" } }
+  ],
+  "meta": {
+    "schemaVersion": "1.0",
+    "lastUpdated": "2026-08-26",
+    "authoredBy": "antigravity",
+    "reviewStatus": "draft",
+    "sourceDocuments": [
+      "GEO 12th_compressed.pdf pp.54-65 (textbook pages 44-55)",
+      "structural geology handwritten notes.pdf pp.1-27",
+      "geology 12th question bank.pdf Ch4 pp.10-12",
+      "geology question paper (2023) pp.1-4"
+    ],
+    "openQuestions": [
+      "Handwritten notes are image-based. Scanned diagram images should be placed under /assets/12/structural-geology/ and referenced via format:image. Expected files needed: notes diagrams for folds, faults, joints, unconformities.",
+      "The teacher's notes cover many additional fold types (overturned, recumbent, isoclinal, fan, open, closed, chevron, box, monoclinal, anticlinorium, synclinorium, plunging, dome, basin) NOT in the textbook. These are tagged depth 2-3. Confirm exam relevance.",
+      "The teacher's notes cover additional fault classifications (dip-slip, oblique-slip, strike fault, dip fault, oblique fault, bedding fault, radial fault) not in textbook. Confirm exam relevance.",
+      "2023 question paper confirms Ch4 topics actively tested: Q8 Dip Joint, Q9 Graben, Q20 Joint + Strike Joint, Q21 Parts of fold, Q29 Angular unconformity and disconformity."
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#14171B"/>
+  <circle cx="256" cy="180" r="60" fill="none" stroke="#C98A3E" stroke-width="8"/>
+  <path d="M196 180 Q256 80 316 180" fill="none" stroke="#C98A3E" stroke-width="6"/>
+  <path d="M196 180 Q256 280 316 180" fill="none" stroke="#5B7A5E" stroke-width="6"/>
+  <line x1="256" y1="120" x2="256" y2="240" stroke="#EDE6D6" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="256" y="320" text-anchor="middle" fill="#EDE6D6" font-family="Georgia,serif" font-size="42" font-weight="bold">GEOLOGY</text>
+  <text x="256" y="370" text-anchor="middle" fill="#C98A3E" font-family="monospace" font-size="28">.filtree.in</text>
+</svg>

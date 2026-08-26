@@ -1,0 +1,284 @@
+@import "tailwindcss";
+
+/* ─── Design Tokens ─────────────────────────────────────────────── */
+
+@theme {
+  /* Earth/mineral palette — not decorative, functional */
+  --color-basalt: #14171B;
+  --color-basalt-light: #1E2228;
+  --color-basalt-lighter: #2A2E35;
+  --color-fieldnote: #1D1712;
+  --color-fieldnote-light: #2A231A;
+  --color-fieldnote-lighter: #382F24;
+  --color-chalk: #EDE6D6;
+  --color-chalk-dim: #B8B0A0;
+  --color-chalk-muted: #8A8275;
+  --color-core: #C98A3E;
+  --color-core-dim: #A67230;
+  --color-core-bright: #E09E4A;
+  --color-moss: #5B7A5E;
+  --color-moss-dim: #4A6A4D;
+  --color-moss-bright: #6E9472;
+  --color-oxide: #A8452F;
+  --color-oxide-dim: #8B3825;
+  --color-oxide-bright: #C55640;
+
+  /* Semantic aliases */
+  --color-surface-chrome: var(--color-basalt);
+  --color-surface-content: var(--color-fieldnote);
+  --color-text-primary: var(--color-chalk);
+  --color-text-secondary: var(--color-chalk-dim);
+  --color-text-muted: var(--color-chalk-muted);
+  --color-accent: var(--color-core);
+  --color-success: var(--color-moss);
+  --color-warning: var(--color-oxide);
+
+  /* Spacing scale */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+
+  /* Border radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  /* Fonts — loaded via next/font in layout */
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-body: var(--font-source-serif), 'Source Serif 4', Georgia, serif;
+  --font-mono: var(--font-jetbrains), 'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* ─── Base Styles ───────────────────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-basalt);
+  color: var(--color-chalk);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ─── Typography ────────────────────────────────────────────────── */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+code, .font-mono {
+  font-family: var(--font-mono);
+}
+
+/* ─── Focus States ──────────────────────────────────────────────── */
+
+*:focus-visible {
+  outline: 2px solid var(--color-core);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-basalt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-basalt-lighter);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-chalk-muted);
+}
+
+/* ─── Selection ─────────────────────────────────────────────────── */
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-core) 30%, transparent);
+  color: var(--color-chalk);
+}
+
+/* ─── Block content inline markdown helpers ─────────────────────── */
+
+.block-content strong {
+  color: var(--color-core-bright);
+  font-weight: 700;
+}
+
+.block-content em {
+  font-style: italic;
+  color: var(--color-chalk);
+}
+
+.block-content code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--color-basalt-light);
+  padding: 0.125em 0.375em;
+  border-radius: var(--radius-sm);
+}
+
+/* ─── Conflict block styling ────────────────────────────────────── */
+
+.block-conflict {
+  border-left: 3px solid var(--color-oxide);
+  background: color-mix(in srgb, var(--color-oxide) 8%, var(--color-fieldnote));
+  padding-left: var(--spacing-md);
+}
+
+/* ─── Unverified badge ──────────────────────────────────────────── */
+
+.badge-unverified {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: var(--color-oxide-bright);
+  background: color-mix(in srgb, var(--color-oxide) 12%, transparent);
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in srgb, var(--color-oxide) 30%, transparent);
+}
+
+/* ─── Depth indicator ───────────────────────────────────────────── */
+
+.depth-badge {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.0625rem 0.375rem;
+  border-radius: var(--radius-sm);
+}
+
+.depth-badge[data-depth="1"] {
+  color: var(--color-core-bright);
+  background: color-mix(in srgb, var(--color-core) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-core) 30%, transparent);
+}
+
+.depth-badge[data-depth="2"] {
+  color: var(--color-chalk-dim);
+  background: color-mix(in srgb, var(--color-chalk) 6%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-chalk) 12%, transparent);
+}
+
+.depth-badge[data-depth="3"] {
+  color: var(--color-chalk-muted);
+  background: color-mix(in srgb, var(--color-chalk) 4%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-chalk) 8%, transparent);
+}
+
+/* ─── Tape corner treatment for scanned images ──────────────────── */
+
+.tape-corner {
+  position: relative;
+}
+
+.tape-corner::before,
+.tape-corner::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 8px;
+  background: color-mix(in srgb, var(--color-chalk) 15%, transparent);
+  border-radius: 1px;
+  transform: rotate(-2deg);
+  z-index: 1;
+}
+
+.tape-corner::before {
+  top: -4px;
+  left: 12px;
+}
+
+.tape-corner::after {
+  bottom: -4px;
+  right: 12px;
+  transform: rotate(1deg);
+}
+
+/* ─── SVG diagram container ─────────────────────────────────────── */
+
+.diagram-container svg {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* ─── Strata band (chapter selection) ───────────────────────────── */
+
+.strata-band {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .strata-band:hover {
+    transform: translateX(4px);
+  }
+
+  .strata-band:active {
+    transform: translateX(2px);
+  }
+}
+
+/* ─── Core sample rail ──────────────────────────────────────────── */
+
+.core-rail {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--color-basalt-lighter);
+  z-index: 40;
+}
+
+.core-rail-fill {
+  background: var(--color-core);
+  transition: height 0.15s ease-out;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .core-rail-fill {
+    transition: none;
+  }
+}
