@@ -282,3 +282,228 @@ code, .font-mono {
     transition: none;
   }
 }
+
+/* ─── Geological Bed Textures ───────────────────────────────────── */
+
+.bed-texture {
+  position: relative;
+}
+
+.bed-texture::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  opacity: 0.06;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  mix-blend-mode: overlay;
+}
+
+.bed-sandstone::after {
+  opacity: 0.09;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.bed-slate::after {
+  opacity: 0.07;
+  background-image: repeating-linear-gradient(
+    175deg,
+    transparent,
+    transparent 3px,
+    rgba(255,255,255,0.04) 3px,
+    rgba(255,255,255,0.04) 4px
+  );
+}
+
+.bed-mudstone::after {
+  opacity: 0.05;
+}
+
+.bed-ironstone::after {
+  opacity: 0.08;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 6px,
+    rgba(168,69,47,0.06) 6px,
+    rgba(168,69,47,0.06) 7px
+  );
+}
+
+.bed-shale::after {
+  opacity: 0.06;
+  background-image: repeating-linear-gradient(
+    180deg,
+    transparent,
+    transparent 2px,
+    rgba(255,255,255,0.03) 2px,
+    rgba(255,255,255,0.03) 3px
+  );
+}
+
+/* ─── Stone Carved Text Effect ──────────────────────────────────── */
+
+.stone-carved {
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.06),
+    0 -1px 0 rgba(0,0,0,0.5),
+    0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* ─── Strata Entrance Animation ─────────────────────────────────── */
+
+@keyframes strata-rise {
+  0% {
+    opacity: 0;
+    transform: translateY(24px) scaleY(0.92);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+.strata-animate {
+  animation: strata-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ─── Crystal Float Animation (Vandana AI) ──────────────────────── */
+
+@keyframes crystal-float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-4px) rotate(1.5deg);
+  }
+  50% {
+    transform: translateY(-2px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(-1.5deg);
+  }
+}
+
+@keyframes crystal-shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes crystal-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(201, 138, 62, 0.2), 0 4px 20px rgba(0,0,0,0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(201, 138, 62, 0.35), 0 4px 20px rgba(0,0,0,0.4);
+  }
+}
+
+.crystal-btn {
+  animation: crystal-float 4s ease-in-out infinite, crystal-glow 3s ease-in-out infinite;
+}
+
+.crystal-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 20%,
+    rgba(255,255,255,0.12) 40%,
+    rgba(255,255,255,0.2) 50%,
+    rgba(255,255,255,0.12) 60%,
+    transparent 80%
+  );
+  background-size: 200% 100%;
+  animation: crystal-shimmer 3s ease-in-out infinite;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/* ─── Hero Background Strata Animation ──────────────────────────── */
+
+@keyframes hero-strata-drift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* ─── Leaderboard Drawer ────────────────────────────────────────── */
+
+@keyframes drawer-up {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.drawer-animate {
+  animation: drawer-up 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ─── Mobile UX Improvements ───────────────────────────────────── */
+
+/* Safe area insets for notch / home indicator phones */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .safe-bottom {
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* Minimum tap targets */
+button, a, [role="button"] {
+  min-height: 44px;
+}
+
+/* Prevent text size inflation on orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Hide scrollbar utility */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ─── Podium columns ────────────────────────────────────────────── */
+
+.podium-col {
+  background: linear-gradient(180deg, var(--color-fieldnote-lighter) 0%, var(--color-fieldnote) 100%);
+  border: 1px solid var(--color-fieldnote-lighter);
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+
+.podium-col::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: repeating-linear-gradient(
+    180deg,
+    transparent,
+    transparent 4px,
+    rgba(255,255,255,0.05) 4px,
+    rgba(255,255,255,0.05) 5px
+  );
+}

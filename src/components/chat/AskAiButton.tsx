@@ -12,14 +12,41 @@ export function AskAiButton({ chapterSlug }: AskAiButtonProps) {
 
   return (
     <>
+      {/* Floating mineral crystal button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 right-6 z-40 bg-core text-basalt rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.4)] flex items-center gap-2 pl-4 pr-5 py-3 hover:scale-105 active:scale-95 transition-transform border border-core-bright/20"
+        className="crystal-btn fixed bottom-6 right-5 z-40 group"
+        aria-label="Open Vandana AI"
       >
-        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-        <span className="font-bold text-sm tracking-wide" style={{ fontFamily: 'var(--font-display)' }}>Ask AI</span>
+        {/* Crystal shape — diamond/hexagonal with amber gradient */}
+        <div className="relative w-14 h-14 flex items-center justify-center">
+          {/* Outer glow ring */}
+          <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-core via-core-bright to-core rotate-45 opacity-90" />
+          
+          {/* Inner crystal face */}
+          <div className="absolute inset-[2px] rounded-[14px] bg-gradient-to-br from-[#D4A04A] via-core to-[#8B6425] rotate-45" />
+          
+          {/* Crystal highlight facet */}
+          <div className="absolute top-[3px] left-[3px] w-[55%] h-[55%] rounded-tl-[12px] rounded-br-[4px] bg-gradient-to-br from-white/20 to-transparent rotate-45" />
+          
+          {/* Icon (not rotated) */}
+          <div className="relative z-10 text-basalt">
+            <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
+              {/* Crystal/mineral icon */}
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 2L2 12l10 10 10-10L12 2z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 2v20" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M2 12h20" />
+            </svg>
+          </div>
+        </div>
+        
+        {/* Label — always visible on mobile */}
+        <span 
+          className="absolute -bottom-5 left-1/2 -translate-x-1/2 text-[8px] font-bold text-core whitespace-nowrap tracking-widest uppercase"
+          style={{ fontFamily: 'var(--font-mono)' }}
+        >
+          Vandana AI
+        </span>
       </button>
 
       {isOpen && (

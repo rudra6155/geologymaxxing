@@ -7,130 +7,202 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main className="min-h-dvh flex flex-col items-center justify-center px-6 py-16 relative overflow-hidden bg-basalt">
+    <main className="min-h-dvh flex flex-col relative overflow-hidden bg-basalt">
       
-      {/* Dynamic Background Effects */}
+      {/* Geological cross-section background — layered strata gradients */}
       <div className="absolute inset-0 pointer-events-none">
-        {/* Subtle radial gradient to highlight center */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-core/10 rounded-full blur-[100px] opacity-40 mix-blend-screen" />
-        
-        {/* Subtle dot pattern */}
+        {/* Deep mantle glow */}
+        <div className="absolute bottom-0 left-0 right-0 h-[40%] bg-gradient-to-t from-[rgba(168,69,47,0.08)] to-transparent" />
+        {/* Upper crust cool tone */}
+        <div className="absolute top-0 left-0 right-0 h-[30%] bg-gradient-to-b from-[rgba(55,80,90,0.06)] to-transparent" />
+        {/* Core accent */}
+        <div className="absolute top-[45%] left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-core/5 rounded-full blur-[120px] mix-blend-screen" />
+        {/* Horizontal strata lines */}
+        <div className="absolute inset-0" style={{
+          backgroundImage: `
+            repeating-linear-gradient(
+              180deg,
+              transparent,
+              transparent 80px,
+              rgba(237,230,214,0.015) 80px,
+              rgba(237,230,214,0.015) 81px
+            )
+          `
+        }} />
+        {/* Dot grain */}
         <div 
-          className="absolute inset-0 opacity-[0.04]" 
-          style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, var(--color-chalk) 1px, transparent 0)', backgroundSize: '32px 32px' }} 
+          className="absolute inset-0 opacity-[0.03]" 
+          style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, var(--color-chalk) 0.5px, transparent 0)', backgroundSize: '24px 24px' }} 
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1024px] flex flex-col items-center">
-        {/* Hero Section */}
-        <div className="text-center mb-16 w-full flex flex-col items-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-core/20 bg-core/5 text-core text-xs font-mono uppercase tracking-widest mb-6">
-            <span className="w-2 h-2 rounded-full bg-core animate-pulse" />
-            2026 Academic Year
+      {/* Content */}
+      <div className="relative z-10 flex-1 flex flex-col px-5 pt-safe">
+        
+        {/* Top Section — Branding + Badge */}
+        <header className="pt-10 pb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-core/15 bg-core/5 text-core text-[10px] font-mono uppercase tracking-[0.15em] mb-5">
+            <span className="w-1.5 h-1.5 rounded-full bg-core animate-pulse" />
+            2026 Session
           </div>
           
-          <h1
-            className="text-5xl md:text-7xl font-bold tracking-tight mb-6"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-core via-core-bright to-chalk">
+          {/* Site name — rendered with geological weight */}
+          <h1 className="mb-3" style={{ fontFamily: 'var(--font-display)' }}>
+            <span className="block text-[2.75rem] leading-[1.05] font-bold bg-clip-text text-transparent bg-gradient-to-br from-core via-core-bright to-chalk">
               geology
             </span>
-            <span className="text-chalk-muted font-light">.filtree.in</span>
+            <span className="block text-xl text-chalk-muted font-light tracking-tight -mt-1">
+              .filtree.in
+            </span>
           </h1>
           
-          <div className="w-full max-w-[640px] mx-auto">
-            <p className="text-chalk-dim text-lg md:text-xl leading-relaxed">
-              The definitive study guide for Maharashtra State Board Geology. Master the earth sciences with interactive revision sheets and practice modules.
-            </p>
+          <p className="text-chalk-dim text-[15px] leading-relaxed max-w-[320px]">
+            Maharashtra State Board Geology — interactive revision, practice, and live quizzes.
+          </p>
+        </header>
+
+        {/* Core Sample Divider — visual geology motif */}
+        <div className="flex items-center gap-3 my-4">
+          <div className="flex-1 h-px bg-gradient-to-r from-transparent via-basalt-lighter to-transparent" />
+          <div className="flex flex-col gap-[2px]">
+            <div className="w-6 h-1.5 rounded-sm bg-[rgba(95,80,65,0.5)]" />
+            <div className="w-6 h-2.5 rounded-sm bg-[rgba(75,85,72,0.5)]" />
+            <div className="w-6 h-1 rounded-sm bg-[rgba(70,65,80,0.5)]" />
+            <div className="w-6 h-2 rounded-sm bg-core/30" />
+            <div className="w-6 h-1.5 rounded-sm bg-[rgba(90,60,55,0.5)]" />
           </div>
+          <div className="flex-1 h-px bg-gradient-to-r from-transparent via-basalt-lighter to-transparent" />
         </div>
 
-        {/* Standard Cards Grid */}
-        <div className="w-full max-w-[900px] grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mx-auto">
-          {/* Std 12 — Available */}
+        {/* Standard Cards */}
+        <div className="flex-1 flex flex-col justify-center gap-4 py-6">
+          
+          {/* Std 12 — Big Rock Slab */}
           <Link
             href="/12"
-            className="group relative w-full rounded-2xl border border-basalt-lighter bg-gradient-to-b from-basalt-light to-basalt p-8 
-                       transition-all duration-500 hover:border-core/40 hover:shadow-[0_0_40px_-10px_rgba(201,138,62,0.15)] hover:-translate-y-1
-                       focus-visible:outline-2 focus-visible:outline-core focus-visible:outline-offset-2 overflow-hidden flex flex-col"
+            className="strata-animate group relative w-full rounded-2xl overflow-hidden
+                       transition-all duration-300 active:scale-[0.98]"
+            style={{ animationDelay: '100ms' }}
           >
-            {/* Hover gradient layer */}
-            <div className="absolute inset-0 bg-gradient-to-br from-core/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+            {/* Rock slab background layers */}
+            <div className="absolute inset-0 bg-gradient-to-br from-[rgba(89,73,55,0.4)] via-fieldnote to-[rgba(95,80,65,0.35)]" />
+            <div className="absolute inset-0 bed-texture bed-sandstone" />
+            {/* Gold vein accent */}
+            <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-core/40 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-core/20 to-transparent" />
             
-            <div className="relative flex items-center justify-between mb-6">
-              <span
-                className="text-sm font-semibold uppercase tracking-widest text-core"
-                style={{ fontFamily: 'var(--font-mono)' }}
-              >
-                Standard 12
-              </span>
-              <span className="text-xs text-moss-bright font-medium px-3 py-1 rounded-full bg-moss/15 border border-moss/20 backdrop-blur-sm">
-                8 Chapters
-              </span>
-            </div>
-            
-            <h2 className="relative text-chalk text-3xl font-semibold mb-4 transition-colors group-hover:text-core-bright" style={{ fontFamily: 'var(--font-display)' }}>
-              HSC Geology
-            </h2>
-            
-            <p className="relative text-chalk-dim text-base leading-relaxed mb-8 flex-grow">
-              Complete board exam preparation — interactive lessons, revision sheets, last-minute notes, and comprehensive practice questions.
-            </p>
-            
-            <div className="relative mt-auto flex items-center gap-3 text-core-bright font-medium group-hover:gap-5 transition-all duration-300">
-              <span className="relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:bg-core-bright after:scale-x-0 after:origin-left group-hover:after:scale-x-100 after:transition-transform after:duration-300 pb-1">
-                Begin exploration
-              </span>
-              <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
+            <div className="relative px-5 py-7">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <span
+                    className="text-[10px] font-bold uppercase tracking-[0.2em] text-core"
+                    style={{ fontFamily: 'var(--font-mono)' }}
+                  >
+                    Standard 12
+                  </span>
+                  <h2 
+                    className="text-[1.75rem] font-bold text-chalk mt-1 leading-tight group-hover:text-core-bright transition-colors"
+                    style={{ fontFamily: 'var(--font-display)' }}
+                  >
+                    HSC Geology
+                  </h2>
+                </div>
+                <span className="text-[10px] text-moss-bright font-semibold px-2.5 py-1 rounded-full bg-moss/15 border border-moss/20 mt-1"
+                      style={{ fontFamily: 'var(--font-mono)' }}>
+                  8 Chapters
+                </span>
+              </div>
+              
+              <p className="text-chalk-dim text-sm leading-relaxed mb-6 max-w-[280px]">
+                Complete board exam prep — revision sheets, practice, live quizzes, and Vandana AI doubt solver.
+              </p>
+              
+              {/* Strata preview — mini bed visualization */}
+              <div className="flex gap-[3px] mb-6 h-3 rounded-sm overflow-hidden">
+                <div className="flex-[7] bg-[rgba(89,73,55,0.6)] rounded-sm" title="Ch1: 7m" />
+                <div className="flex-[17] bg-[rgba(75,85,72,0.6)] rounded-sm" title="Ch2: 17m" />
+                <div className="flex-[16] bg-[rgba(95,80,65,0.6)] rounded-sm" title="Ch3: 16m" />
+                <div className="flex-[17] bg-core/30 rounded-sm" title="Ch4: 17m" />
+                <div className="flex-[16] bg-[rgba(100,75,55,0.6)] rounded-sm" title="Ch5: 16m" />
+                <div className="flex-[11] bg-[rgba(55,80,90,0.6)] rounded-sm" title="Ch6: 11m" />
+                <div className="flex-[7] bg-[rgba(90,60,55,0.6)] rounded-sm" title="Ch7: 7m" />
+                <div className="flex-[7] bg-[rgba(65,75,85,0.6)] rounded-sm" title="Ch8: 7m" />
+              </div>
+              
+              <div className="flex items-center gap-2 text-core-bright font-semibold text-sm group-hover:gap-3 transition-all duration-300">
+                <span className="relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:bg-core-bright after:scale-x-0 after:origin-left group-hover:after:scale-x-100 after:transition-transform after:duration-300">
+                  Begin exploration
+                </span>
+                <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </div>
             </div>
           </Link>
 
-          {/* Std 11 — Coming Soon */}
+          {/* Std 11 — Locked Fossil Imprint */}
           <div
-            className="relative w-full rounded-2xl border border-basalt-lighter bg-basalt-light/40 p-8 opacity-75 backdrop-blur-sm transition-all duration-300 hover:opacity-100 flex flex-col"
+            className="strata-animate relative w-full rounded-2xl overflow-hidden opacity-60"
+            style={{ animationDelay: '250ms' }}
           >
-            <div className="flex items-center justify-between mb-6">
-              <span
-                className="text-sm font-semibold uppercase tracking-widest text-chalk-muted"
-                style={{ fontFamily: 'var(--font-mono)' }}
-              >
-                Standard 11
-              </span>
-              <span className="text-xs text-chalk-muted font-medium px-3 py-1 rounded-full bg-chalk/5 border border-chalk/10">
-                In Development
-              </span>
-            </div>
+            {/* Muted stone background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-basalt-light to-basalt" />
+            <div className="absolute inset-0 bed-texture bed-shale" />
             
-            <h2 className="text-chalk-dim text-3xl font-semibold mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-              FYJC Geology
-            </h2>
-            
-            <p className="text-chalk-muted text-base leading-relaxed flex-grow">
-              Curriculum for Standard 11 is currently being authored and verified. The foundational modules will be available shortly.
-            </p>
-            
-            {/* Decorative locked icon */}
-            <div className="mt-auto pt-8 flex items-center gap-2 text-chalk-muted/50">
-               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                 <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-               </svg>
-               <span className="text-sm font-medium">Locked</span>
+            <div className="relative px-5 py-6">
+              <div className="flex items-start justify-between mb-3">
+                <div>
+                  <span
+                    className="text-[10px] font-bold uppercase tracking-[0.2em] text-chalk-muted"
+                    style={{ fontFamily: 'var(--font-mono)' }}
+                  >
+                    Standard 11
+                  </span>
+                  <h2 
+                    className="text-xl font-semibold text-chalk-dim mt-1 leading-tight"
+                    style={{ fontFamily: 'var(--font-display)' }}
+                  >
+                    FYJC Geology
+                  </h2>
+                </div>
+                <span className="text-[10px] text-chalk-muted font-medium px-2.5 py-1 rounded-full bg-chalk/5 border border-chalk/8 mt-1"
+                      style={{ fontFamily: 'var(--font-mono)' }}>
+                  In Dev
+                </span>
+              </div>
+              
+              <p className="text-chalk-muted text-sm leading-relaxed max-w-[280px]">
+                Foundation modules are being authored. Coming soon.
+              </p>
+              
+              {/* Fossil imprint / locked indicator */}
+              <div className="mt-5 flex items-center gap-2 text-chalk-muted/40">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                </svg>
+                <span className="text-xs font-medium">Locked</span>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Footer note */}
-        <div className="mt-20 flex items-center justify-center gap-3 text-sm text-chalk-muted bg-basalt-light/50 px-5 py-3 rounded-full border border-basalt-lighter">
-          <svg className="w-4 h-4 text-core-dim" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-          </svg>
-          <p>
-            Works offline once loaded. Study anywhere, anytime.
-          </p>
-        </div>
+        {/* Field Notebook Footer */}
+        <footer className="pb-8 safe-bottom">
+          <div className="relative bg-fieldnote/50 border border-fieldnote-lighter/30 rounded-xl px-4 py-3 backdrop-blur-sm">
+            {/* Torn paper top edge */}
+            <div className="absolute -top-[1px] left-2 right-2 h-[2px] bg-gradient-to-r from-transparent via-fieldnote-lighter/40 to-transparent" 
+                 style={{ maskImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 4\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 2 Q5 0 10 2 Q15 4 20 2 Q25 0 30 2 Q35 4 40 2 Q45 0 50 2 Q55 4 60 2 Q65 0 70 2 Q75 4 80 2 Q85 0 90 2 Q95 4 100 2 Q105 0 110 2 Q115 4 120 2 Q125 0 130 2 Q135 4 140 2 Q145 0 150 2 Q155 4 160 2 Q165 0 170 2 Q175 4 180 2 Q185 0 190 2 Q195 4 200 2\' fill=\'white\'/%3E%3C/svg%3E")', WebkitMaskImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 4\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 2 Q5 0 10 2 Q15 4 20 2 Q25 0 30 2 Q35 4 40 2 Q45 0 50 2 Q55 4 60 2 Q65 0 70 2 Q75 4 80 2 Q85 0 90 2 Q95 4 100 2 Q105 0 110 2 Q115 4 120 2 Q125 0 130 2 Q135 4 140 2 Q145 0 150 2 Q155 4 160 2 Q165 0 170 2 Q175 4 180 2 Q185 0 190 2 Q195 4 200 2\' fill=\'white\'/%3E%3C/svg%3E")' }} />
+            
+            <div className="flex items-center gap-3">
+              <svg className="w-4 h-4 text-core-dim shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+              </svg>
+              <p className="text-chalk-muted text-xs leading-relaxed">
+                Works offline once loaded. Study anywhere, anytime.
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     </main>
   );

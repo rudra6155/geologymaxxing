@@ -119,16 +119,21 @@ export function AskAiModal({ chapterSlug, isOpen, onClose }: AskAiModalProps) {
         role="dialog"
         aria-modal="true"
       >
-        {/* Header */}
+        {/* Header — Vandana AI with mineral icon */}
         <header className="flex items-center justify-between px-4 py-4 border-b border-basalt-lighter/30 bg-fieldnote/50 sm:rounded-t-2xl">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-core/20 flex items-center justify-center text-core">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <div className="flex items-center gap-3">
+            {/* Mineral crystal icon */}
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-core to-core-dim flex items-center justify-center text-basalt relative overflow-hidden">
+              {/* Shimmer facet */}
+              <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/15 to-transparent" />
+              <svg className="w-5 h-5 relative z-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 2L2 12l10 10 10-10L12 2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 2v20" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2 12h20" />
               </svg>
             </div>
             <div>
-              <h2 className="text-sm font-bold text-chalk" style={{ fontFamily: 'var(--font-display)' }}>Doubt Solver AI</h2>
+              <h2 className="text-sm font-bold text-chalk" style={{ fontFamily: 'var(--font-display)' }}>Vandana AI</h2>
               <p className="text-[10px] text-chalk-muted uppercase tracking-widest" style={{ fontFamily: 'var(--font-mono)' }}>Grounded on Curriculum</p>
             </div>
           </div>
@@ -144,13 +149,22 @@ export function AskAiModal({ chapterSlug, isOpen, onClose }: AskAiModalProps) {
         <div className="flex-1 overflow-y-auto p-4 space-y-4">
           {messages.length === 0 && (
             <div className="h-full flex flex-col items-center justify-center text-center px-4">
-              <div className="text-core mb-4 opacity-50">
-                <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                </svg>
+              {/* Mineral formation empty state */}
+              <div className="mb-5 relative">
+                {/* Stylized crystal cluster */}
+                <div className="flex items-end justify-center gap-1">
+                  <div className="w-3 h-8 bg-gradient-to-t from-core-dim to-core rounded-t-sm rotate-[-6deg] opacity-40" />
+                  <div className="w-4 h-12 bg-gradient-to-t from-core-dim to-core-bright rounded-t-sm opacity-60" />
+                  <div className="w-3 h-10 bg-gradient-to-t from-core-dim to-core rounded-t-sm rotate-[8deg] opacity-50" />
+                  <div className="w-2 h-6 bg-gradient-to-t from-core-dim to-core rounded-t-sm rotate-[12deg] opacity-30" />
+                </div>
+                {/* Base */}
+                <div className="w-16 h-1.5 bg-fieldnote-lighter/50 rounded-full mx-auto -mt-0.5" />
               </div>
-              <p className="text-chalk text-sm font-medium">What are you stuck on?</p>
-              <p className="text-chalk-dim text-xs mt-2 max-w-[250px]">I can explain any concept from this chapter. My answers are sourced strictly from your syllabus.</p>
+              <p className="text-chalk text-sm font-semibold" style={{ fontFamily: 'var(--font-display)' }}>What are you stuck on?</p>
+              <p className="text-chalk-dim text-xs mt-2 max-w-[250px] leading-relaxed">
+                I can explain any concept from this chapter. My answers are sourced strictly from your syllabus.
+              </p>
             </div>
           )}
 
@@ -159,10 +173,10 @@ export function AskAiModal({ chapterSlug, isOpen, onClose }: AskAiModalProps) {
               <div 
                 className={`max-w-[85%] rounded-2xl px-4 py-3 text-[15px] leading-relaxed ${
                   msg.role === 'user' 
-                    ? 'bg-core text-basalt font-medium rounded-tr-sm' 
+                    ? 'bg-gradient-to-br from-core to-core-dim text-basalt font-medium rounded-tr-sm' 
                     : msg.role === 'error'
                       ? 'bg-oxide/20 border border-oxide/30 text-oxide rounded-tl-sm text-sm'
-                      : 'bg-fieldnote border border-fieldnote-lighter/50 text-chalk rounded-tl-sm'
+                      : 'bg-fieldnote border border-fieldnote-lighter/40 text-chalk rounded-tl-sm'
                 }`}
               >
                 {msg.content}
@@ -171,10 +185,10 @@ export function AskAiModal({ chapterSlug, isOpen, onClose }: AskAiModalProps) {
           ))}
           {isLoading && (
             <div className="flex justify-start">
-              <div className="bg-fieldnote border border-fieldnote-lighter/50 rounded-2xl rounded-tl-sm px-4 py-4 flex gap-1">
-                <div className="w-1.5 h-1.5 rounded-full bg-chalk-muted animate-bounce" style={{ animationDelay: '0ms' }} />
-                <div className="w-1.5 h-1.5 rounded-full bg-chalk-muted animate-bounce" style={{ animationDelay: '150ms' }} />
-                <div className="w-1.5 h-1.5 rounded-full bg-chalk-muted animate-bounce" style={{ animationDelay: '300ms' }} />
+              <div className="bg-fieldnote border border-fieldnote-lighter/40 rounded-2xl rounded-tl-sm px-4 py-4 flex gap-1.5">
+                <div className="w-1.5 h-1.5 rounded-full bg-core animate-bounce" style={{ animationDelay: '0ms' }} />
+                <div className="w-1.5 h-1.5 rounded-full bg-core animate-bounce" style={{ animationDelay: '150ms' }} />
+                <div className="w-1.5 h-1.5 rounded-full bg-core animate-bounce" style={{ animationDelay: '300ms' }} />
               </div>
             </div>
           )}
@@ -182,28 +196,28 @@ export function AskAiModal({ chapterSlug, isOpen, onClose }: AskAiModalProps) {
         </div>
 
         {/* Input Area */}
-        <div className="p-4 border-t border-basalt-lighter/30 bg-basalt">
+        <div className="p-4 border-t border-basalt-lighter/30 bg-basalt safe-bottom">
           <form onSubmit={handleSubmit} className="relative flex items-center">
             <input 
               type="text" 
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask a question..."
+              placeholder="Ask Vandana AI..."
               disabled={isLoading}
-              className="w-full bg-fieldnote border border-fieldnote-lighter/50 rounded-full pl-5 pr-12 py-3.5 text-sm text-chalk placeholder:text-chalk-muted/50 focus:outline-none focus:border-core/50 transition-colors disabled:opacity-50"
+              className="w-full bg-fieldnote border border-fieldnote-lighter/40 rounded-full pl-5 pr-12 py-3.5 text-sm text-chalk placeholder:text-chalk-muted/40 focus:outline-none focus:border-core/50 transition-colors disabled:opacity-50"
             />
             <button 
               type="submit" 
               disabled={!input.trim() || isLoading}
-              className="absolute right-2 p-2 bg-core text-basalt rounded-full disabled:opacity-50 disabled:bg-chalk-dim transition-colors"
+              className="absolute right-2 p-2 bg-gradient-to-br from-core to-core-dim text-basalt rounded-full disabled:opacity-40 disabled:bg-none disabled:bg-chalk-dim transition-all"
             >
               <svg className="w-4 h-4 translate-x-[1px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </button>
           </form>
-          <div className="text-center mt-3 text-[10px] text-chalk-muted/50" style={{ fontFamily: 'var(--font-mono)' }}>
-            AI can make mistakes. Check your textbook.
+          <div className="text-center mt-3 text-[10px] text-chalk-muted/40" style={{ fontFamily: 'var(--font-mono)' }}>
+            AI can make mistakes. Cross-check with your textbook.
           </div>
         </div>
       </div>
