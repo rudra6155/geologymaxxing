@@ -1,65 +1,23 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { HeroAnimation, HeroHeadline } from '@/components/hero/HeroAnimation';
 
 export const metadata: Metadata = {
-  title: 'geology.filtree.in — Choose Your Standard',
+  title: 'geology.filtree.in — Maharashtra Board Geology Study Guide',
 };
 
 export default function HomePage() {
   return (
-    <main className="min-h-dvh flex flex-col relative overflow-hidden bg-basalt">
-      
-      {/* Geological cross-section background — layered strata gradients */}
-      <div className="absolute inset-0 pointer-events-none">
-        {/* Deep mantle glow */}
-        <div className="absolute bottom-0 left-0 right-0 h-[40%] bg-gradient-to-t from-[rgba(168,69,47,0.08)] to-transparent" />
-        {/* Upper crust cool tone */}
-        <div className="absolute top-0 left-0 right-0 h-[30%] bg-gradient-to-b from-[rgba(55,80,90,0.06)] to-transparent" />
-        {/* Core accent */}
-        <div className="absolute top-[45%] left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-core/5 rounded-full blur-[120px] mix-blend-screen" />
-        {/* Horizontal strata lines */}
-        <div className="absolute inset-0" style={{
-          backgroundImage: `
-            repeating-linear-gradient(
-              180deg,
-              transparent,
-              transparent 80px,
-              rgba(237,230,214,0.015) 80px,
-              rgba(237,230,214,0.015) 81px
-            )
-          `
-        }} />
-        {/* Dot grain */}
-        <div 
-          className="absolute inset-0 opacity-[0.03]" 
-          style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, var(--color-chalk) 0.5px, transparent 0)', backgroundSize: '24px 24px' }} 
-        />
-      </div>
+    <main className="relative overflow-hidden bg-basalt">
 
-      {/* Content */}
-      <div className="relative z-10 flex-1 flex flex-col px-5 pt-safe">
-        
-        {/* Top Section — Branding + Badge */}
-        <header className="pt-10 pb-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-core/15 bg-core/5 text-core text-[10px] font-mono uppercase tracking-[0.15em] mb-5">
-            <span className="w-1.5 h-1.5 rounded-full bg-core animate-pulse" />
-            2026 Session
-          </div>
-          
-          {/* Site name — rendered with geological weight */}
-          <h1 className="mb-3" style={{ fontFamily: 'var(--font-display)' }}>
-            <span className="block text-[2.75rem] leading-[1.05] font-bold bg-clip-text text-transparent bg-gradient-to-br from-core via-core-bright to-chalk">
-              geology
-            </span>
-            <span className="block text-xl text-chalk-muted font-light tracking-tight -mt-1">
-              .filtree.in
-            </span>
-          </h1>
-          
-          <p className="text-chalk-dim text-[15px] leading-relaxed max-w-[320px]">
-            Maharashtra State Board Geology — interactive revision, practice, and live quizzes.
-          </p>
-        </header>
+      {/* ─── Hero Animation (viewport 1) ──────────────────────────── */}
+      <HeroAnimation />
+
+      {/* ─── Beat 6: Headline + Description (on scroll) ───────────── */}
+      <HeroHeadline />
+
+      {/* ─── Page Content (below the fold) ────────────────────────── */}
+      <div className="relative z-10 flex flex-col px-5">
 
         {/* Core Sample Divider — visual geology motif */}
         <div className="flex items-center gap-3 my-4">
@@ -75,7 +33,7 @@ export default function HomePage() {
         </div>
 
         {/* Standard Cards */}
-        <div className="flex-1 flex flex-col justify-center gap-4 py-6">
+        <div className="flex flex-col gap-4 py-6">
           
           {/* Std 12 — Big Rock Slab */}
           <Link
@@ -189,10 +147,7 @@ export default function HomePage() {
         {/* Field Notebook Footer */}
         <footer className="pb-8 safe-bottom">
           <div className="relative bg-fieldnote/50 border border-fieldnote-lighter/30 rounded-xl px-4 py-3 backdrop-blur-sm">
-            {/* Torn paper top edge */}
-            <div className="absolute -top-[1px] left-2 right-2 h-[2px] bg-gradient-to-r from-transparent via-fieldnote-lighter/40 to-transparent" 
-                 style={{ maskImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 4\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 2 Q5 0 10 2 Q15 4 20 2 Q25 0 30 2 Q35 4 40 2 Q45 0 50 2 Q55 4 60 2 Q65 0 70 2 Q75 4 80 2 Q85 0 90 2 Q95 4 100 2 Q105 0 110 2 Q115 4 120 2 Q125 0 130 2 Q135 4 140 2 Q145 0 150 2 Q155 4 160 2 Q165 0 170 2 Q175 4 180 2 Q185 0 190 2 Q195 4 200 2\' fill=\'white\'/%3E%3C/svg%3E")', WebkitMaskImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 4\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 2 Q5 0 10 2 Q15 4 20 2 Q25 0 30 2 Q35 4 40 2 Q45 0 50 2 Q55 4 60 2 Q65 0 70 2 Q75 4 80 2 Q85 0 90 2 Q95 4 100 2 Q105 0 110 2 Q115 4 120 2 Q125 0 130 2 Q135 4 140 2 Q145 0 150 2 Q155 4 160 2 Q165 0 170 2 Q175 4 180 2 Q185 0 190 2 Q195 4 200 2\' fill=\'white\'/%3E%3C/svg%3E")' }} />
-            
+            <div className="absolute -top-[1px] left-2 right-2 h-[2px] bg-gradient-to-r from-transparent via-fieldnote-lighter/40 to-transparent" />
             <div className="flex items-center gap-3">
               <svg className="w-4 h-4 text-core-dim shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />

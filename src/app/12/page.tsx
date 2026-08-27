@@ -107,7 +107,7 @@ export default async function Std12Page() {
               return (
                 <div
                   key={chapter.slug}
-                  className={`strata-band strata-animate rounded-lg pl-10 pr-4 flex items-center gap-3 opacity-40 cursor-not-allowed relative ${style.texture}`}
+                  className={`strata-band strata-animate rounded-lg pl-10 pr-4 flex items-center gap-3 opacity-40 cursor-not-allowed relative bed-texture ${style.texture}`}
                   style={{
                     minHeight: `${heightPx}px`,
                     backgroundColor: style.bg,
@@ -145,7 +145,7 @@ export default async function Std12Page() {
               <Link
                 key={chapter.slug}
                 href={`/12/${chapter.slug}`}
-                className={`strata-band strata-animate block rounded-lg pl-10 pr-4 relative
+                className={`strata-band strata-animate block rounded-lg pl-10 pr-4 relative bed-texture
                            hover:brightness-125 active:brightness-110 active:scale-[0.995] transition-all duration-200 ${style.texture}`}
                 style={{
                   minHeight: `${heightPx}px`,

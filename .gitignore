@@ -47,3 +47,10 @@ supabase/logs/
 # IDE
 .vscode/
 .idea/
+
+# Raw 3D source assets (only the compressed .glb in public/models/ ships)
+/namaqualand_boulder_03_2k.gltf/
+/namaqualand_boulder_03_8k.blend/
+
+# Scratch/experiment files
+/scratch/
