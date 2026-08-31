@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
+import Link from 'next/link';
 import { motion, useInView, useReducedMotion, AnimatePresence } from 'motion/react';
 
 // ─── Shard Data ─────────────────────────────────────────────────────
@@ -364,7 +365,9 @@ export function HeroHeadline() {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       >
-        [HEADLINE — TBD]
+        Dig deeper.
+        <br />
+        Score higher.
       </motion.h2>
 
       <motion.p
@@ -373,8 +376,29 @@ export function HeroHeadline() {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
       >
-        [SHORT DESCRIPTION — TBD]
+        Std 12 Geology, broken into depth-adjustable chapters with an AI tutor,
+        streak drills, and live quizzes — everything you need before the board
+        exam. Works offline, so revision never waits on a signal.
       </motion.p>
+
+      <motion.div
+        initial={prefersReducedMotion ? {} : { opacity: 0, y: 16 }}
+        animate={isInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.5, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+        className="mt-9"
+      >
+        <Link
+          href="/12"
+          className="group inline-flex items-center gap-2 text-core-bright font-semibold text-sm"
+        >
+          <span className="relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:bg-core-bright after:scale-x-0 after:origin-left group-hover:after:scale-x-100 after:transition-transform after:duration-300">
+            Start Std 12 Geology
+          </span>
+          <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </Link>
+      </motion.div>
     </section>
   );
 }
