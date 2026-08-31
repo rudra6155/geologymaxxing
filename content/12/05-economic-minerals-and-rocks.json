@@ -1,0 +1,966 @@
+{
+  "id": "12-05",
+  "std": 12,
+  "chapterNumber": 5,
+  "title": "Economic Minerals and Rocks",
+  "slug": "economic-minerals-and-rocks",
+  "textbookPages": "66-82",
+  "marksWeightage": 16,
+  "estimatedMinutes": 60,
+  "summary": "Ore minerals, industrial rocks, and their economic importance in Maharashtra and India.",
+  "topics": [
+    {
+      "id": "12-05-intro",
+      "title": "Introduction and Terminology",
+      "slug": "introduction-and-terminology",
+      "order": 1,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "12-05-b001",
+          "type": "definition",
+          "depth": 1,
+          "title": "Economic Geology",
+          "body": "The branch of Geology that deals with the exploration, exploitation and origin of economically important minerals from the earth.",
+          "source": {
+            "type": "notes",
+            "ref": "notes p.1"
+          },
+          "verified": true,
+          "tags": [
+            "economic geology",
+            "definition"
+          ]
+        },
+        {
+          "id": "12-05-b002",
+          "type": "definition",
+          "depth": 1,
+          "title": "Ore",
+          "body": "A natural concentration of one or more minerals, i.e. rock from which one or more metals can be extracted economically.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.66"
+          },
+          "verified": true,
+          "tags": [
+            "ore",
+            "definition"
+          ]
+        },
+        {
+          "id": "12-05-b003",
+          "type": "definition",
+          "depth": 2,
+          "title": "Ore Deposit vs Ore Mineral",
+          "body": "**Ore deposit** is a rock which consists of ore minerals and rock forming minerals. (e.g. Dunite is an ultrabasic igneous rock which contains olivine as a rock forming mineral & chromite as an ore mineral). \n\n**Ore minerals** are those minerals from which one or more metals can be extracted.",
+          "source": {
+            "type": "notes",
+            "ref": "notes p.1"
+          },
+          "verified": true,
+          "tags": [
+            "ore deposit",
+            "ore mineral"
+          ]
+        },
+        {
+          "id": "12-05-b004",
+          "type": "list",
+          "depth": 2,
+          "title": "Types of Ore Minerals",
+          "items": [
+            "**Simple Ore Mineral**: When one metal can be extracted from the ore deposit (e.g., Iron from Hematite/Magnetite, Aluminium from Bauxite).",
+            "**Complex Ore Mineral**: When more than one metal can be extracted from the ore deposit (e.g., Chalcopyrite contains Cu and Fe)."
+          ],
+          "source": {
+            "type": "notes",
+            "ref": "notes p.1-2"
+          },
+          "verified": true,
+          "tags": [
+            "simple ore",
+            "complex ore"
+          ]
+        },
+        {
+          "id": "12-05-b005",
+          "type": "definition",
+          "depth": 1,
+          "title": "Gangue",
+          "body": "Gangue comprises of minerals which are associated with the ore but are commercially insignificant at a particular period of time. Commonly silicates, carbonates, or fluorides.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.67"
+          },
+          "verified": true,
+          "tags": [
+            "gangue",
+            "definition"
+          ]
+        },
+        {
+          "id": "12-05-b006",
+          "type": "table",
+          "depth": 3,
+          "title": "Gangue Mineral Associations",
+          "headers": [
+            "Rock / Deposit",
+            "Ore Mineral",
+            "Gangue Minerals"
+          ],
+          "rows": [
+            [
+              "Granite",
+              "-",
+              "Quartz + Orthoclase + Augite + Hornblende"
+            ],
+            [
+              "BHQ (Banded Hematite Quartzite)",
+              "Hematite",
+              "Quartz"
+            ],
+            [
+              "Dunite",
+              "Chromite",
+              "Olivine (Groundmass)"
+            ]
+          ],
+          "source": {
+            "type": "notes",
+            "ref": "notes p.2"
+          },
+          "verified": true,
+          "tags": [
+            "gangue examples"
+          ]
+        },
+        {
+          "id": "12-05-b007",
+          "type": "definition",
+          "depth": 1,
+          "title": "Tenor of Ore",
+          "body": "Tenor is the metal content of the ore. It is generally expressed as a percentage or in parts per million (ppm) for precious metals like gold and platinum. The tenor depends on the price of the metal in the market.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.67"
+          },
+          "verified": true,
+          "tags": [
+            "tenor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-05-classification",
+      "title": "Classification of Ore Deposits",
+      "slug": "classification-of-ore-deposits",
+      "order": 2,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "12-05-b008",
+          "type": "list",
+          "depth": 2,
+          "title": "Classification by Formation Time",
+          "items": [
+            "**Syngenetic Ore Deposits**: Ore deposit is a rock which contains ore minerals *during* the formation of the rock. (e.g. BHQ - banded hematite quartzite, Dunite - Chromite).",
+            "**Epigenetic Ore Deposits**: Rocks which contain ore minerals *after* the formation of the rock. (e.g. Vesicular basalt is epigenetic as it contains copper ore as cavity filling mineral in the cavities of the rock)."
+          ],
+          "source": {
+            "type": "notes",
+            "ref": "notes p.2"
+          },
+          "verified": true,
+          "tags": [
+            "syngenetic",
+            "epigenetic"
+          ]
+        },
+        {
+          "id": "12-05-b009",
+          "type": "list",
+          "depth": 1,
+          "title": "Classification of Natural Resources",
+          "items": [
+            "**Metallic Resources**: Subdivided into Heavy Metals (Fe, Mn, Cr), Non-Ferrous (Cu, Pb, Zn, Al), and Light Metals (Mg, Be).",
+            "**Non-metallic Resources**: Used in industries (Abrasive, Ceramic, Refractory, Medicine, Cement)."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.68"
+          },
+          "verified": true,
+          "tags": [
+            "metallic",
+            "non-metallic"
+          ]
+        },
+        {
+          "id": "12-05-b010",
+          "type": "list",
+          "depth": 3,
+          "title": "Geological Processes of Ore Formation",
+          "items": [
+            "**Igneous Processes**: Magmatic concentration (chromite), Pegmatitic (mica), Hydrothermal cavity filling/replacement.",
+            "**Sedimentary Processes**: Sedimentation (coal, petroleum), Evaporation (gypsum), Residual (bauxite), Placer/Mechanical concentration (gold).",
+            "**Metamorphic Processes**: Contact metasomatism, Oxidation & Supergene enrichment."
+          ],
+          "source": {
+            "type": "notes",
+            "ref": "notes p.4-10"
+          },
+          "verified": true,
+          "tags": [
+            "ore formation processes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-05-metallic-iron-mn",
+      "title": "Metallic Resources: Iron & Manganese",
+      "slug": "iron-and-manganese",
+      "order": 3,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "12-05-b011",
+          "type": "table",
+          "depth": 1,
+          "title": "Iron Ores Properties",
+          "headers": [
+            "Property",
+            "Haematite",
+            "Magnetite"
+          ],
+          "rows": [
+            [
+              "Composition",
+              "Fe2O3",
+              "Fe3O4"
+            ],
+            [
+              "Colour",
+              "Cherry red / reddish brown",
+              "Iron black"
+            ],
+            [
+              "Streak",
+              "Cherry red",
+              "Black"
+            ],
+            [
+              "Hardness",
+              "5.5 to 6.5",
+              "5.5 to 6.5"
+            ],
+            [
+              "Form",
+              "Massive, granular, micaceous",
+              "Massive, granular"
+            ],
+            [
+              "Specific Gravity",
+              "High (5.2)",
+              "High (5.18)"
+            ],
+            [
+              "Special Property",
+              "-",
+              "Strongly magnetic"
+            ]
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.68-69"
+          },
+          "verified": true,
+          "tags": [
+            "iron",
+            "haematite",
+            "magnetite"
+          ]
+        },
+        {
+          "id": "12-05-b012",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Iron Ores Occurrence",
+          "body": "Iron is the fourth most abundant element in the Earth's crust. In India, iron ores occur as sedimentary or metamorphosed sedimentary deposits (Banded Haematite Quartzite). Key deposits: Dharwar supergroup (Karnataka), Singhbhum (Jharkhand), Goa, and Ratnagiri, Sindhudurg, Gadchiroli (Maharashtra).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.68"
+          },
+          "verified": true,
+          "tags": [
+            "iron occurrence"
+          ]
+        },
+        {
+          "id": "12-05-b013",
+          "type": "table",
+          "depth": 1,
+          "title": "Manganese Ores Properties",
+          "headers": [
+            "Property",
+            "Pyrolusite",
+            "Psilomelane"
+          ],
+          "rows": [
+            [
+              "Composition",
+              "MnO2",
+              "MnO2.H2O (hydrous)"
+            ],
+            [
+              "Colour",
+              "Iron black",
+              "Iron black to steel grey"
+            ],
+            [
+              "Streak",
+              "Black",
+              "Brownish black"
+            ],
+            [
+              "Form",
+              "Massive, granular, fibrous",
+              "Massive, botryoidal, stalactitic"
+            ],
+            [
+              "Hardness",
+              "1 to 2 (soft)",
+              "5 to 6"
+            ],
+            [
+              "Specific Gravity",
+              "Medium (4.7)",
+              "Medium (4.7)"
+            ]
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.69-70"
+          },
+          "verified": true,
+          "tags": [
+            "manganese",
+            "pyrolusite",
+            "psilomelane"
+          ]
+        },
+        {
+          "id": "12-05-b014",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Manganese Occurrence",
+          "body": "India is the 5th largest producer of Manganese ore. Occurs in the Sausar group. Found in Nagpur, Bhandara, and Sindhudurg districts of Maharashtra.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.70"
+          },
+          "verified": true,
+          "tags": [
+            "manganese occurrence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-05-base-metals",
+      "title": "Base Metals: Copper, Lead, Zinc, Aluminium",
+      "slug": "base-metals",
+      "order": 4,
+      "estimatedMinutes": 15,
+      "blocks": [
+        {
+          "id": "12-05-b015",
+          "type": "table",
+          "depth": 1,
+          "title": "Copper Ores",
+          "headers": [
+            "Mineral",
+            "Composition",
+            "Colour",
+            "Diagnostic Feature"
+          ],
+          "rows": [
+            [
+              "Chalcopyrite",
+              "CuFeS2",
+              "Brass yellow",
+              "Greenish black streak"
+            ],
+            [
+              "Malachite",
+              "Cu2(CO3)(OH)2",
+              "Bright green",
+              "Botryoidal form, pale green streak"
+            ],
+            [
+              "Cuprite",
+              "Cu2O",
+              "Cochineal red",
+              "Brownish red streak"
+            ],
+            [
+              "Native Copper",
+              "Cu",
+              "Copper red",
+              "Metallic lustre, ductile"
+            ]
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.70-71"
+          },
+          "verified": true,
+          "tags": [
+            "copper",
+            "chalcopyrite",
+            "malachite"
+          ]
+        },
+        {
+          "id": "12-05-b016",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Lead and Zinc (Galena & Sphalerite)",
+          "body": "**Galena (PbS)**: Lead grey colour, 3 sets of perfect cleavage, high specific gravity (7.5). Occurs commonly with Zinc.\n**Sphalerite (ZnS)**: Also known as zinc blend. Yellowish brown to black, resinous lustre, 3 sets of cleavage.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.71"
+          },
+          "verified": true,
+          "tags": [
+            "lead",
+            "zinc",
+            "galena",
+            "sphalerite"
+          ]
+        },
+        {
+          "id": "12-05-b017",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Aluminium (Bauxite)",
+          "body": "**Bauxite (Al2O3.2H2O)**: It is a residual deposit formed by weathering of aluminous rocks. Pisolitic form, dull lustre, hardness 1 to 3, sp. gr. 2.5 to 3. Found in Kolhapur, Ratnagiri, Raigad, Sindhudurg, Thane, and Palghar.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.72"
+          },
+          "verified": true,
+          "tags": [
+            "aluminium",
+            "bauxite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-05-industrial-radioactive",
+      "title": "Industrial and Radioactive Minerals",
+      "slug": "industrial-and-radioactive-minerals",
+      "order": 5,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "12-05-b018",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Radioactive Minerals (Monazite)",
+          "body": "Monazite (Ce, La, Th, Nd, Y)PO4 is the most abundant radioactive mineral, found mainly as beach sand placers in Kerala and Tamil Nadu. It is yellowish brown, hardness 5, sp. gr. 5. Important source of Thorium and rare Earths.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.72"
+          },
+          "verified": true,
+          "tags": [
+            "radioactive",
+            "monazite"
+          ]
+        },
+        {
+          "id": "12-05-b019",
+          "type": "list",
+          "depth": 2,
+          "title": "Fuel Industry",
+          "items": [
+            "**Coal**: Formed by sedimentation/decomposition of vegetable matter. Varieties: Peat -> Lignite -> Bituminous -> Anthracite (best variety).",
+            "**Petroleum**: Organic origin from shallow marine sediments.",
+            "**Unconventional Resources**: Coal Bed Methane (CBM), Shale Gas, Gas Hydrates."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.72-73"
+          },
+          "verified": true,
+          "tags": [
+            "coal",
+            "petroleum",
+            "unconventional"
+          ]
+        },
+        {
+          "id": "12-05-b020",
+          "type": "list",
+          "depth": 2,
+          "title": "Other Industrial Minerals",
+          "items": [
+            "**Cement Industry**: Uses Limestone and Gypsum (CaSO4.2H2O). Gypsum is added to prevent rapid hardening of Portland cement.",
+            "**Abrasive Industry**: Diamond (hardness 10), Corundum (Al2O3, hardness 9), Garnet, Quartz. High hardness minerals used for cutting/polishing.",
+            "**Ceramic Industry**: Uses Kaolin (Al2Si2O5(OH)4) and Feldspars (Orthoclase, Plagioclase).",
+            "**Refractory Industry**: Uses minerals that withstand >1500\u00b0C without fusing. Examples: Kyanite (Al2SiO5), Bauxite, Zircon."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.74-78"
+          },
+          "verified": true,
+          "tags": [
+            "cement",
+            "abrasive",
+            "ceramic",
+            "refractory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-05-rasashastra",
+      "title": "Medicine Industry (Rasashastra)",
+      "slug": "medicine-industry",
+      "order": 6,
+      "estimatedMinutes": 5,
+      "blocks": [
+        {
+          "id": "12-05-b021",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Ayurvedic Pharmacology",
+          "body": "The branch of Ayurveda dealing with mineral pharmacology is 'Rasashastra'. Minerals are used after definitive refining processes ('samskaras'). Vagbhata classified them into Maharasas, Uparasas, and Sadharanarasas.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.79"
+          },
+          "verified": true,
+          "tags": [
+            "rasashastra",
+            "ayurveda"
+          ]
+        },
+        {
+          "id": "12-05-b022",
+          "type": "table",
+          "depth": 2,
+          "title": "Vagbhata's Classification",
+          "headers": [
+            "Category",
+            "Sanskrit Name",
+            "Geological Name",
+            "Composition"
+          ],
+          "rows": [
+            [
+              "Maharasas (Superior)",
+              "Abhraka",
+              "Mica",
+              "Silicates"
+            ],
+            [
+              "Maharasas",
+              "Makshika",
+              "Chalcopyrite",
+              "CuFeS2"
+            ],
+            [
+              "Uparasas (Subsidiary)",
+              "Gandhaka",
+              "Sulfur",
+              "S"
+            ],
+            [
+              "Uparasas",
+              "Gairika",
+              "Haematite",
+              "Fe2O3"
+            ],
+            [
+              "Sadharanarasas (Common)",
+              "Hingula",
+              "Cinnabar",
+              "HgS"
+            ]
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.79-80"
+          },
+          "verified": true,
+          "tags": [
+            "maharasas",
+            "uparasas",
+            "sadharanarasas",
+            "abhraka"
+          ]
+        }
+      ]
+    }
+  ],
+  "diagrams": [],
+  "questions": [
+    {
+      "id": "12-05-q001",
+      "topicId": "12-05-metallic-iron-mn",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Manganese ore minerals are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyrolusite and Magnetite."
+        },
+        {
+          "id": "b",
+          "text": "Psilomelane and Haematite."
+        },
+        {
+          "id": "c",
+          "text": "Psilomelane and Magnetite."
+        },
+        {
+          "id": "d",
+          "text": "Pyrolusite and Psilomelane."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Pyrolusite and Psilomelane are the main ores of Manganese.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": {
+        "type": "questionBank",
+        "ref": "QB p.13 Q1"
+      },
+      "verified": true
+    },
+    {
+      "id": "12-05-q002",
+      "topicId": "12-05-base-metals",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "The important ores of Copper are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chalcopyrite, Malachite, Cuprite and Native copper."
+        },
+        {
+          "id": "b",
+          "text": "Chalcopyrite, Malachite, Cuprite and Sphalerite."
+        },
+        {
+          "id": "c",
+          "text": "Chalcopyrite, Malachite, Cuprite and Galena."
+        },
+        {
+          "id": "d",
+          "text": "Chalcopyrite, Malachite, Cuprite and Monazite."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Sphalerite is zinc, Galena is lead, Monazite is radioactive. The copper ores are Chalcopyrite, Malachite, Cuprite and Native copper.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": {
+        "type": "questionBank",
+        "ref": "QB p.13 Q2"
+      },
+      "verified": true
+    },
+    {
+      "id": "12-05-q003",
+      "topicId": "12-05-rasashastra",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which mineral is known as 'Abhraka' in ayurveda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malachite."
+        },
+        {
+          "id": "b",
+          "text": "Haematite."
+        },
+        {
+          "id": "c",
+          "text": "Mica."
+        },
+        {
+          "id": "d",
+          "text": "Galena."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Mica is popularly called 'Abhraka' in Ayurveda and belongs to the Maharasas.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": {
+        "type": "questionBank",
+        "ref": "QB p.13 Q4"
+      },
+      "verified": true
+    },
+    {
+      "id": "12-05-q004",
+      "topicId": "12-05-base-metals",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "The zinc ore mineral is------",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sphalerite."
+        },
+        {
+          "id": "b",
+          "text": "Monazite."
+        },
+        {
+          "id": "c",
+          "text": "Zircon."
+        },
+        {
+          "id": "d",
+          "text": "Cinnabar."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Sphalerite (ZnS) is the main ore of zinc.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": {
+        "type": "questionBank",
+        "ref": "QB p.13 Q5"
+      },
+      "verified": true
+    },
+    {
+      "id": "12-05-q005",
+      "topicId": "12-05-intro",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which of the following is NOT a mineral in the true geological sense?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Petroleum."
+        },
+        {
+          "id": "b",
+          "text": "Quartz."
+        },
+        {
+          "id": "c",
+          "text": "Bauxite."
+        },
+        {
+          "id": "d",
+          "text": "Mica."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Petroleum is an organic liquid, not a solid inorganic mineral with a crystalline structure.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": {
+        "type": "questionBank",
+        "ref": "QB p.13 Q6"
+      },
+      "verified": true
+    },
+    {
+      "id": "12-05-q006",
+      "topicId": "12-05-metallic-iron-mn",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Cherry red streak is a diagnostic test of\u2014",
+      "options": [
+        {
+          "id": "a",
+          "text": "Galena"
+        },
+        {
+          "id": "b",
+          "text": "Magnetite"
+        },
+        {
+          "id": "c",
+          "text": "Haematite."
+        },
+        {
+          "id": "d",
+          "text": "Chalcopyrite."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Haematite yields a characteristic cherry red to reddish-brown streak.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": {
+        "type": "questionBank",
+        "ref": "QB p.14 Q8"
+      },
+      "verified": true
+    },
+    {
+      "id": "12-05-q007",
+      "topicId": "12-05-metallic-iron-mn",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "The chemical composition of Magnetite is---",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fe2O3"
+        },
+        {
+          "id": "b",
+          "text": "Fe3O4"
+        },
+        {
+          "id": "c",
+          "text": "MnO2"
+        },
+        {
+          "id": "d",
+          "text": "MnO2.H2O"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Magnetite is Fe3O4, while Haematite is Fe2O3.",
+      "phoneFriendly": true,
+      "teacherFlagged": false,
+      "source": {
+        "type": "questionBank",
+        "ref": "QB p.14 Q10"
+      },
+      "verified": true
+    }
+  ],
+  "distinguishPairs": [
+    {
+      "id": "12-05-dp01",
+      "title": "Haematite vs Magnetite",
+      "topicId": "12-05-metallic-iron-mn",
+      "left": {
+        "title": "Haematite",
+        "points": [
+          "Chemical composition is Fe2O3.",
+          "Cherry red or reddish brown in colour.",
+          "Streak is cherry red.",
+          "Not magnetic."
+        ]
+      },
+      "right": {
+        "title": "Magnetite",
+        "points": [
+          "Chemical composition is Fe3O4.",
+          "Iron black in colour.",
+          "Streak is black.",
+          "Strongly magnetic."
+        ]
+      },
+      "source": {
+        "type": "textbook",
+        "ref": "p.68"
+      },
+      "verified": true
+    },
+    {
+      "id": "12-05-dp02",
+      "title": "Syngenetic vs Epigenetic Ore Deposits",
+      "topicId": "12-05-classification",
+      "left": {
+        "title": "Syngenetic Deposit",
+        "points": [
+          "Ore minerals form at the same time as the host rock.",
+          "Found as disseminated grains or bands inside the rock.",
+          "Example: BHQ (Banded Hematite Quartzite) and Chromite in Dunite."
+        ]
+      },
+      "right": {
+        "title": "Epigenetic Deposit",
+        "points": [
+          "Ore minerals form after the host rock has already formed.",
+          "Found filling cavities, veins, or fractures in the pre-existing rock.",
+          "Example: Vesicular basalt containing secondary copper in its cavities."
+        ]
+      },
+      "source": {
+        "type": "notes",
+        "ref": "notes p.2"
+      },
+      "verified": true
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Tenor",
+      "definition": "The metal content of the ore, generally expressed as a percentage or ppm.",
+      "topicId": "12-05-intro",
+      "source": {
+        "type": "textbook",
+        "ref": "p.67"
+      }
+    },
+    {
+      "term": "Gangue",
+      "definition": "Commercially insignificant minerals associated with the ore.",
+      "topicId": "12-05-intro",
+      "source": {
+        "type": "textbook",
+        "ref": "p.67"
+      }
+    },
+    {
+      "term": "CBM",
+      "definition": "Coal Bed Methane; an unconventional form of natural gas extracted from coal beds.",
+      "topicId": "12-05-industrial-radioactive",
+      "source": {
+        "type": "textbook",
+        "ref": "p.73"
+      }
+    },
+    {
+      "term": "Abhraka",
+      "definition": "Ayurvedic name for Mica, belonging to the Maharasas.",
+      "topicId": "12-05-rasashastra",
+      "source": {
+        "type": "textbook",
+        "ref": "p.79"
+      }
+    }
+  ],
+  "meta": {
+    "schemaVersion": "1.0",
+    "lastUpdated": "2026-08-31",
+    "authoredBy": "antigravity",
+    "reviewStatus": "draft",
+    "sourceDocuments": [
+      "textbook_ch6.txt",
+      "question_bank.txt",
+      "notes_images"
+    ],
+    "openQuestions": []
+  }
+}

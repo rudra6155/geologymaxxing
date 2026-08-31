@@ -60,7 +60,7 @@ export const STD_12_CHAPTERS: ChapterMeta[] = [
     slug: 'economic-minerals-and-rocks',
     marksWeightage: 16,
     summary: 'Ore minerals, industrial rocks, and their economic importance in Maharashtra and India.',
-    available: false,
+    available: true,
   },
   {
     std: 12,
