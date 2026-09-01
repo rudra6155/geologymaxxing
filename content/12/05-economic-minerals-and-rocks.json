@@ -860,26 +860,32 @@
   "distinguishPairs": [
     {
       "id": "12-05-dp01",
-      "title": "Haematite vs Magnetite",
       "topicId": "12-05-metallic-iron-mn",
-      "left": {
-        "title": "Haematite",
-        "points": [
-          "Chemical composition is Fe2O3.",
-          "Cherry red or reddish brown in colour.",
-          "Streak is cherry red.",
-          "Not magnetic."
-        ]
-      },
-      "right": {
-        "title": "Magnetite",
-        "points": [
-          "Chemical composition is Fe3O4.",
-          "Iron black in colour.",
-          "Streak is black.",
-          "Strongly magnetic."
-        ]
-      },
+      "itemA": "Haematite",
+      "itemB": "Magnetite",
+      "marks": 2,
+      "rows": [
+        {
+          "aspect": "Chemical Composition",
+          "a": "Chemical composition is Fe2O3.",
+          "b": "Chemical composition is Fe3O4."
+        },
+        {
+          "aspect": "Colour",
+          "a": "Cherry red or reddish brown in colour.",
+          "b": "Iron black in colour."
+        },
+        {
+          "aspect": "Streak",
+          "a": "Streak is cherry red.",
+          "b": "Streak is black."
+        },
+        {
+          "aspect": "Magnetic Property",
+          "a": "Not magnetic.",
+          "b": "Strongly magnetic."
+        }
+      ],
       "source": {
         "type": "textbook",
         "ref": "p.68"
@@ -888,24 +894,27 @@
     },
     {
       "id": "12-05-dp02",
-      "title": "Syngenetic vs Epigenetic Ore Deposits",
       "topicId": "12-05-classification",
-      "left": {
-        "title": "Syngenetic Deposit",
-        "points": [
-          "Ore minerals form at the same time as the host rock.",
-          "Found as disseminated grains or bands inside the rock.",
-          "Example: BHQ (Banded Hematite Quartzite) and Chromite in Dunite."
-        ]
-      },
-      "right": {
-        "title": "Epigenetic Deposit",
-        "points": [
-          "Ore minerals form after the host rock has already formed.",
-          "Found filling cavities, veins, or fractures in the pre-existing rock.",
-          "Example: Vesicular basalt containing secondary copper in its cavities."
-        ]
-      },
+      "itemA": "Syngenetic Deposit",
+      "itemB": "Epigenetic Deposit",
+      "marks": 2,
+      "rows": [
+        {
+          "aspect": "Time of Formation",
+          "a": "Ore minerals form at the same time as the host rock.",
+          "b": "Ore minerals form after the host rock has already formed."
+        },
+        {
+          "aspect": "Mode of Occurrence",
+          "a": "Found as disseminated grains or bands inside the rock.",
+          "b": "Found filling cavities, veins, or fractures in the pre-existing rock."
+        },
+        {
+          "aspect": "Example",
+          "a": "Example: BHQ (Banded Hematite Quartzite) and Chromite in Dunite.",
+          "b": "Example: Vesicular basalt containing secondary copper in its cavities."
+        }
+      ],
       "source": {
         "type": "notes",
         "ref": "notes p.2"
