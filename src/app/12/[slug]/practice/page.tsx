@@ -10,12 +10,12 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllChapterSlugs().map((slug) => ({ slug }));
+  return getAllChapterSlugs(12).map((slug: string) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const meta = getChapterMeta(slug);
+  const meta = getChapterMeta(12, slug);
   if (!meta) return { title: 'Practice Not Found' };
 
   return {
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function PracticePage({ params }: PageProps) {
   const { slug } = await params;
-  const meta = getChapterMeta(slug);
+  const meta = getChapterMeta(12, slug);
 
   if (!meta) {
     notFound();

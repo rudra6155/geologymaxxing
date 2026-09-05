@@ -16,6 +16,63 @@ export interface ChapterMeta {
   available: boolean;
 }
 
+export const STD_11_CHAPTERS: ChapterMeta[] = [
+  {
+    std: 11,
+    chapterNumber: 1,
+    title: 'Introduction to Geology',
+    slug: 'introduction-to-geology',
+    marksWeightage: 3,
+    summary: "Basics of Earth's interior and branches of geology.",
+    available: false,
+  },
+  {
+    std: 11,
+    chapterNumber: 2,
+    title: 'Earth\'s Surface Processes',
+    slug: 'earths-surface-processes',
+    marksWeightage: 8,
+    summary: 'Weathering and soil formation.',
+    available: false,
+  },
+  {
+    std: 11,
+    chapterNumber: 3,
+    title: 'Earth Surface: Landforms',
+    slug: 'earth-surface-landforms',
+    marksWeightage: 14,
+    summary: 'Geological work of wind, glaciers, rivers, and sea — erosional and depositional landforms.',
+    available: false,
+  },
+  {
+    std: 11,
+    chapterNumber: 4,
+    title: 'Rock Forming Processes',
+    slug: 'rock-forming-processes',
+    marksWeightage: 12,
+    summary: 'Origin and formation of igneous, sedimentary, and metamorphic rocks.',
+    available: true,
+  },
+  {
+    std: 11,
+    chapterNumber: 5,
+    title: 'Mineralogy',
+    slug: 'mineralogy',
+    marksWeightage: 15,
+    summary: 'Study of minerals, physical properties, and rock-forming mineral groups.',
+    available: true,
+  },
+  {
+    std: 11,
+    chapterNumber: 6,
+    title: 'Geology of Maharashtra',
+    slug: 'geology-of-maharashtra',
+    marksWeightage: 18,
+    summary: 'Stratigraphy and economic minerals of Maharashtra.',
+    available: false,
+  }
+];
+
 export const STD_12_CHAPTERS: ChapterMeta[] = [
   {
     std: 12,
@@ -97,17 +154,25 @@ export const TOTAL_MARKS_12 = STD_12_CHAPTERS.reduce(
   0
 );
 
-/** Get a chapter's metadata by slug */
-export function getChapterMeta(slug: string): ChapterMeta | undefined {
-  return STD_12_CHAPTERS.find((ch) => ch.slug === slug);
+export const TOTAL_MARKS_11 = STD_11_CHAPTERS.reduce(
+  (sum, ch) => sum + (ch.marksWeightage ?? 0),
+  0
+);
+
+/** Get a chapter's metadata by slug and std */
+export function getChapterMeta(std: 11 | 12, slug: string): ChapterMeta | undefined {
+  const chapters = std === 11 ? STD_11_CHAPTERS : STD_12_CHAPTERS;
+  return chapters.find((ch) => ch.slug === slug);
 }
 
 /** Get all available chapter slugs (for generateStaticParams) */
-export function getAvailableChapterSlugs(): string[] {
-  return STD_12_CHAPTERS.filter((ch) => ch.available).map((ch) => ch.slug);
+export function getAvailableChapterSlugs(std: 11 | 12): string[] {
+  const chapters = std === 11 ? STD_11_CHAPTERS : STD_12_CHAPTERS;
+  return chapters.filter((ch) => ch.available).map((ch) => ch.slug);
 }
 
 /** Get all chapter slugs (including coming-soon, for generateStaticParams) */
-export function getAllChapterSlugs(): string[] {
-  return STD_12_CHAPTERS.map((ch) => ch.slug);
+export function getAllChapterSlugs(std: 11 | 12): string[] {
+  const chapters = std === 11 ? STD_11_CHAPTERS : STD_12_CHAPTERS;
+  return chapters.map((ch) => ch.slug);
 }

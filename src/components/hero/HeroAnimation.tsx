@@ -106,7 +106,7 @@ export function HeroAnimation() {
   // ─── Beat 3→4: Shake → shatter ───────────────────────────────────
   useEffect(() => {
     if (phase !== 'shaking') return;
-    const timer = setTimeout(() => setPhase('shatter'), 1200);
+    const timer = setTimeout(() => setPhase('shatter'), 3200);
     return () => clearTimeout(timer);
   }, [phase]);
 
@@ -176,20 +176,28 @@ export function HeroAnimation() {
             </div>
 
             {/* Chat body — empty, just for visual weight */}
-            <div className="px-4 py-6 min-h-[80px]">
+              <div className="px-4 py-6 min-h-[80px]">
               {/* Sent message bubble — appears after typing */}
               <AnimatePresence>
                 {phase === 'sent' && (
                   <motion.div
-                    className="flex justify-end"
+                    className="flex flex-col gap-1.5"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <div
-                      className="bg-gradient-to-br from-core to-core-dim text-basalt text-[13px] font-medium px-3.5 py-2.5 rounded-2xl rounded-tr-sm max-w-[85%] leading-relaxed"
-                    >
-                      {TYPEWRITER_TEXT}
+                    <div className="flex justify-end">
+                      <div
+                        className="bg-gradient-to-br from-core to-core-dim text-basalt text-[13px] font-medium px-3.5 py-2.5 rounded-2xl rounded-tr-sm max-w-[85%] leading-relaxed"
+                      >
+                        {TYPEWRITER_TEXT}
+                      </div>
+                    </div>
+                    <div className="flex justify-end items-center gap-1 pr-1">
+                      <svg className="w-3 h-3 text-core/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-[9px] text-chalk-muted/50" style={{ fontFamily: 'var(--font-mono)' }}>Message sent</span>
                     </div>
                   </motion.div>
                 )}
@@ -376,7 +384,7 @@ export function HeroHeadline() {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
       >
-        Std 12 Geology, broken into depth-adjustable chapters with an AI tutor,
+        Std 11 &amp; 12 Geology, broken into depth-adjustable chapters with an AI tutor,
         streak drills, and live quizzes — everything you need before the board
         exam. Works offline, so revision never waits on a signal.
       </motion.p>

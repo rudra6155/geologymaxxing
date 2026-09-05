@@ -11,7 +11,7 @@ export function GlossaryView({ entries }: GlossaryViewProps) {
   const [search, setSearch] = useState('');
   const [expanded, setExpanded] = useState<string | null>(null);
 
-  if (entries.length === 0) return null;
+  if (!entries || entries.length === 0) return null;
 
   const filtered = search
     ? entries.filter(

@@ -2,7 +2,7 @@ import type { Block, Diagram } from '@/lib/types';
 
 interface BlockRendererProps {
   block: Block;
-  diagrams: Diagram[];
+  diagrams?: Diagram[];
 }
 
 /** Render inline markdown (bold, italic, code) — no full parser needed */
@@ -156,7 +156,7 @@ export function BlockRenderer({ block, diagrams }: BlockRendererProps) {
 
   // DiagramRef blocks
   if (block.type === 'diagramRef' && block.diagramId) {
-    const diagram = diagrams.find((d) => d.id === block.diagramId);
+    const diagram = diagrams?.find((d) => d.id === block.diagramId);
     if (!diagram) return null;
 
     return (

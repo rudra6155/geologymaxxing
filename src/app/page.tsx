@@ -98,12 +98,14 @@ export default function HomePage() {
             </div>
           </Link>
 
-          {/* Std 11 — Locked Fossil Imprint */}
-          <div
-            className="strata-animate relative w-full rounded-2xl overflow-hidden opacity-60"
+          {/* Std 11 — Active Rock Slab */}
+          <Link
+            href="/11"
+            className="strata-animate group relative w-full rounded-2xl overflow-hidden
+                       transition-all duration-300 active:scale-[0.98]"
             style={{ animationDelay: '250ms' }}
           >
-            {/* Muted stone background */}
+            {/* Rock slab background layers */}
             <div className="absolute inset-0 bg-gradient-to-br from-basalt-light to-basalt" />
             <div className="absolute inset-0 bed-texture bed-shale" />
             
@@ -117,7 +119,7 @@ export default function HomePage() {
                     Standard 11
                   </span>
                   <h2 
-                    className="text-xl font-semibold text-chalk-dim mt-1 leading-tight"
+                    className="text-xl font-semibold text-chalk mt-1 leading-tight group-hover:text-chalk transition-colors"
                     style={{ fontFamily: 'var(--font-display)' }}
                   >
                     FYJC Geology
@@ -125,23 +127,24 @@ export default function HomePage() {
                 </div>
                 <span className="text-[10px] text-chalk-muted font-medium px-2.5 py-1 rounded-full bg-chalk/5 border border-chalk/8 mt-1"
                       style={{ fontFamily: 'var(--font-mono)' }}>
-                  In Dev
+                  6 Chapters
                 </span>
               </div>
               
-              <p className="text-chalk-muted text-sm leading-relaxed max-w-[280px]">
-                Foundation modules are being authored. Coming soon.
+              <p className="text-chalk-dim text-sm leading-relaxed mb-6 max-w-[280px]">
+                Foundation modules including Mineralogy, Rock Forming Processes, and Geological Agents.
               </p>
               
-              {/* Fossil imprint / locked indicator */}
-              <div className="mt-5 flex items-center gap-2 text-chalk-muted/40">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+              <div className="flex items-center gap-2 text-chalk-muted font-semibold text-sm group-hover:text-chalk transition-all duration-300">
+                <span className="relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:bg-chalk after:scale-x-0 after:origin-left group-hover:after:scale-x-100 after:transition-transform after:duration-300">
+                  Begin exploration
+                </span>
+                <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
-                <span className="text-xs font-medium">Locked</span>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Field Notebook Footer */}

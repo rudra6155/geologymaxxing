@@ -10,12 +10,12 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllChapterSlugs(12).map((slug) => ({ slug }));
+  return getAllChapterSlugs(11).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const meta = getChapterMeta(12, slug);
+  const meta = getChapterMeta(11, slug);
   if (!meta) return { title: 'Gauntlet Not Found' };
 
   return {
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function GauntletPage({ params }: PageProps) {
   const { slug } = await params;
-  const meta = getChapterMeta(12, slug);
+  const meta = getChapterMeta(11, slug);
 
   if (!meta) {
     notFound();
@@ -38,7 +38,7 @@ export default async function GauntletPage({ params }: PageProps) {
     return (
       <main className="min-h-dvh flex flex-col items-center justify-center px-4">
         <Link
-          href={chapter ? `/12/${chapter.slug}` : '/12'}
+          href={chapter ? `/11/${chapter.slug}` : '/11'}
           className="self-start mb-8 inline-flex items-center gap-1 text-chalk-muted text-xs font-medium 
                      hover:text-chalk transition-colors absolute top-6 left-4"
           style={{ fontFamily: 'var(--font-mono)' }}

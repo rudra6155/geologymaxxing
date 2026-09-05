@@ -26,7 +26,15 @@ export function loadChapter(std: number, slug: string): Chapter | null {
 
   try {
     const raw = fs.readFileSync(path.join(dir, match), 'utf-8');
-    return JSON.parse(raw) as Chapter;
+    const chapter = JSON.parse(raw) as Chapter;
+    return {
+      ...chapter,
+      topics: chapter.topics || [],
+      diagrams: chapter.diagrams || [],
+      questions: chapter.questions || [],
+      distinguishPairs: chapter.distinguishPairs || [],
+      glossary: chapter.glossary || [],
+    };
   } catch {
     console.error(`Failed to parse chapter file: ${match}`);
     return null;
@@ -47,7 +55,15 @@ export function loadAllChapters(std: number): Chapter[] {
   for (const file of files) {
     try {
       const raw = fs.readFileSync(path.join(dir, file), 'utf-8');
-      chapters.push(JSON.parse(raw) as Chapter);
+      const chapter = JSON.parse(raw) as Chapter;
+      chapters.push({
+        ...chapter,
+        topics: chapter.topics || [],
+        diagrams: chapter.diagrams || [],
+        questions: chapter.questions || [],
+        distinguishPairs: chapter.distinguishPairs || [],
+        glossary: chapter.glossary || [],
+      });
     } catch {
       console.error(`Failed to parse: ${file}`);
     }

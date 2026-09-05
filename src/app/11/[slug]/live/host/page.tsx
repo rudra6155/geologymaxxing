@@ -9,12 +9,12 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllChapterSlugs(12).map((slug) => ({ slug }));
+  return getAllChapterSlugs(11).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const meta = getChapterMeta(12, slug);
+  const meta = getChapterMeta(11, slug);
   if (!meta) return { title: 'Live Host Not Found' };
 
   return {
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function LiveHostPage({ params }: PageProps) {
   const { slug } = await params;
-  const meta = getChapterMeta(12, slug);
+  const meta = getChapterMeta(11, slug);
 
   if (!meta) {
     notFound();

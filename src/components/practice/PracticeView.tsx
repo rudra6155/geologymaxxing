@@ -32,13 +32,18 @@ export function PracticeView({ chapter }: PracticeViewProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [matchSelections, setMatchSelections] = useState<Record<string, string>>({});
   const [results, setResults] = useState<QuestionResult[]>([]);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const questions = useMemo(() => {
     const filtered = phoneOnly
       ? chapter.questions.filter((q) => q.phoneFriendly)
       : chapter.questions;
-    return shuffleArray(filtered);
-  }, [chapter.questions, phoneOnly]);
+    return mounted ? shuffleArray(filtered) : filtered;
+  }, [chapter.questions, phoneOnly, mounted]);
 
   const currentQ = questions[currentIndex];
   const progress = questions.length > 0 ? ((currentIndex + 1) / questions.length) * 100 : 0;
@@ -152,7 +157,7 @@ export function PracticeView({ chapter }: PracticeViewProps) {
               Try again
             </button>
             <Link
-              href={`/12/${chapter.slug}`}
+              href={`/${chapter.std ?? 12}/${chapter.slug}`}
               className="block w-full bg-basalt-lighter border border-basalt-lighter text-chalk-dim 
                          font-medium text-sm rounded-lg px-4 py-3 hover:text-chalk transition-colors text-center"
             >
@@ -194,7 +199,7 @@ export function PracticeView({ chapter }: PracticeViewProps) {
       <header className="px-4 pt-4 pb-2">
         <div className="flex items-center justify-between mb-2">
           <Link
-            href={`/12/${chapter.slug}`}
+            href={`/${chapter.std ?? 12}/${chapter.slug}`}
             className="inline-flex items-center gap-1 text-chalk-muted text-xs font-medium 
                        hover:text-chalk transition-colors"
             style={{ fontFamily: 'var(--font-mono)' }}

@@ -1,0 +1,1945 @@
+{
+  "id": "11-04",
+  "std": 11,
+  "chapterNumber": 4,
+  "title": "Rock Forming Processes",
+  "slug": "rock-forming-processes",
+  "textbookPages": "49-56",
+  "marksWeightage": 12,
+  "estimatedMinutes": 60,
+  "summary": "Genesis, classification, and characteristics of igneous, sedimentary, and metamorphic rocks, driven by exogenic and endogenic energy systems in the rock cycle.",
+  "topics": [
+    {
+      "id": "11-04-energy-and-petrology",
+      "title": "Energy Systems, Petrology & The Lithosphere",
+      "slug": "energy-systems-and-petrology",
+      "order": 1,
+      "estimatedMinutes": 7,
+      "blocks": [
+        {
+          "id": "11-04-b001",
+          "type": "definition",
+          "depth": 1,
+          "title": "Petrology",
+          "body": "The scientific study of rocks in terms of their composition, texture, structure, origin, occurrence, alteration, and association with other rocks. The word is derived from the Greek words **Petros** (rock) and **Logos** (science/study).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.49"
+          },
+          "verified": true,
+          "tags": [
+            "petrology",
+            "definition",
+            "core"
+          ]
+        },
+        {
+          "id": "11-04-b002",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Allied Branches of Petrology",
+          "body": "**Petrography**: The systematic description and microscopic study of rocks in thin sections under a polarizing petrological microscope.\n\n**Petrogenesis**: The study of the origin, genesis, and historical evolution of rocks.\n\n**Lithology**: The macroscopic description of rocks in hand specimens based on colour, visible mineral composition, and texture.",
+          "source": {
+            "type": "notes",
+            "ref": "Ultimate Guide p.1"
+          },
+          "verified": true,
+          "tags": [
+            "petrography",
+            "petrogenesis",
+            "lithology"
+          ]
+        },
+        {
+          "id": "11-04-b003",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Exogenic vs Endogenic Energy Systems",
+          "body": "The Earth is governed by two fundamental sources of energy:\n\n1. **Exogenic Energy**: Energy originating outside the Earth from the **Sun (solar radiation)**. Solar heat drives the hydrological (water) cycle and atmospheric circulation, powering surface denudation, weathering, erosion, and the creation of sedimentary rocks and landforms.\n\n2. **Endogenic Energy**: Internal **geothermal heat** trapped within the Earth from primordial planetary accretion and radioactive decay. This energy drives mantle convection, plate tectonism, diastrophism, volcanism, and metamorphism.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.49-50"
+          },
+          "verified": true,
+          "tags": [
+            "exogenic",
+            "endogenic",
+            "energy"
+          ]
+        },
+        {
+          "id": "11-04-b004",
+          "type": "callout",
+          "depth": 2,
+          "title": "Extraterrestrial Processes: Lonar Crater",
+          "body": "Besides terrestrial exogenic and endogenic processes, **extraterrestrial processes** shape Earth's surface through meteorite impacts. A premier global example is the **Lonar Lake in Buldhana district, Maharashtra** — an almost circular meteorite impact crater formed in Deccan flood basalt.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.50"
+          },
+          "verified": true,
+          "tags": [
+            "lonar crater",
+            "meteorite",
+            "extraterrestrial",
+            "maharashtra"
+          ]
+        },
+        {
+          "id": "11-04-b005",
+          "type": "explanation",
+          "depth": 3,
+          "title": "The Lithosphere as the Geological Arena",
+          "body": "Earth's interior comprises core, mantle, and crust. The crust and uppermost solid mantle together form the **lithosphere**. Tectonic plates originate here, and it is within the lithosphere where rocks are continuously generated, deformed, recycled, and re-formed.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.49"
+          },
+          "verified": true,
+          "tags": [
+            "lithosphere",
+            "crust",
+            "tectonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-04-igneous-genesis-and-classification",
+      "title": "Igneous Rocks: Genesis & Characteristics",
+      "slug": "igneous-genesis-and-characteristics",
+      "order": 2,
+      "estimatedMinutes": 8,
+      "blocks": [
+        {
+          "id": "11-04-b006",
+          "type": "definition",
+          "depth": 1,
+          "title": "Genesis of Igneous Rocks",
+          "body": "Igneous rocks (from Latin **Ignis** meaning fire) are **primary rocks** formed by the cooling, crystallization, and solidification of molten rock material. They were the very first rocks formed when the molten Earth cooled to form its primordial crust.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.50"
+          },
+          "verified": true,
+          "tags": [
+            "igneous",
+            "definition",
+            "primary rocks"
+          ]
+        },
+        {
+          "id": "11-04-b007",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Magma vs Lava",
+          "body": "**Magma**: Hot, molten or semi-molten natural rock material generated at great depths under high temperature (**800°C to 1400°C**) and confining pressure. It consists of a liquid melt (oxides of Si, Al, Fe, Ca, Na, K, Mg), dissolved volatiles (water vapour, CO2, SO2, HCl), and suspended mineral crystals.\n\n**Lava**: When magma breaches the surface through volcanic conduits or fissures, dissolved volatiles escape into the atmosphere. The degassed molten stream flowing over the surface is called lava.",
+          "source": {
+            "type": "notes",
+            "ref": "Ultimate Guide p.3; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "magma",
+            "lava",
+            "volatiles"
+          ]
+        },
+        {
+          "id": "11-04-b008",
+          "type": "list",
+          "depth": 2,
+          "title": "9 Diagnostic Characteristics of Igneous Rocks",
+          "items": [
+            "**Primary Rocks**: Formed directly from magma/lava; the original source material for all other rock types.",
+            "**Massive & Unstratified**: Compact bodies that lack true sedimentary bedding planes or strata.",
+            "**Non-fossiliferous**: Molten temperatures (800°C–1400°C) completely destroy any biological life or organic remains.",
+            "**Intrusive Relations**: Occur as discordant veins, dykes, batholiths, or concordant sills cutting through country rocks.",
+            "**Contact Metamorphism**: Country rocks adjacent to intrusions show distinct thermal baking and alteration zones.",
+            "**Interlocking Crystalline Fabric**: Composed of mutually interlocking mineral crystals that grew into one another.",
+            "**Vesicular & Amygdaloidal Structures**: Surface lavas display gas-escape bubble cavities (vesicles), often later filled with secondary minerals (amygdales).",
+            "**Pyrogenetic Minerals**: Made of high-temperature minerals (feldspars, quartz, pyroxenes, amphiboles, olivine).",
+            "**Distinct Textures**: Exhibit equigranular, porphyritic, or glassy textures governed by cooling rate."
+          ],
+          "source": {
+            "type": "notes",
+            "ref": "geo.rudra p.3; Ultimate Guide p.3"
+          },
+          "verified": true,
+          "tags": [
+            "characteristics",
+            "igneous",
+            "exam-key"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-04-igneous-depth-and-chemistry",
+      "title": "Igneous Depth, Chemistry & Textures",
+      "slug": "igneous-depth-chemistry-textures",
+      "order": 3,
+      "estimatedMinutes": 9,
+      "blocks": [
+        {
+          "id": "11-04-b009",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Classification by Depth of Formation (Table 4.1)",
+          "body": "Igneous rocks are divided into three major depth classes:\n\n1. **Plutonic (Abyssal) Rocks**: Formed at great depths (deep crust). Characterized by very slow cooling under high confining lithostatic pressure. Crystals have abundant time to grow, producing coarse-grained, equigranular, **holocrystalline** (completely crystalline) textures. Examples: **Granite, Gabbro, Syenite, Dunite**.\n\n2. **Hypabyssal Rocks**: Formed at intermediate/shallow depths in fractures, fissures, dykes, and sills. Characterized by moderate cooling rates and mixed grain sizes, often exhibiting **porphyritic** textures. Examples: **Dolerite, Pegmatite**.\n\n3. **Volcanic (Extrusive) Rocks**: Formed when lava erupts onto Earth's surface or ocean floor. Rapid cooling in contact with air or water prevents large crystal growth, producing fine-grained (aphanitic) or **holohyaline** (completely glassy) textures. Examples: **Basalt, Rhyolite, Pumice, Obsidian**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.50-51"
+          },
+          "verified": true,
+          "tags": [
+            "plutonic",
+            "hypabyssal",
+            "volcanic",
+            "table-4.1"
+          ]
+        },
+        {
+          "id": "11-04-b010",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Chemical Classification Based on Silica (SiO2 %)",
+          "body": "Based on total silica percentage (SiO2 %), igneous rocks are classified into four distinct classes:\n\n- **Acidic Igneous Rocks (>66% SiO2)**: Dominated by felsic minerals (quartz and alkali feldspars). Light in colour, low specific gravity (~2.6–2.7). Plutonic: **Granite**, Hypabyssal: **Pegmatite**, Volcanic: **Rhyolite**.\n\n- **Intermediate Igneous Rocks (55%–66% SiO2)**: Equal balance of felsic and mafic minerals. Medium colour. Plutonic: **Syenite, Diorite**, Volcanic: **Trachyte, Andesite**.\n\n- **Basic Igneous Rocks (44%–54% SiO2)**: Dominated by mafic minerals (pyroxene, calcic plagioclase, olivine). Dark in colour, high specific gravity (~2.9–3.1). Plutonic: **Gabbro**, Hypabyssal: **Dolerite**, Volcanic: **Basalt**.\n\n- **Ultrabasic Igneous Rocks (<44% SiO2)**: Composed almost entirely of mafic/ultramafic minerals (olivine, pyroxene) with virtually no feldspar or quartz. Very dark, heavy. Plutonic: **Dunite, Peridotite**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.51; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "silica-percentage",
+            "acidic",
+            "basic",
+            "ultrabasic"
+          ]
+        },
+        {
+          "id": "11-04-b011",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Felsic vs Mafic Minerals",
+          "body": "**Felsic Minerals**: Light-coloured minerals enriched in Silicon (Si) and Aluminium (Al). Derived from **FEL**dspar + **S**ilica. Key examples: Quartz, Orthoclase, Albite, Muscovite.\n\n**Mafic Minerals**: Dark-coloured minerals enriched in Magnesium (Mg) and Iron (Fe). Derived from **MA**gnesium + **F**erric. Key examples: Olivine, Augite (pyroxene), Hornblende (amphibole), Biotite.",
+          "source": {
+            "type": "notes",
+            "ref": "Ultimate Guide p.3"
+          },
+          "verified": true,
+          "tags": [
+            "felsic",
+            "mafic",
+            "minerals"
+          ]
+        },
+        {
+          "id": "11-04-b012",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Igneous Textures & Deccan Trap Structures",
+          "body": "**Equigranular Texture**: All mineral crystals are approximately equal in size, typical of slow plutonic cooling.\n\n**Porphyritic Texture**: Large, well-formed crystals called **phenocrysts** are surrounded by a fine-grained or glassy **groundmass**, caused by a two-stage cooling history (slow cooling at depth followed by rapid cooling upon ascent).\n\n**Glassy Texture**: Extremely rapid chilling (quenching) prevents atomic ordering into crystals (e.g. Obsidian, Pumice).\n\n**Vesicles & Amygdales in Deccan Basalt**: Escaping volcanic gases form circular/oval holes called **vesicles**. When percolating hydrothermal waters later precipitate silica (chalcedony, agate), zeolites, or calcite inside these cavities, they become **amygdales**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.51; notes"
+          },
+          "verified": true,
+          "tags": [
+            "porphyritic",
+            "glassy",
+            "amygdales",
+            "vesicles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-04-sedimentary-processes",
+      "title": "Sedimentary Rocks: Weathering to Lithification",
+      "slug": "sedimentary-processes-and-genesis",
+      "order": 4,
+      "estimatedMinutes": 8,
+      "blocks": [
+        {
+          "id": "11-04-b013",
+          "type": "definition",
+          "depth": 1,
+          "title": "Genesis of Sedimentary Rocks",
+          "body": "Sedimentary rocks (from Latin **Sedimentum** meaning settling) are **secondary rocks** formed at or near Earth's surface through the accumulation, compaction, and cementation of fragments derived from pre-existing rocks, or by chemical precipitation and organic accumulation.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.51"
+          },
+          "verified": true,
+          "tags": [
+            "sedimentary",
+            "definition",
+            "secondary"
+          ]
+        },
+        {
+          "id": "11-04-b014",
+          "type": "steps",
+          "depth": 1,
+          "title": "The 5 Sequential Stages of Sedimentary Genesis",
+          "items": [
+            "**Weathering**: In situ mechanical disintegration and chemical decomposition of exposed parent rocks by atmospheric agents.",
+            "**Erosion**: Detachment and removal of weathered rock fragments and soil particles by moving fluids.",
+            "**Transportation**: Physical conveyance of sediment load across land and water by running water (rivers), wind, glaciers, and marine currents.",
+            "**Deposition (Sedimentation)**: Settling of sediment particles in low-energy depositional basins (lakes, floodplains, estuaries, ocean floors) when the transporting medium loses velocity.",
+            "**Lithification (Diagenesis)**: Physical and chemical transformation of loose, unconsolidated sediment into hard coherent rock through **compaction** and **cementation**."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.51-52; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "genesis",
+            "stages",
+            "lithification"
+          ]
+        },
+        {
+          "id": "11-04-b015",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Lithification: Compaction & Natural Cements",
+          "body": "As successive sedimentary layers accumulate, overlying weight exerts immense pressure, squeezing water out of pore spaces (**compaction**).\n\nConcurrently, dissolved mineral matter in groundwater precipitates in pore spaces, binding mineral grains together (**cementation**). Common geological cements include:\n- **Siliceous cement** (Silica/Quartz): Hardest, most durable (e.g. Quartzite sandstone).\n- **Calcareous cement** (Calcite/CaCO3): Effervesces with dilute acid.\n- **Ferruginous cement** (Iron oxides/Hematite/Limonite): Imparts reddish, brown, or yellow colour.\n- **Argillaceous / Clayey cement**: Weakest; easily weathered.",
+          "source": {
+            "type": "notes",
+            "ref": "Ultimate Guide p.3"
+          },
+          "verified": true,
+          "tags": [
+            "cementation",
+            "cements",
+            "compaction"
+          ]
+        },
+        {
+          "id": "11-04-b016",
+          "type": "list",
+          "depth": 2,
+          "title": "6 Diagnostic Characteristics of Sedimentary Rocks",
+          "items": [
+            "**Stratification / Layering**: Arranged in distinct parallel beds or strata separated by bedding planes.",
+            "**Clastic Texture**: Made of discrete, broken rock fragments held together by fine matrix and mineral cement.",
+            "**Fossil-Bearing**: The only rock family that preserves recognizable fossils of plants, shells, and animal skeletons.",
+            "**Primary Sedimentary Structures**: Exhibit current/cross-bedding, ripple marks, mud cracks, and rain prints.",
+            "**Biological Traces**: Feature fossil tracks, trails, burrows, and foot impressions of ancient organisms.",
+            "**Exogenous Origin**: Composed of materials derived from mechanical breakdown or chemical dissolution of pre-existing rocks."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.52; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "characteristics",
+            "sedimentary",
+            "exam-key"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-04-sedimentary-classification",
+      "title": "Classification of Sedimentary Rocks",
+      "slug": "classification-of-sedimentary-rocks",
+      "order": 5,
+      "estimatedMinutes": 8,
+      "blocks": [
+        {
+          "id": "11-04-b017",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Clastic vs Non-Clastic Sedimentary Rocks",
+          "body": "Sedimentary rocks are divided into two fundamental divisions:\n\n1. **Clastic (Mechanically Formed) Rocks**: Formed from solid mineral and rock fragments weathered from pre-existing rocks and deposited mechanically.\n\n2. **Non-Clastic (Chemically & Organically Formed) Rocks**: Formed by chemical precipitation of soluble salts from water bodies or by biological accumulation of organic plant and animal remains.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.52; Table 4.2"
+          },
+          "verified": true,
+          "tags": [
+            "clastic",
+            "non-clastic",
+            "classification"
+          ]
+        },
+        {
+          "id": "11-04-b018",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Clastic Classification by Grain Size (Udden-Wentworth)",
+          "body": "Clastic sedimentary rocks are classified strictly on the basis of particle/grain size:\n\n- **Rudaceous Rocks (Grain size >2 mm)**: Coarse gravels, pebbles, cobbles, and boulders. Two diagnostic rock types:\n  - **Conglomerate**: Composed of rounded to sub-rounded pebbles cemented in a sandy matrix (indicates long transportation by rivers/waves).\n  - **Breccia**: Composed of sharp, angular rock fragments (indicates minimal transport near source, such as scree or fault debris).\n\n- **Arenaceous Rocks (Grain size 0.06 mm to 2 mm)**: Medium-grained sand deposits. Typical rock: **Sandstone** (composed mainly of quartz grains), **Grit**.\n\n- **Argillaceous Rocks (Grain size <0.06 mm)**: Fine-grained silt, mud, and clay. Typical rocks: **Shale** (shows fine fissility/layer splitting), **Mudstone, Siltstone, Claystone**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.52; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "rudaceous",
+            "arenaceous",
+            "argillaceous",
+            "conglomerate",
+            "breccia"
+          ]
+        },
+        {
+          "id": "11-04-b019",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Non-Clastic Rocks: Chemical & Organic Deposits",
+          "body": "**Chemical Deposits**: Precipitated directly from supersaturated solutions in evaporating lakes, lagoons, or seas:\n- **Evaporites**: Rock Salt / Halite (NaCl), Gypsum (CaSO4·2H2O), Anhydrite.\n- **Carbonates**: Chemical Limestone, Travertine, Stalactites & Stalagmites.\n- **Siliceous Precipitates**: Chert, Flint.\n\n**Organic / Biogenic Deposits**: Accumulated remains of ancient organisms:\n- **Carbonaceous (Plant remains)**: Peat → Lignite → Bituminous Coal → Anthracite.\n- **Calcareous (Shell remains)**: Coquina (cemented shell fragments), Chalk (microscopic foraminifera shells), Fossiliferous Limestone.\n- **Siliceous (Organisms)**: Diatomite (diatom skeletons), Radiolarian chert.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.52-53; Table 4.2"
+          },
+          "verified": true,
+          "tags": [
+            "chemical",
+            "organic",
+            "evaporites",
+            "coal"
+          ]
+        },
+        {
+          "id": "11-04-b020",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Primary Sedimentary Structures",
+          "body": "**Current Bedding (Cross-Bedding)**: Minor inclined laminations within a main bed, formed by shifting water or wind currents in dunes and river deltas.\n\n**Ripple Marks**: Small undulating ridges produced on sediment surfaces by waves or currents. Symmetrical ripples indicate standing wave oscillation; asymmetrical ripples indicate unidirectional flow.\n\n**Mud Cracks (Sun Cracks)**: Polygonal networks of fractures formed when water-saturated clay and mud shrink and dry out under subaerial exposure.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.53; geo.rudra p.2"
+          },
+          "verified": true,
+          "tags": [
+            "sedimentary-structures",
+            "ripple-marks",
+            "cross-bedding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-04-metamorphic-processes",
+      "title": "Metamorphic Rocks: Agents & Genesis",
+      "slug": "metamorphic-processes-and-agents",
+      "order": 6,
+      "estimatedMinutes": 8,
+      "blocks": [
+        {
+          "id": "11-04-b021",
+          "type": "definition",
+          "depth": 1,
+          "title": "Genesis of Metamorphic Rocks",
+          "body": "Metamorphism (from Greek **Meta** = change and **Morphe** = form) is the mineralogical, chemical, and structural alteration of pre-existing rocks in the **solid state** under conditions of elevated temperature, pressure, and chemically active fluids differing from those in which the rock originated.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.53"
+          },
+          "verified": true,
+          "tags": [
+            "metamorphism",
+            "definition",
+            "solid-state"
+          ]
+        },
+        {
+          "id": "11-04-b022",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Solid-State Recrystallization",
+          "body": "Crucially, metamorphism occurs **entirely in the solid state** without complete melting. Existing mineral grains recrystallize, enlarge, change orientation, and react chemically with neighboring grains to form new stable metamorphic mineral assemblages.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.53; notes"
+          },
+          "verified": true,
+          "tags": [
+            "recrystallization",
+            "solid-state"
+          ]
+        },
+        {
+          "id": "11-04-b023",
+          "type": "list",
+          "depth": 1,
+          "title": "The 3 Agents of Metamorphism",
+          "items": [
+            "**Temperature (Heat)**: The most influential agent. Heat accelerates chemical reactions, drives off volatile water, and promotes recrystallization. Sourced from the Earth's internal geothermal gradient (~30°C/km) and intrusive hot magma bodies.",
+            "**Pressure**: Occurs in two distinct modes: (i) **Uniform / Lithostatic Pressure**: Equal confining pressure from all directions caused by the weight of overlying rock columns; reduces volume and increases density. (ii) **Directed Pressure (Differential Stress)**: Unequal tectonic stress acting in specific directions; deforms, flattens, and re-aligns minerals into planar foliation fabrics.",
+            "**Chemically Active Fluids & Gases**: Superheated water vapour and volatile-rich hydrothermal fluids (juvenile solutions from magma or pore fluids) permeate rock pores, acting as chemical catalysts and transport media for ion exchange."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.53-54; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "agents",
+            "temperature",
+            "pressure",
+            "fluids"
+          ]
+        },
+        {
+          "id": "11-04-b024",
+          "type": "list",
+          "depth": 2,
+          "title": "6 Diagnostic Characteristics of Metamorphic Rocks",
+          "items": [
+            "**Pre-existing Origin**: Always derived from either igneous, sedimentary, or older metamorphic parent rocks (protoliths).",
+            "**Solid-State Transformation**: Formed without entering a complete liquid melt state.",
+            "**Recrystallized Mosaic**: Minerals exhibit an interlocking, granoblastic, or crystalline mosaic texture.",
+            "**Foliated Fabrics**: Commonly exhibit planar parallel fabrics such as slaty cleavage, schistosity, and gneissic banding.",
+            "**Absence of Fossils**: Elevated temperatures and tectonic stresses crush, distort, or completely obliterate all fossil remains.",
+            "**Metamorphic Index Minerals**: Contain distinct diagnostic minerals stable only under high P-T conditions (Kyanite, Sillimanite, Garnet, Staurolite, Andalusite)."
+          ],
+          "source": {
+            "type": "notes",
+            "ref": "geo.rudra p.3; Ultimate Guide p.4"
+          },
+          "verified": true,
+          "tags": [
+            "characteristics",
+            "metamorphic",
+            "exam-key"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-04-metamorphic-types-and-products",
+      "title": "Types of Metamorphism & Protolith Products",
+      "slug": "types-of-metamorphism-and-products",
+      "order": 7,
+      "estimatedMinutes": 9,
+      "blocks": [
+        {
+          "id": "11-04-b025",
+          "type": "explanation",
+          "depth": 1,
+          "title": "The 4 Major Types of Metamorphism",
+          "body": "Based on the dominant agent acting, metamorphism is classified into:\n\n1. **Thermal (Contact) Metamorphism**: Driven primarily by intense **heat** from nearby molten magma intrusions. Affects country rocks in a localized contact zone (aureole). Produces non-foliated, granoblastic rocks. Example: Sandstone → Quartzite; Limestone → Marble.\n\n2. **Cataclastic (Dynamic) Metamorphism**: Driven primarily by **directed mechanical pressure (shear stress)** along tectonic fault zones with little heat. Rock undergoes severe mechanical crushing, grinding, and shearing. Example: Argillaceous rocks → Slate.\n\n3. **Dynamothermal (Regional) Metamorphism**: Driven by the combined action of **intense heat and directed pressure** operating simultaneously across vast areas during major mountain-building (orogenic) plate collisions. Produces strongly foliated rocks. Example: Shale → Schist/Gneiss; Granite → Granite-Gneiss.\n\n4. **Plutonic Metamorphism**: Occurs at immense crustal depths where extreme static/lithostatic uniform pressure and high temperatures act together over long periods, producing dense granulose rocks (Granulite).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.54; Table 4.3; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "thermal",
+            "cataclastic",
+            "dynamothermal",
+            "types"
+          ]
+        },
+        {
+          "id": "11-04-b026",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Protoliths & Their Metamorphic Products (Table 4.3)",
+          "body": "Every metamorphic rock originates from a specific parent rock (**protolith**):\n\n- **Sandstone** (Sedimentary) + Thermal Heat → **Quartzite** (Granoblastic texture, non-foliated)\n- **Limestone** (Sedimentary) + Thermal Heat → **Marble** (Crystalline calcite mosaic, non-foliated)\n- **Argillaceous rock / Mudstone** + Directional Pressure → **Slate** (Slaty cleavage)\n- **Shale** + Regional Heat & Pressure → **Slate → Phyllite → Mica-Schist → Gneiss** (Progressive regional series)\n- **Basalt / Gabbro** + Regional Heat & Pressure → **Amphibolite / Hornblende-Schist / Chlorite-Schist**\n- **Granite** + Regional Heat & Pressure → **Granite-Gneiss** (Banded gneissose texture)",
+          "source": {
+            "type": "textbook",
+            "ref": "p.54; Table 4.3; Ultimate Guide p.8"
+          },
+          "verified": true,
+          "tags": [
+            "protoliths",
+            "products",
+            "marble",
+            "quartzite",
+            "slate"
+          ]
+        },
+        {
+          "id": "11-04-b027",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Metamorphic Textures & Structures",
+          "body": "**Slaty Cleavage**: Extremely fine, planar parallel splitting property in slate produced by the re-alignment of microscopic clay and mica flakes perpendicular to maximum directed stress.\n\n**Schistosity**: Parallel foliation fabric in medium-to-coarse-grained rocks (schist) caused by visible parallel alignment of flaky minerals like muscovite, biotite, or chlorite.\n\n**Gneissic Banding (Gneissosity)**: Coarse textural banding of alternating light felsic bands (quartz, feldspar) and dark mafic bands (biotite, hornblende, pyroxene).\n\n**Granoblastic / Granulose**: Non-foliated equigranular texture formed by recrystallization of equidimensional minerals (quartzite, marble).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.54; notes"
+          },
+          "verified": true,
+          "tags": [
+            "slaty-cleavage",
+            "schistosity",
+            "gneissic-banding"
+          ]
+        },
+        {
+          "id": "11-04-b028",
+          "type": "explanation",
+          "depth": 3,
+          "title": "Metamorphic Index Minerals & Metamorphic Grade",
+          "body": "Certain minerals only form within narrow temperature-pressure windows, acting as geological thermometers and barometers:\n- **Low Grade (200°C–350°C)**: Chlorite, Sericite, Talc.\n- **Medium Grade (350°C–550°C)**: Biotite, Garnet (Almandine), Staurolite.\n- **High Grade (>550°C)**: Kyanite (high pressure), Sillimanite (high temperature).",
+          "source": {
+            "type": "notes",
+            "ref": "Ultimate Guide p.8; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "index-minerals",
+            "metamorphic-grade",
+            "kyanite",
+            "garnet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-04-the-rock-cycle",
+      "title": "The Rock Cycle & Geological Dynamics",
+      "slug": "the-rock-cycle",
+      "order": 8,
+      "estimatedMinutes": 8,
+      "blocks": [
+        {
+          "id": "11-04-b029",
+          "type": "definition",
+          "depth": 1,
+          "title": "Definition of the Rock Cycle",
+          "body": "The **Rock Cycle** is a fundamental geological concept that describes the continuous, dynamic process through which the three main rock families (igneous, sedimentary, and metamorphic) are constantly formed, broken down, transformed, and regenerated over geologic time.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.49, 54-55"
+          },
+          "verified": true,
+          "tags": [
+            "rock-cycle",
+            "definition",
+            "core"
+          ]
+        },
+        {
+          "id": "11-04-b030",
+          "type": "steps",
+          "depth": 1,
+          "title": "Complete Transition Pathways in the Rock Cycle",
+          "items": [
+            "**Magma → Igneous Rock**: Magma or lava cools and crystallizes underground (plutonic) or on the surface (volcanic).",
+            "**Igneous Rock → Sedimentary Rock**: Exposed igneous rocks undergo weathering and erosion by wind, water, and ice; transported sediments are deposited and lithified.",
+            "**Sedimentary Rock → Metamorphic Rock**: Sedimentary strata buried deeply beneath tectonic mountain belts are subjected to intense geothermal heat, differential stress, and fluids, recrystallizing in the solid state.",
+            "**Metamorphic Rock → Magma**: Descending into the deep crust or mantle at subduction zones, extreme temperatures cause complete melting into new magma.",
+            "**Shortcut 1 (Igneous → Metamorphic)**: Deep igneous bodies are subjected directly to heat and tectonic compression without ever being weathered into sediments.",
+            "**Shortcut 2 (Metamorphic → Sedimentary)**: Tectonically uplifted metamorphic rocks are weathered and eroded at the surface, depositing as new sedimentary beds.",
+            "**Shortcut 3 (Sedimentary → Magma)**: Deeply subducted sedimentary layers can melt directly into magma without experiencing intermediate metamorphism."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.54-55; geo.rudra p.3; notes"
+          },
+          "verified": true,
+          "tags": [
+            "rock-cycle",
+            "pathways",
+            "transitions"
+          ]
+        },
+        {
+          "id": "11-04-b031",
+          "type": "explanation",
+          "depth": 2,
+          "title": "The Dual Engines of the Rock Cycle",
+          "body": "The rock cycle is perpetually powered by two interacting heat engines:\n1. **The External Engine (Solar Energy)**: Drives exogenic weathering, erosion, rivers, and sedimentation.\n2. **The Internal Engine (Geothermal Energy)**: Drives mantle convection, plate subduction, magma generation, volcanism, and metamorphism.\n\nBecause of this perpetual cycle, **any rock type can transform into any other rock type** given sufficient geologic time and tectonic conditions.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.55; Ultimate Guide p.1"
+          },
+          "verified": true,
+          "tags": [
+            "engines",
+            "solar",
+            "geothermal"
+          ]
+        },
+        {
+          "id": "11-04-b032",
+          "type": "callout",
+          "depth": 2,
+          "title": "Maharashtra Geological Example",
+          "body": "In Maharashtra, the **Deccan Trap Basalts** (primary volcanic igneous rocks erupted ~65 million years ago) undergo tropical exogenic weathering today to form **black cotton soil (regur)**, thick **laterites**, and **bauxites** in the Western Ghats, demonstrating active rock cycle processes in our state.",
+          "source": {
+            "type": "notes",
+            "ref": "Ultimate Guide p.3; geo.rudra"
+          },
+          "verified": true,
+          "tags": [
+            "maharashtra",
+            "deccan-basalt",
+            "laterite"
+          ]
+        }
+      ]
+    }
+  ],
+  "diagrams": [],
+  "distinguishPairs": [
+    {
+      "id": "11-04-dp001",
+      "topicId": "11-04-igneous-genesis-and-classification",
+      "itemA": "Magma",
+      "itemB": "Lava",
+      "rows": [
+        {
+          "aspect": "Location",
+          "a": "Molten rock material located deep beneath the Earth's surface",
+          "b": "Molten rock that has erupted and flows onto the Earth's surface"
+        },
+        {
+          "aspect": "Gas content",
+          "a": "Retains dissolved volatiles and gases under high confining pressure",
+          "b": "Loses most dissolved gases into the atmosphere upon eruption"
+        },
+        {
+          "aspect": "Cooling rate",
+          "a": "Cools slowly, forming coarse-grained intrusive (plutonic) rocks",
+          "b": "Cools rapidly, forming fine-grained or glassy extrusive (volcanic) rocks"
+        },
+        {
+          "aspect": "Associated structures",
+          "a": "Forms batholiths, dykes, sills, and plutons",
+          "b": "Forms volcanic cones, lava plateaus, vesicles, and amygdales"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.3; geo.rudra p.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-dp002",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "itemA": "Plutonic Rocks",
+      "itemB": "Volcanic Rocks",
+      "rows": [
+        {
+          "aspect": "Depth of origin",
+          "a": "Formed at great depths within the Earth's crust (abyssal)",
+          "b": "Formed on or very near the Earth's surface (extrusive)"
+        },
+        {
+          "aspect": "Cooling rate",
+          "a": "Very slow cooling under high confining lithostatic pressure",
+          "b": "Rapid cooling under atmospheric or subaqueous conditions"
+        },
+        {
+          "aspect": "Grain size & texture",
+          "a": "Coarse-grained, equigranular, holocrystalline (fully crystalline)",
+          "b": "Fine-grained (aphanitic), glassy (holohyaline), or porphyritic"
+        },
+        {
+          "aspect": "Representative examples",
+          "a": "Granite, Gabbro, Syenite, Dunite",
+          "b": "Basalt, Rhyolite, Pumice, Obsidian"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "textbook",
+        "ref": "p.50-51; Table 4.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-dp003",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "itemA": "Acidic Igneous Rocks",
+      "itemB": "Basic Igneous Rocks",
+      "rows": [
+        {
+          "aspect": "Silica percentage (SiO2)",
+          "a": "High silica content (>66% SiO2)",
+          "b": "Low silica content (44% to 54% SiO2)"
+        },
+        {
+          "aspect": "Dominant minerals",
+          "a": "Felsic minerals: Quartz, Orthoclase, Albite, Muscovite",
+          "b": "Mafic minerals: Pyroxene (Augite), Calcic Plagioclase, Olivine"
+        },
+        {
+          "aspect": "Colour & Specific gravity",
+          "a": "Light coloured; lower specific gravity (~2.6–2.7)",
+          "b": "Dark coloured; higher specific gravity (~2.9–3.1)"
+        },
+        {
+          "aspect": "Examples",
+          "a": "Granite (plutonic), Rhyolite (volcanic)",
+          "b": "Gabbro (plutonic), Basalt (volcanic)"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "textbook",
+        "ref": "p.51; Table 4.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-dp004",
+      "topicId": "11-04-sedimentary-classification",
+      "itemA": "Conglomerate",
+      "itemB": "Breccia",
+      "rows": [
+        {
+          "aspect": "Clast shape",
+          "a": "Composed of rounded to sub-rounded pebbles and gravel",
+          "b": "Composed of sharp, angular rock fragments"
+        },
+        {
+          "aspect": "Transport history",
+          "a": "Carried over long distances by water (rivers, coastal waves)",
+          "b": "Minimal transportation; formed very close to source"
+        },
+        {
+          "aspect": "Depositional setting",
+          "a": "Fluvial river beds, alluvial fans, beach pebble deposits",
+          "b": "Scree/talus at foot of cliff, fault shatter zones"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "textbook",
+        "ref": "p.52; Table 4.2"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-dp005",
+      "topicId": "11-04-sedimentary-classification",
+      "itemA": "Rudaceous Rocks",
+      "itemB": "Arenaceous Rocks",
+      "rows": [
+        {
+          "aspect": "Grain size",
+          "a": "Coarse grains greater than 2 mm (>2 mm)",
+          "b": "Medium grains between 0.06 mm and 2 mm"
+        },
+        {
+          "aspect": "Particle types",
+          "a": "Boulders, cobbles, pebbles, and gravel",
+          "b": "Sand particles and grit"
+        },
+        {
+          "aspect": "Characteristic rocks",
+          "a": "Conglomerate, Breccia",
+          "b": "Sandstone, Grit"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "textbook",
+        "ref": "p.52; Table 4.2"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-dp006",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "itemA": "Thermal (Contact) Metamorphism",
+      "itemB": "Dynamothermal (Regional) Metamorphism",
+      "rows": [
+        {
+          "aspect": "Principal agent",
+          "a": "Heat/temperature is dominant (from nearby magma)",
+          "b": "Both intense heat and directed pressure act simultaneously"
+        },
+        {
+          "aspect": "Geographic scale",
+          "a": "Localized contact aureole surrounding igneous intrusion",
+          "b": "Vast regional mountain-building orogenic belts"
+        },
+        {
+          "aspect": "Rock texture & fabric",
+          "a": "Non-foliated, granoblastic/granulose texture",
+          "b": "Foliated, schistose, or gneissose banded fabrics"
+        },
+        {
+          "aspect": "Examples",
+          "a": "Sandstone to Quartzite, Limestone to Marble",
+          "b": "Shale to Schist, Granite to Granite-Gneiss"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.8; geo.rudra p.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-dp007",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "itemA": "Cataclastic Metamorphism",
+      "itemB": "Thermal Metamorphism",
+      "rows": [
+        {
+          "aspect": "Dominant agent",
+          "a": "Directed mechanical pressure and shear stress",
+          "b": "High temperature and heat"
+        },
+        {
+          "aspect": "Operating setting",
+          "a": "Crustal fault planes and tectonic shear zones",
+          "b": "Contact aureoles around intrusive magma chambers"
+        },
+        {
+          "aspect": "Primary product",
+          "a": "Slate (with slaty cleavage) from argillaceous rocks",
+          "b": "Quartzite from sandstone, Marble from limestone"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.8; Complete Guide"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-dp008",
+      "topicId": "11-04-metamorphic-processes",
+      "itemA": "Igneous Rocks",
+      "itemB": "Metamorphic Rocks",
+      "rows": [
+        {
+          "aspect": "Mode of origin",
+          "a": "Cooling and solidification of molten liquid melt (magma/lava)",
+          "b": "Solid-state recrystallization of pre-existing solid rocks"
+        },
+        {
+          "aspect": "Structural fabric",
+          "a": "Massive and unstratified; lacks foliation",
+          "b": "Commonly foliated (slaty cleavage, schistosity, banding)"
+        },
+        {
+          "aspect": "Characteristic minerals",
+          "a": "Pyrogenetic minerals (feldspars, augite, olivine, quartz)",
+          "b": "Metamorphic index minerals (kyanite, garnet, sillimanite, staurolite)"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.8"
+      },
+      "verified": true
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Petrology",
+      "definition": "The science that deals with the origin, composition, texture, structure, and classification of rocks.",
+      "topicId": "11-04-energy-and-petrology",
+      "source": {
+        "type": "textbook",
+        "ref": "p.49"
+      }
+    },
+    {
+      "term": "Petrography",
+      "definition": "The systematic description and microscopic study of rocks in thin sections under a petrological microscope.",
+      "topicId": "11-04-energy-and-petrology",
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.1"
+      }
+    },
+    {
+      "term": "Petrogenesis",
+      "definition": "The branch of geology dealing with the origin, genesis, and historical evolution of rocks.",
+      "topicId": "11-04-energy-and-petrology",
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.1"
+      }
+    },
+    {
+      "term": "Lithology",
+      "definition": "The physical description of a rock in hand specimen based on macroscopic features like colour, mineral composition, and grain size.",
+      "topicId": "11-04-energy-and-petrology",
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.1"
+      }
+    },
+    {
+      "term": "Exogenic Processes",
+      "definition": "Geological processes operating at or near Earth's surface driven primarily by solar energy (e.g. weathering, denudation, sedimentation).",
+      "topicId": "11-04-energy-and-petrology",
+      "source": {
+        "type": "textbook",
+        "ref": "p.49-50"
+      }
+    },
+    {
+      "term": "Endogenic Processes",
+      "definition": "Geological processes originating deep within the Earth driven by geothermal heat (e.g. volcanism, tectonism, metamorphism).",
+      "topicId": "11-04-energy-and-petrology",
+      "source": {
+        "type": "textbook",
+        "ref": "p.49-50"
+      }
+    },
+    {
+      "term": "Magma",
+      "definition": "Hot molten or semi-molten rock material generated beneath the Earth's crust under high temperature and confining pressure.",
+      "topicId": "11-04-igneous-genesis-and-classification",
+      "source": {
+        "type": "textbook",
+        "ref": "p.50"
+      }
+    },
+    {
+      "term": "Lava",
+      "definition": "Molten rock material that reaches and flows onto the Earth's surface during a volcanic eruption, having lost its volatile gases.",
+      "topicId": "11-04-igneous-genesis-and-classification",
+      "source": {
+        "type": "textbook",
+        "ref": "p.50"
+      }
+    },
+    {
+      "term": "Plutonic Rocks",
+      "definition": "Igneous rocks that solidify at great depths within the Earth's crust under slow cooling and high pressure, exhibiting coarse crystalline textures.",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "source": {
+        "type": "textbook",
+        "ref": "p.50-51"
+      }
+    },
+    {
+      "term": "Hypabyssal Rocks",
+      "definition": "Igneous rocks formed at intermediate depths in dykes, sills, and fractures, exhibiting mixed grain sizes or porphyritic textures.",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "source": {
+        "type": "textbook",
+        "ref": "p.50-51"
+      }
+    },
+    {
+      "term": "Volcanic Rocks",
+      "definition": "Extrusive igneous rocks formed by the rapid solidification of lava on the Earth's surface, having fine-grained or glassy textures.",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "source": {
+        "type": "textbook",
+        "ref": "p.50-51"
+      }
+    },
+    {
+      "term": "Holocrystalline",
+      "definition": "An igneous rock texture composed entirely of crystalline mineral grains without any amorphous glass.",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "source": {
+        "type": "textbook",
+        "ref": "p.51"
+      }
+    },
+    {
+      "term": "Holohyaline",
+      "definition": "An igneous rock texture composed entirely of non-crystalline volcanic glass resulting from rapid quenching.",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "source": {
+        "type": "textbook",
+        "ref": "p.51"
+      }
+    },
+    {
+      "term": "Porphyritic Texture",
+      "definition": "An igneous texture in which larger conspicuous crystals (phenocrysts) are set in a finer crystalline or glassy groundmass.",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "source": {
+        "type": "textbook",
+        "ref": "p.51"
+      }
+    },
+    {
+      "term": "Lithification",
+      "definition": "The geological process by which unconsolidated sediments are converted into solid coherent rock through compaction and cementation.",
+      "topicId": "11-04-sedimentary-processes",
+      "source": {
+        "type": "textbook",
+        "ref": "p.51-52"
+      }
+    },
+    {
+      "term": "Rudaceous",
+      "definition": "A group of clastic sedimentary rocks composed of coarse fragments exceeding 2 mm in grain diameter (e.g. conglomerate, breccia).",
+      "topicId": "11-04-sedimentary-classification",
+      "source": {
+        "type": "textbook",
+        "ref": "p.52"
+      }
+    },
+    {
+      "term": "Arenaceous",
+      "definition": "A group of clastic sedimentary rocks composed of sand-sized grains between 0.06 mm and 2 mm in diameter (e.g. sandstone).",
+      "topicId": "11-04-sedimentary-classification",
+      "source": {
+        "type": "textbook",
+        "ref": "p.52"
+      }
+    },
+    {
+      "term": "Argillaceous",
+      "definition": "A group of clastic sedimentary rocks composed of very fine silt and clay particles smaller than 0.06 mm in diameter (e.g. shale, mudstone).",
+      "topicId": "11-04-sedimentary-classification",
+      "source": {
+        "type": "textbook",
+        "ref": "p.52"
+      }
+    },
+    {
+      "term": "Conglomerate",
+      "definition": "A rudaceous sedimentary rock composed of rounded to sub-rounded gravel, pebbles, or cobbles cemented in a sandy matrix.",
+      "topicId": "11-04-sedimentary-classification",
+      "source": {
+        "type": "textbook",
+        "ref": "p.52"
+      }
+    },
+    {
+      "term": "Breccia",
+      "definition": "A rudaceous sedimentary rock composed of sharp, angular rock fragments cemented together, indicating minimal transport.",
+      "topicId": "11-04-sedimentary-classification",
+      "source": {
+        "type": "textbook",
+        "ref": "p.52"
+      }
+    },
+    {
+      "term": "Metamorphism",
+      "definition": "The mineralogical, structural, and chemical transformation of pre-existing rocks in the solid state under heat, pressure, and fluids.",
+      "topicId": "11-04-metamorphic-processes",
+      "source": {
+        "type": "textbook",
+        "ref": "p.53"
+      }
+    },
+    {
+      "term": "Recrystallization",
+      "definition": "The growth and re-ordering of mineral crystals in the solid state during metamorphism without entering a molten condition.",
+      "topicId": "11-04-metamorphic-processes",
+      "source": {
+        "type": "textbook",
+        "ref": "p.53"
+      }
+    },
+    {
+      "term": "Foliation",
+      "definition": "The planar or repetitive alignment of platy, flaky, or prismatic minerals in metamorphic rocks produced by directed pressure.",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "source": {
+        "type": "textbook",
+        "ref": "p.54"
+      }
+    },
+    {
+      "term": "Schistosity",
+      "definition": "A type of foliation characteristic of medium-to-coarse metamorphic rocks (schists) where platy minerals like mica are aligned in parallel planes.",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "source": {
+        "type": "textbook",
+        "ref": "p.54"
+      }
+    },
+    {
+      "term": "Rock Cycle",
+      "definition": "The cyclical, dynamic sequence of geological processes through which rocks continually transition between igneous, sedimentary, and metamorphic types.",
+      "topicId": "11-04-the-rock-cycle",
+      "source": {
+        "type": "textbook",
+        "ref": "p.54-55"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "11-04-q001",
+      "topicId": "11-04-energy-and-petrology",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "The study of rocks in thin sections under a polarizing microscope is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lithology"
+        },
+        {
+          "id": "b",
+          "text": "Petrography"
+        },
+        {
+          "id": "c",
+          "text": "Petrogenesis"
+        },
+        {
+          "id": "d",
+          "text": "Mineralogy"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Petrography is specifically the microscopic study of rocks in thin sections. Lithology is hand-specimen description, and Petrogenesis is the study of rock origin.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q002",
+      "topicId": "11-04-energy-and-petrology",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Sedimentary processes and surface weathering are driven by which energy source?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Endogenic geothermal heat"
+        },
+        {
+          "id": "b",
+          "text": "Exogenic solar energy"
+        },
+        {
+          "id": "c",
+          "text": "Mantle convection"
+        },
+        {
+          "id": "d",
+          "text": "Tectonic diastrophism"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Exogenic processes are driven by the Sun (solar radiation), which powers the water cycle and weather systems causing surface weathering and denudation.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.49-50"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q003",
+      "topicId": "11-04-energy-and-petrology",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Which geological feature in Maharashtra was formed by an extraterrestrial meteorite impact process?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mahabaleshwar Plateau"
+        },
+        {
+          "id": "b",
+          "text": "Lonar Crater Lake"
+        },
+        {
+          "id": "c",
+          "text": "Ajanta Caves Gorge"
+        },
+        {
+          "id": "d",
+          "text": "Elephanta Island"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Lonar Lake in Buldhana district, Maharashtra, is a world-famous impact crater formed when a hyper-velocity meteorite struck the Deccan flood basalt.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.50"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q004",
+      "topicId": "11-04-igneous-genesis-and-classification",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Igneous rocks are universally termed 'primary rocks' because:",
+      "options": [
+        {
+          "id": "a",
+          "text": "They contain the most valuable mineral ores"
+        },
+        {
+          "id": "b",
+          "text": "They were the first formed rocks on cooling of the primordial Earth"
+        },
+        {
+          "id": "c",
+          "text": "They are the softest rocks in the Earth's crust"
+        },
+        {
+          "id": "d",
+          "text": "They contain the largest number of well-preserved fossils"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Igneous rocks cooled directly from the original molten crust of early Earth, providing the ultimate parent material from which all other rocks derived.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.50"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q005",
+      "topicId": "11-04-igneous-genesis-and-classification",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "What is the primary difference between magma and lava?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Magma is molten rock subsurface containing volatiles; lava is erupted on surface having lost gases"
+        },
+        {
+          "id": "b",
+          "text": "Magma is solid rock; lava is molten liquid"
+        },
+        {
+          "id": "c",
+          "text": "Magma is acidic; lava is always basic"
+        },
+        {
+          "id": "d",
+          "text": "Magma cools rapidly; lava cools very slowly"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Magma resides under high confining pressure deep underground and retains its dissolved volatiles; upon eruption on the surface as lava, these gases rapidly escape.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q006",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which type of igneous rock exhibits a coarse-grained, equigranular, holocrystalline texture due to very slow cooling at great depths?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Volcanic"
+        },
+        {
+          "id": "b",
+          "text": "Hypabyssal"
+        },
+        {
+          "id": "c",
+          "text": "Plutonic"
+        },
+        {
+          "id": "d",
+          "text": "Extrusive"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Plutonic rocks form deep in the crust where high thermal insulation allows slow cooling, giving crystals time to grow large and interlock.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.50-51"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q007",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "An igneous rock containing greater than 66% silica (SiO2) is classified as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Basic"
+        },
+        {
+          "id": "b",
+          "text": "Intermediate"
+        },
+        {
+          "id": "c",
+          "text": "Ultrabasic"
+        },
+        {
+          "id": "d",
+          "text": "Acidic"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Acidic igneous rocks contain >66% SiO2 (e.g. Granite and Rhyolite) and are dominated by light-coloured felsic minerals.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.51; Table 4.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q008",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "In an igneous rock, the texture characterized by large well-formed crystals (phenocrysts) embedded in a finer groundmass is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Equigranular"
+        },
+        {
+          "id": "b",
+          "text": "Porphyritic"
+        },
+        {
+          "id": "c",
+          "text": "Holohyaline"
+        },
+        {
+          "id": "d",
+          "text": "Clastic"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Porphyritic texture results from a two-stage cooling history: early slow cooling at depth (phenocrysts) followed by rapid cooling upon ascent (groundmass).",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.51"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q009",
+      "topicId": "11-04-sedimentary-processes",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "The process by which loose unconsolidated sediments are converted into hard coherent rock is known as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metasomatism"
+        },
+        {
+          "id": "b",
+          "text": "Lithification"
+        },
+        {
+          "id": "c",
+          "text": "Crystallization"
+        },
+        {
+          "id": "d",
+          "text": "Denudation"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Lithification (diagenesis) encompasses compaction (water expulsion under load) and cementation (precipitation of binding mineral cements).",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.51-52"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q010",
+      "topicId": "11-04-sedimentary-classification",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "A rudaceous sedimentary rock composed of sharp, angular rock fragments is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conglomerate"
+        },
+        {
+          "id": "b",
+          "text": "Sandstone"
+        },
+        {
+          "id": "c",
+          "text": "Breccia"
+        },
+        {
+          "id": "d",
+          "text": "Shale"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Breccia consists of angular clasts indicating minimal transport. Conglomerate consists of rounded clasts transported by water.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.52; Table 4.2"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q011",
+      "topicId": "11-04-sedimentary-classification",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Which of the following sedimentary rocks is formed by chemical precipitation from supersaturated evaporating water bodies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sandstone"
+        },
+        {
+          "id": "b",
+          "text": "Rock Salt (Halite)"
+        },
+        {
+          "id": "c",
+          "text": "Conglomerate"
+        },
+        {
+          "id": "d",
+          "text": "Anthracite Coal"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Rock salt (halite) and gypsum are evaporites formed by chemical precipitation when saline water bodies evaporate.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.52-53"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q012",
+      "topicId": "11-04-metamorphic-processes",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "During metamorphism, recrystallization of minerals takes place in which state of matter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Completely molten liquid state"
+        },
+        {
+          "id": "b",
+          "text": "Gaseous plasma state"
+        },
+        {
+          "id": "c",
+          "text": "Solid state"
+        },
+        {
+          "id": "d",
+          "text": "Supercritical fluid state only"
+        }
+      ],
+      "correct": "c",
+      "explanation": "A defining criterion of metamorphism is that recrystallization occurs in the solid state without the rock completely melting.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.53; Ultimate Guide p.4"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q013",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Thermal (contact) metamorphism of pure limestone produces:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quartzite"
+        },
+        {
+          "id": "b",
+          "text": "Slate"
+        },
+        {
+          "id": "c",
+          "text": "Marble"
+        },
+        {
+          "id": "d",
+          "text": "Schist"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Limestone (CaCO3) recrystallizes under magmatic thermal heat into marble, forming an interlocking crystalline calcite mosaic.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.54; Table 4.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q014",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Cataclastic metamorphism is driven primarily by which agent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uniform hydrostatic pressure"
+        },
+        {
+          "id": "b",
+          "text": "High temperature without pressure"
+        },
+        {
+          "id": "c",
+          "text": "Directional mechanical pressure (shear stress)"
+        },
+        {
+          "id": "d",
+          "text": "Chemically active groundwater alone"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Cataclastic metamorphism occurs in fault shear zones where intense directional pressure mechanically crushes rock into slate.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.8; Complete Guide"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q015",
+      "topicId": "11-04-the-rock-cycle",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "In the rock cycle, a metamorphic rock transforms directly into an igneous rock through:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weathering, erosion, and deposition"
+        },
+        {
+          "id": "b",
+          "text": "Compaction and cementation"
+        },
+        {
+          "id": "c",
+          "text": "Complete melting into magma followed by cooling"
+        },
+        {
+          "id": "d",
+          "text": "Recrystallization in the solid state"
+        }
+      ],
+      "correct": "c",
+      "explanation": "To become an igneous rock, any existing rock (sedimentary or metamorphic) must completely melt into magma and subsequent solidify.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.54-55"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q016",
+      "topicId": "11-04-sedimentary-classification",
+      "type": "oddOneOut",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Identify the odd one out among the following rock classifications:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rudaceous"
+        },
+        {
+          "id": "b",
+          "text": "Arenaceous"
+        },
+        {
+          "id": "c",
+          "text": "Argillaceous"
+        },
+        {
+          "id": "d",
+          "text": "Hypabyssal"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Hypabyssal is an igneous rock depth class. Rudaceous, arenaceous, and argillaceous are sedimentary grain-size classes.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q017",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "type": "oddOneOut",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Identify the odd one out among the following igneous rocks:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granite"
+        },
+        {
+          "id": "b",
+          "text": "Gabbro"
+        },
+        {
+          "id": "c",
+          "text": "Basalt"
+        },
+        {
+          "id": "d",
+          "text": "Syenite"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Basalt is a volcanic (extrusive) igneous rock. Granite, Gabbro, and Syenite are all plutonic (deep-seated intrusive) rocks.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.50-51; Table 4.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q018",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "type": "matchPairs",
+      "marks": 2,
+      "difficulty": "medium",
+      "prompt": "Match the metamorphic rocks with their parent protoliths:",
+      "pairs": [
+        {
+          "left": "Quartzite",
+          "right": "Sandstone"
+        },
+        {
+          "left": "Marble",
+          "right": "Limestone"
+        },
+        {
+          "left": "Slate",
+          "right": "Argillaceous rock / Mudstone"
+        },
+        {
+          "left": "Granite-Gneiss",
+          "right": "Granite"
+        }
+      ],
+      "explanation": "Sandstone thermal metamorphism produces Quartzite; Limestone yields Marble; Mudstone sheared under pressure forms Slate; Granite regional metamorphism yields Gneiss.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.54; Table 4.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q019",
+      "topicId": "11-04-igneous-depth-and-chemistry",
+      "type": "matchPairs",
+      "marks": 2,
+      "difficulty": "medium",
+      "prompt": "Match the silica percentage class with representative rock examples:",
+      "pairs": [
+        {
+          "left": "Acidic (>66% SiO2)",
+          "right": "Granite and Rhyolite"
+        },
+        {
+          "left": "Basic (44–54% SiO2)",
+          "right": "Gabbro and Basalt"
+        },
+        {
+          "left": "Ultrabasic (<44% SiO2)",
+          "right": "Dunite and Peridotite"
+        },
+        {
+          "left": "Intermediate (55–66% SiO2)",
+          "right": "Syenite and Diorite"
+        }
+      ],
+      "explanation": "Acidic = Granite/Rhyolite; Intermediate = Syenite/Diorite; Basic = Gabbro/Basalt; Ultrabasic = Dunite/Peridotite.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.51; Table 4.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q020",
+      "topicId": "11-04-energy-and-petrology",
+      "type": "shortAnswer",
+      "marks": 2,
+      "difficulty": "easy",
+      "prompt": "Define Petrology and state its two ancient Greek root words.",
+      "answer": "Petrology is the branch of geology that deals with the study of rocks, including their origin, composition, texture, structure, occurrence, and classification. It is derived from two Greek words: **Petros** meaning 'rock' and **Logos** meaning 'science or study'.",
+      "explanation": "Standard 2-mark board exam definition.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.49"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q021",
+      "topicId": "11-04-igneous-genesis-and-classification",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "State any three characteristic features of igneous rocks.",
+      "answer": "1. **Primary Origin**: Formed directly by cooling and solidification of molten magma or lava.\n2. **Massive Architecture**: They are unstratified and lack sedimentary bedding planes.\n3. **Non-fossiliferous**: Molten temperatures destroy any organic remains, so fossils are never found in igneous rocks.",
+      "explanation": "Three full marks require three distinct verified characteristics.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.50; notes"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q022",
+      "topicId": "11-04-sedimentary-processes",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Explain the process of lithification and name any two natural binding cements.",
+      "answer": "Lithification is the geological process converting loose unconsolidated sediments into solid coherent rock. It operates via **compaction** (overburden pressure squeezing out pore water) and **cementation** (precipitation of mineral solutions in pore spaces binding the grains). Two common natural cements are **Silica (quartz)** and **Calcium Carbonate (calcite)**.",
+      "explanation": "Covers definition, compaction mechanism, and two mineral cements.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.51-52"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q023",
+      "topicId": "11-04-metamorphic-processes",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Name the three agents of metamorphism and state which agent is the most influential.",
+      "answer": "The three agents of metamorphism are:\n1. **Temperature (Heat)** — the most influential agent, driving solid-state chemical reactions and recrystallization.\n2. **Pressure** (Uniform lithostatic pressure and directed differential stress).\n3. **Chemically Active Fluids & Gases** (hydrothermal vapours acting as catalysts).",
+      "explanation": "Explicitly names all three agents and highlights heat as most influential.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.53-54"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q024",
+      "topicId": "11-04-metamorphic-types-and-products",
+      "type": "shortAnswer",
+      "marks": 2,
+      "difficulty": "medium",
+      "prompt": "What is slaty cleavage and in which metamorphic rock is it typically observed?",
+      "answer": "Slaty cleavage is an extremely fine, planar parallel splitting fabric produced by the preferred re-alignment of microscopic clay and platy mica minerals perpendicular to maximum directed tectonic compression. It is characteristically observed in **Slate**.",
+      "explanation": "Defines the mechanical origin and specifies Slate as the rock.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.54"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-04-q025",
+      "topicId": "11-04-the-rock-cycle",
+      "type": "shortAnswer",
+      "marks": 4,
+      "difficulty": "hard",
+      "prompt": "Describe the Rock Cycle with reference to the two interacting energy systems that power it.",
+      "answer": "The Rock Cycle is the continuous dynamic cycle where igneous, sedimentary, and metamorphic rocks are continually formed, broken down, and transformed over geologic time.\n\nIt is powered by two energy engines:\n1. **External (Exogenic) Engine**: Solar radiation powers weathering, erosion, and river transport, turning exposed rocks into sediments and sedimentary rocks.\n2. **Internal (Endogenic) Engine**: Earth's geothermal heat and mantle convection drive plate tectonics, burying rocks into subduction zones, causing metamorphism and melting into new magma.\nAny rock can transform into any other rock: Igneous rocks weather to sedimentary or metamorphose directly under heat/pressure; sedimentary rocks metamorphose or melt; metamorphic rocks melt into magma or uplift to weather into sediments.",
+      "explanation": "Comprehensive 4-mark model answer describing cycle, engines, and pathways.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.54-55; Ultimate Guide p.1"
+      },
+      "verified": true
+    }
+  ],
+  "meta": {
+    "schemaVersion": "1.0",
+    "lastUpdated": "2026-09-05",
+    "authoredBy": "antigravity",
+    "reviewStatus": "draft",
+    "sourceDocuments": [
+      "Maharashtra State Board 11th Geology Textbook Chapter 4 pp.49-56",
+      "rock forming processes 11th handwritten notes/ (17 scanned study sheets)",
+      "Ultimate_Geology_Guide_Rudra_standard 11 and contains mineralogy and rock forming processes.docx (Chapter 4)",
+      "Complete_Geology_Guide_ALL_Topics_standard 11 and includes mineralogy and rock forming processes.docx",
+      "geo.rudra and contains mineralogy and rock forming processes.pdf (Petrology section)"
+    ],
+    "openQuestions": []
+  }
+}

@@ -1,0 +1,1914 @@
+{
+  "id": "11-05",
+  "std": 11,
+  "chapterNumber": 5,
+  "title": "Mineralogy",
+  "slug": "mineralogy",
+  "textbookPages": "57-88",
+  "marksWeightage": 15,
+  "estimatedMinutes": 80,
+  "summary": "Comprehensive study of minerals: definition, history, nomenclature, physical and optical properties, silicate structures, rock-forming groups, and Deccan basalt secondary minerals.",
+  "topics": [
+    {
+      "id": "11-05-intro-history-nomenclature",
+      "title": "Definition, History & Mineral Nomenclature",
+      "slug": "definition-history-nomenclature",
+      "order": 1,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "11-05-b001",
+          "type": "definition",
+          "depth": 1,
+          "title": "What is a Mineral? (The 5 Essential Criteria)",
+          "body": "A mineral is defined as a **naturally occurring, inorganic, homogeneous solid substance** having a **definite chemical composition** (or restricted range) and an **ordered internal atomic structure**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.57; Ultimate Guide p.3"
+          },
+          "verified": true,
+          "tags": [
+            "mineral",
+            "definition",
+            "5-criteria",
+            "core"
+          ]
+        },
+        {
+          "id": "11-05-b002",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Substances that are NOT Minerals",
+          "body": "To be classified as a mineral, a substance must satisfy ALL five criteria. Substances disqualified include:\n\n- **Liquid Water & Mercury**: Disqualified because they are liquids, not solids (Note: naturally formed **ice** is a valid mineral!).\n- **Petroleum & Coal**: Disqualified because they are organic biological accumulations lacking a definite chemical formula or crystal structure.\n- **Pearls, Amber, Coral, Jet**: Disqualified because they are formed by biogenic organic processes.\n- **Cubic Zirconia & Synthetic Diamonds**: Disqualified because they are manufactured artificially in laboratories (not naturally occurring).\n- **Volcanic Glass (Obsidian) & Opal**: Disqualified from true crystalline status because their atoms are disordered and amorphous.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.57; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "non-minerals",
+            "exceptions",
+            "ice",
+            "obsidian"
+          ]
+        },
+        {
+          "id": "11-05-b003",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Milestones in the History of Mineralogy",
+          "body": "**Theophrastus (372–287 BC)**: Greek philosopher who authored *Peri Lithon* (On Stones), the earliest systematic mineral treatise.\n\n**Georgius Agricola (1494–1555)**: Universally celebrated as the **'Father of Mineralogy'**. He published *De Natura Fossilium* and *De Re Metallica*, categorizing minerals systematically by physical properties.\n\n**Nicolaus Steno (1669)**: Formulated the **Law of Constancy of Interfacial Angles**, demonstrating that corresponding angles between crystal faces remain constant regardless of size.\n\n**Friedrich Mohs (1812)**: Devised the 10-mineral relative scale of mineral hardness (**Mohs Scale**).\n\n**Max von Laue & W.L. Bragg (1912)**: Discovered X-ray diffraction in crystals, proving internal repeating atomic lattice structures.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.58"
+          },
+          "verified": true,
+          "tags": [
+            "history",
+            "agricola",
+            "steno",
+            "mohs",
+            "father-of-mineralogy"
+          ]
+        },
+        {
+          "id": "11-05-b004",
+          "type": "explanation",
+          "depth": 2,
+          "title": "The 6 Rules of Mineral Nomenclature",
+          "body": "Minerals derive their scientific names according to specific conventions:\n\n1. **Named after a Person**: *Sillimanite* (Prof. Benjamin Silliman), *Smithsonite* (James Smithson), *Goethite* (poet Goethe), *Willemite* (King William I of Netherlands).\n2. **Named after a Place**: *Muscovite* (Muscovy/Moscow, Russia), *Labradorite* (Labrador, Canada), *Aragonite* (Aragon, Spain), *Kaolinite* (Gaoling, China), *Tremolite* (Tremola Valley, Switzerland).\n3. **Named after Chemical Composition**: *Calcite* (Latin *calx* = lime), *Fluorite* (fluorine content), *Chromite* (chromium), *Barite* (Greek *barys* = heavy).\n4. **Named after a Physical Property / Greek word**: *Actinolite* (Greek *aktis* = ray, radiating habit), *Hematite* (Greek *haima* = blood, cherry-red streak), *Kyanite* (Greek *kyanos* = blue), *Orthoclase* (Greek *orthos* = straight, right-angle cleavages), *Microcline* (Greek *mikros* = little, slightly inclined cleavage angle).\n5. **Named from Ancient Sanskrit**: *Vajra* (Diamond), *Marakata* (Emerald), *Mukta* (Pearl), *Gomeda* (Hessonite Garnet).\n6. **Names from Antiquity**: *Quartz*, *Gypsum*, *Talc*, *Pyrite*, *Galena*, *Beryl*.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.57-58"
+          },
+          "verified": true,
+          "tags": [
+            "nomenclature",
+            "naming-rules",
+            "muscovite",
+            "sillimanite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-05-mineral-classification-systems",
+      "title": "Classification of Minerals: Chemical & Functional",
+      "slug": "mineral-classification-systems",
+      "order": 2,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "11-05-b005",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Chemical Classification of Minerals (8 Classes)",
+          "body": "Minerals are primarily classified by their dominant anion or anionic complex into 8 chemical classes:\n\n1. **Native Elements**: Uncombined pure elements. Gold (Au), Silver (Ag), Copper (Cu), Diamond/Graphite (C), Sulfur (S).\n2. **Sulfides**: Metals bonded with sulfur (S²⁻). Pyrite (FeS2), Galena (PbS), Chalcopyrite (CuFeS2), Sphalerite (ZnS).\n3. **Oxides & Hydroxides**: Metals bonded with oxygen (O²⁻) or hydroxyl (OH⁻). Hematite (Fe2O3), Magnetite (Fe3O4), Corundum (Al2O3), Chromite (FeCr2O4), Bauxite (Al2O3·2H2O).\n4. **Halides**: Compounds with halogens (F⁻, Cl⁻). Halite / Rock Salt (NaCl), Fluorite (CaF2), Sylvite (KCl).\n5. **Carbonates**: Minerals with carbonate radical (CO3)²⁻. Calcite (CaCO3), Dolomite (CaMg(CO3)2), Malachite (Cu2CO3(OH)2), Azurite.\n6. **Sulfates**: Minerals with sulfate radical (SO4)²⁻. Gypsum (CaSO4·2H2O), Barite (BaSO4), Anhydrite (CaSO4).\n7. **Phosphates**: Minerals with phosphate radical (PO4)³⁻. Apatite (Ca5(PO4)3(F,Cl,OH)), Monazite ((Ce,La,Th)PO4).\n8. **Silicates**: Minerals containing silicon-oxygen tetrahedra (SiO4)⁴⁻. Over 95% of Earth's crust.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.66-67; Ultimate Guide p.7"
+          },
+          "verified": true,
+          "tags": [
+            "chemical-classification",
+            "sulfides",
+            "oxides",
+            "silicates"
+          ]
+        },
+        {
+          "id": "11-05-b006",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Handwritten Notes 4-Tier Functional Classification",
+          "body": "From an applied geological perspective, minerals are categorized into four functional classes:\n\n1. **Rock-Forming Minerals**: Core minerals that constitute rock bodies (Quartz, Orthoclase, Plagioclase, Augite, Hornblende, Biotite, Calcite).\n2. **Ore Minerals**: Minerals from which commercial metals can be extracted economically. Divided into:\n   - *Simple Ores*: Single metal extracted (Hematite/Magnetite → Iron; Malachite → Copper; Bauxite → Aluminium).\n   - *Complex Ores*: Multiple metals extracted (Chalcopyrite → Copper + Iron; Chromite → Chromium + Iron).\n3. **Industrial Minerals**: Non-metallic minerals used directly in industries: Fertilizers (Pyrite, Gypsum), Ceramics (Feldspar, Kaolin clay), Cement (Calcite, Gypsum), Cosmetics (Talc, Kaolin), Electrical (Muscovite mica), Abrasives (Garnet, Corundum, Quartz), Refractory (Kyanite, Sillimanite, Zircon).\n4. **Atomic / Nuclear Minerals**: Source of radioactive fuel elements: Monazite (Thorium), Pitchblende / Uraninite (Uranium).",
+          "source": {
+            "type": "notes",
+            "ref": "mineralogy notes sheet 1"
+          },
+          "verified": true,
+          "tags": [
+            "functional-classes",
+            "ore-minerals",
+            "industrial-minerals",
+            "atomic-minerals"
+          ]
+        },
+        {
+          "id": "11-05-b007",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Isomorphism, Polymorphism & Pseudomorphism",
+          "body": "**Isomorphism**: The phenomenon where distinct chemical compounds crystallize in identical crystal forms due to similar ionic radii and valence. Example: Forsterite (Mg2SiO4) and Fayalite (Fe2SiO4) in the Olivine series; Albite and Anorthite in Plagioclase.\n\n**Polymorphism**: The ability of a single chemical compound to crystallize in two or more completely different crystal systems with different physical properties under differing temperature and pressure conditions:\n- Carbon (C): **Diamond** (Isometric, H=10) vs **Graphite** (Hexagonal, H=1).\n- Calcium Carbonate (CaCO3): **Calcite** (Trigonal, H=3) vs **Aragonite** (Orthorhombic, H=3.5–4).\n- Aluminium Silicate (Al2SiO5): **Kyanite** (Triclinic) vs **Sillimanite** (Orthorhombic) vs **Andalusite** (Orthorhombic).\n\n**Pseudomorphism**: When a mineral assumes the external crystal shape of an earlier mineral through gradual chemical replacement or alteration (e.g. Limonite forming cubes after Pyrite).",
+          "source": {
+            "type": "notes",
+            "ref": "mineralogy notes sheet 4; Ultimate Guide p.3"
+          },
+          "verified": true,
+          "tags": [
+            "isomorphism",
+            "polymorphism",
+            "pseudomorphism"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-05-physical-props-light",
+      "title": "Physical Properties: Optical & Light Characters",
+      "slug": "physical-properties-optical-light",
+      "order": 3,
+      "estimatedMinutes": 11,
+      "blocks": [
+        {
+          "id": "11-05-b008",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Colour: Idiochromatic vs Allochromatic",
+          "body": "**Idiochromatic Minerals**: Minerals whose colour is an inherent property determined by their major chemical composition (self-coloured):\n- *Malachite*: Invariably vibrant green (CuCO3·Cu(OH)2).\n- *Azurite*: Deep azure blue.\n- *Sulfur*: Bright yellow.\n- *Realgar*: Aurora red; *Orpiment*: Lemon yellow.\n\n**Allochromatic Minerals**: Minerals that are naturally colourless or white in pure state, but display diverse vibrant colours due to trace chemical impurities, radiation damage, or fluid inclusions:\n- *Quartz (SiO2)*: Pure Rock Crystal is water-clear; Amethyst is purple (trace Fe³⁺); Rose Quartz is pink (Ti/Mn); Smoky Quartz is brown/black (irradiation); Milky Quartz is white (fluid inclusions).\n- *Corundum (Al2O3)*: Ruby is deep red (trace Cr³⁺); Sapphire is cornflower blue (trace Fe²⁺ and Ti⁴⁺).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.59-60"
+          },
+          "verified": true,
+          "tags": [
+            "colour",
+            "idiochromatic",
+            "allochromatic",
+            "quartz-varieties"
+          ]
+        },
+        {
+          "id": "11-05-b009",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Streak & Diagnostic Streak Table",
+          "body": "**Streak** is the colour of a mineral's finely powdered form, observed by rubbing the mineral across an unglazed white porcelain streak plate (hardness ~6.5).\n\nStreak is **much more reliable than body colour** for identification because trace impurities do not influence powdered colour:\n\n- **Pyrite ('Fool's Gold')**: Golden brassy surface → **Greenish-black to lead-grey streak**.\n- **Hematite**: Steel-grey to iron-black surface → **Distinctive cherry-red or brick-red streak**.\n- **Magnetite**: Iron-black surface → **Black streak**.\n- **Chalcopyrite**: Golden yellow surface → **Greenish-black streak**.\n- **Chromite**: Black surface → **Dark brown streak**.\n- **Galena**: Lead-grey metallic surface → **Lead-grey streak**.\n\n*Note: Minerals harder than 6.5 (like Quartz or Corundum) cannot be tested on a streak plate; they powder white or scratch the plate.*",
+          "source": {
+            "type": "textbook",
+            "ref": "p.60; geo.rudra p.3; notes"
+          },
+          "verified": true,
+          "tags": [
+            "streak",
+            "streak-table",
+            "pyrite",
+            "hematite"
+          ]
+        },
+        {
+          "id": "11-05-b010",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Comprehensive Lustre Taxonomy",
+          "body": "**Lustre** is the appearance of a mineral's fresh surface in reflected light. Divided into:\n\n1. **Metallic Lustre**: Brilliant shine of an opaque, untarnished metal (Galena, Pyrite, Magnetite, Chalcopyrite).\n2. **Sub-Metallic Lustre**: Duller metallic sheen seen in near-opaque dark minerals (Chromite, Ilmenite, Psilomelane).\n3. **Non-Metallic Lustres**:\n   - **Adamantine**: Brilliant, fiery sparkle like a polished diamond, due to very high refractive index (Diamond, Zircon, Corundum).\n   - **Vitreous**: Shine resembling broken window glass; the most common lustre in rock-forming minerals (Quartz, Fluorite, Tourmaline).\n   - **Sub-Vitreous**: Somewhat duller than glass (Calcite, Olivine, Microcline).\n   - **Pearly**: Iridescent sheen resembling the inside of a mother-of-pearl oyster shell, common on cleavage planes (Talc, Muscovite, Stilbite, Heulandite).\n   - **Silky**: Soft lustre resembling silk cloth, produced by parallel fibrous mineral aggregates (Satin Spar Gypsum, Asbestos, Malachite).\n   - **Resinous**: Resembling hardened resin, amber, or yellowish plastic (Amber, Sphalerite).\n   - **Waxy**: Soft sheen resembling beeswax or paraffin (Chalcedony, Agate, Opal).\n   - **Dull / Earthy**: Complete absence of shine; absorbs light like chalk or dry clay (Kaolinite, Bauxite, Limonite).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.60-61; notes sheet 3"
+          },
+          "verified": true,
+          "tags": [
+            "lustre",
+            "adamantine",
+            "vitreous",
+            "pearly",
+            "silky"
+          ]
+        },
+        {
+          "id": "11-05-b011",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Diaphaneity & Special Optical Phenomena",
+          "body": "**Diaphaneity**: The capacity of a mineral to transmit light through its substance:\n- *Transparent*: Objects and text are clearly visible through the mineral (Calcite Iceland Spar, Quartz Rock Crystal, Gypsum Selenite).\n- *Translucent*: Light passes through, but objects cannot be clearly distinguished (Chalcedony, Fluorite, Agate).\n- *Opaque*: No light penetrates even the thinnest edges (Magnetite, Pyrite, Galena, Hematite).\n\n**Special Optical Properties**:\n- **Double Refraction (Birefringence)**: A ray of light entering **Iceland Spar (Calcite)** is split into two polarized rays (ordinary and extraordinary) traveling at different velocities, producing a doubled image of text beneath it!\n- **Fluorescence**: Emission of visible light under ultraviolet (UV) illumination (Fluorite, Scheelite, Calcite).\n- **Asterism**: 6-rayed star reflection produced by intersecting rutile needle inclusions (Star Ruby, Star Sapphire).\n- **Chatoyancy**: 'Cat's-eye' silky reflection banding (Chrysoberyl, Tiger's Eye, Asbestos).\n- **Play of Colours (Labradorescence)**: Flashing spectral colours produced by interference of light between microscopic exsolution lamellae in **Labradorite** and precious **Opal**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.61-62; notes"
+          },
+          "verified": true,
+          "tags": [
+            "diaphaneity",
+            "double-refraction",
+            "iceland-spar",
+            "fluorescence",
+            "labradorescence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-05-physical-props-form",
+      "title": "Physical Properties: Form & Habit",
+      "slug": "physical-properties-form-habit",
+      "order": 4,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "11-05-b012",
+          "type": "explanation",
+          "depth": 1,
+          "title": "The 4 States of Mineral Aggregation",
+          "body": "Based on the degree of internal and external geometric development:\n\n1. **Crystallised (Euhedral)**: The mineral has developed well-defined, natural geometric crystal faces reflecting its internal lattice (e.g. Quartz prism, Pyrite cube, Garnet dodecahedron).\n2. **Crystalline (Subhedral)**: The mineral consists of an aggregate of imperfect crystal grains without fully developed external crystal faces (e.g. Calcite in marble, Quartz in quartzite).\n3. **Cryptocrystalline (Microcrystalline)**: Crystalline structure is present but composed of microscopic crystals visible only under a high-power microscope or X-ray (e.g. Chalcedony, Agate, Jasper, Flint, Chert).\n4. **Amorphous**: Mineraloid completely lacking internal atomic periodicity or crystalline structure (e.g. **Opal**, Amber, Obsidian).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.62"
+          },
+          "verified": true,
+          "tags": [
+            "crystallised",
+            "crystalline",
+            "cryptocrystalline",
+            "amorphous"
+          ]
+        },
+        {
+          "id": "11-05-b013",
+          "type": "list",
+          "depth": 2,
+          "title": "16 Descriptive Mineral Forms & Habits",
+          "items": [
+            "**Acicular**: Slender, sharp needle-like crystals (Actinolite, Natrolite).",
+            "**Columnar**: Stout column-like or prism-like crystals (Beryl, Tourmaline, Hornblende).",
+            "**Fibrous**: Fine, thread-like separable or parallel fibres (Asbestos, Satin Spar Gypsum).",
+            "**Radiating**: Fibres or needles diverging outward from a central point (Natrolite, Scolecite, Wavellite).",
+            "**Wiry / Filiform**: Thin, twisted flexible wire-like threads (Native Silver, Native Copper).",
+            "**Bladed**: Flattened and elongated like a knife blade (Kyanite, Stibnite).",
+            "**Foliated / Micaceous**: Separable into thin, flexible, or elastic leaves/sheets (Muscovite, Biotite, Talc).",
+            "**Tabular / Lamellar**: Broad, flat tablet-like surfaces (Barite, Plagioclase, Wollastonite).",
+            "**Equidimensional / Granular**: Mineral aggregate composed of equidimensional rounded or angular grains (Garnet, Pyrite, Olivine).",
+            "**Botryoidal**: Closely packed rounded mounds resembling a bunch of grapes (Chalcedony, Agate, Prehnite, Hematite).",
+            "**Mammillary**: Large, smooth, rounded breast-like mounds (Malachite).",
+            "**Reniform**: Distinct kidney-shaped rounded surfaces (Hematite, Psilomelane).",
+            "**Oolitic**: Aggregate of small spherical, fish-egg-like grains less than 2 mm in diameter (Bauxite, Oolitic Limestone).",
+            "**Pisolitic**: Aggregate of larger pea-sized concentric spherical grains greater than 2 mm (Pisolitic Bauxite).",
+            "**Dendritic / Arborescent**: Tree-like, moss-like, or fern-like branching patterns along bedding surfaces (Native Copper, Pyrolusite dendrites).",
+            "**Massive**: Compact uniform mineral mass without any distinctive crystal shape (Milky Quartz, Jasper)."
+          ],
+          "source": {
+            "type": "textbook",
+            "ref": "p.62-64"
+          },
+          "verified": true,
+          "tags": [
+            "habits",
+            "forms",
+            "acicular",
+            "botryoidal",
+            "pisolitic",
+            "bladed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-05-physical-props-cohesion",
+      "title": "Physical Properties: Cohesion, Hardness & Tenacity",
+      "slug": "physical-properties-cohesion-hardness",
+      "order": 5,
+      "estimatedMinutes": 11,
+      "blocks": [
+        {
+          "id": "11-05-b014",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Cleavage: Sets & Angles Taxonomy",
+          "body": "**Cleavage** is the tendency of a crystallized mineral to split smoothly along definite planar directions parallel to internal planes of weak atomic bonding.\n\n- **1 Set of Cleavage (Basal / Pinacoidal)**: Perfect splitting into thin sheets. Examples: **Micas (Muscovite, Biotite)**, **Talc**, **Graphite**.\n- **2 Sets at 90° (Prismatic)**: Cleaves in two perpendicular directions. Example: **Feldspar Group (Orthoclase, Plagioclase)**.\n- **2 Sets at 56° / 124° (Prismatic)**: Cleaves in two oblique directions at 124°. Example: **Amphibole Group (Hornblende, Tremolite, Actinolite)**.\n- **2 Sets at 87° / 93° (Prismatic)**: Cleaves in two nearly perpendicular directions (~90°). Example: **Pyroxene Group (Augite, Hypersthene)**.\n- **3 Sets at 90° (Cubic Cleavage)**: Breaks into perfect cubes. Examples: **Galena**, **Halite (Rock Salt)**.\n- **3 Sets at 75° / 105° (Rhombohedral Cleavage)**: Breaks into rhombohedral blocks (not at 90°). Example: **Calcite**, **Dolomite**.\n- **4 Sets (Octahedral Cleavage)**: Cleaves parallel to octahedron faces. Example: **Fluorite**, **Diamond**.\n- **6 Sets (Dodecahedral Cleavage)**: Cleaves in six directions parallel to rhombic dodecahedron. Example: **Sphalerite**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.64-65; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "cleavage",
+            "cleavage-table",
+            "amphibole",
+            "pyroxene",
+            "calcite"
+          ]
+        },
+        {
+          "id": "11-05-b015",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Fracture: 7 Diagnostic Types",
+          "body": "**Fracture** is the irregular, non-planar surface produced when a mineral breaks in directions other than its cleavage planes (where chemical bonding is equally strong in all directions):\n\n1. **Conchoidal**: Smooth, curved fracture with concentric shell-like ridges (e.g. **Quartz, Obsidian, Opal**).\n2. **Sub-Conchoidal**: Similar to conchoidal but with less pronounced, shallower curved ridges (e.g. **Flint, Chert**).\n3. **Uneven**: Rough, irregular surface covered with coarse bumps (e.g. **Magnetite, Pyrite, Augite**).\n4. **Even**: Nearly flat, smooth non-cleavage surface (e.g. **Chalcedony, Olivine**).\n5. **Hackly**: Extremely rough surface with sharp, jagged, torn edges and projections (e.g. **Native Copper, Native Silver, Kyanite**).\n6. **Splintery**: Breaks into fibrous splinters resembling broken wood (e.g. **Serpentine, Asbestos, Kyanite**).\n7. **Earthy**: Soft, dull, crumbly break resembling a lump of dry clay or chalk (e.g. **Kaolinite, Bauxite, Limonite**).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.65; notes sheet 4"
+          },
+          "verified": true,
+          "tags": [
+            "fracture",
+            "conchoidal",
+            "hackly",
+            "splintery"
+          ]
+        },
+        {
+          "id": "11-05-b016",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Mohs Scale of Hardness & Field Tests",
+          "body": "**Hardness** is the resistance of a mineral surface to abrasion or scratching. In 1812, Friedrich Mohs established the relative 10-mineral scale:\n\n1. **Talc** (Softest)\n2. **Gypsum**\n3. **Calcite**\n4. **Fluorite**\n5. **Apatite**\n6. **Orthoclase**\n7. **Quartz**\n8. **Topaz**\n9. **Corundum**\n10. **Diamond** (Hardest natural substance)\n\n*Mnemonic*: **T**all **G**irls **C**an **F**lirt **A**nd **O**ther **Q**ueer **T**hings **C**an **D**o.\n\n**Everyday Field Scratch Tools**:\n- Human Fingernail: ~**2.5** (scratches Talc, Gypsum)\n- Copper Coin: ~**3.5** (scratches Calcite)\n- Iron Nail / Penknife blade: ~**4.5** (scratches Fluorite)\n- Window Glass / Steel knife: ~**5.5** (scratches Apatite)\n- Steel file / Streak plate: ~**6.5** (scratches Orthoclase)\n\n**Non-Linear Nature**: Mohs scale is relative and non-linear. The absolute hardness jump between 9 (Corundum) and 10 (Diamond) is far greater than the entire difference between 1 and 9 combined!",
+          "source": {
+            "type": "textbook",
+            "ref": "p.65-66; Table 5.1; geo.rudra p.3"
+          },
+          "verified": true,
+          "tags": [
+            "mohs-scale",
+            "hardness",
+            "diamond",
+            "talc",
+            "non-linear"
+          ]
+        },
+        {
+          "id": "11-05-b017",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Tenacity & Specific Gravity Categorization",
+          "body": "**Tenacity**: A mineral's mechanical behavior when subjected to deforming forces:\n- *Brittle*: Crumbles or shatters into fragments (Quartz, Calcite, Pyrite).\n- *Malleable*: Can be hammered into thin flat sheets (Native Gold, Native Copper).\n- *Sectile*: Can be cut cleanly into shavings with a knife (Gypsum, Talc, Graphite).\n- *Ductile*: Can be drawn into thin wires (Native Copper, Gold).\n- *Flexible*: Can be bent, but remains bent when force is released (Talc, Selenite, Chlorite).\n- *Elastic*: Can be bent, and snaps back to its original shape (Muscovite, Biotite micas).\n\n**Specific Gravity (SG)** Categories (from notes):\n- *Low SG (<2.5)*: Gypsum (2.3), Halite (2.16), Graphite (2.1–2.3).\n- *Medium SG (2.5–3.5)*: Quartz (2.65), Feldspar (2.56–2.76), Calcite (2.71), Amphiboles & Pyroxenes (3.0–3.5).\n- *High SG (3.5–5.2)*: Barite (4.5), Corundum (4.0), Garnet (3.5–4.3), Magnetite (5.2).\n- *Very High / Heavy (>5.2)*: Hematite (5.26), Galena (7.58), Native Gold (19.3).",
+          "source": {
+            "type": "notes",
+            "ref": "mineralogy notes sheet 4; textbook p.66"
+          },
+          "verified": true,
+          "tags": [
+            "tenacity",
+            "specific-gravity",
+            "elastic",
+            "sectile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-05-silicate-structures",
+      "title": "Silicate Structures: The 6 Subclasses",
+      "slug": "silicate-structures-subclasses",
+      "order": 6,
+      "estimatedMinutes": 11,
+      "blocks": [
+        {
+          "id": "11-05-b018",
+          "type": "definition",
+          "depth": 1,
+          "title": "The Silicon-Oxygen Tetrahedron",
+          "body": "Silicates make up **over 95% of Earth's crust**. The universal basic building block of all silicate minerals is the **Silicon-Oxygen Tetrahedron (SiO4)⁴⁻**, in which one central Silicon cation (Si⁴⁺) is coordinated and tetrahedrally bonded to four Oxygen anions (O²⁻).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.67; Ultimate Guide p.7"
+          },
+          "verified": true,
+          "tags": [
+            "silicates",
+            "tetrahedron",
+            "building-block"
+          ]
+        },
+        {
+          "id": "11-05-b019",
+          "type": "explanation",
+          "depth": 1,
+          "title": "The 6 Silicate Subclasses (Structure & Si:O Ratios)",
+          "body": "Based on how oxygen atoms are shared between adjacent tetrahedra, silicates are divided into 6 distinct structural subclasses:\n\n1. **Nesosilicates (Orthosilicates)**: Independent isolated (SiO4) tetrahedra bonded only via intervening cations; share 0 oxygens. Si:O ratio = **1:4**. Examples: **Olivine** (Forsterite, Fayalite), **Garnet**, **Kyanite**, **Zircon**, **Topaz**.\n\n2. **Sorosilicates**: Pairs of two tetrahedra sharing a single apical oxygen; Si:O ratio = **2:7** (Si2O7). Example: **Epidote**, **Zoisite**.\n\n3. **Cyclosilicates (Ring Silicates)**: Closed 3, 4, or 6-membered rings sharing 2 oxygens per tetrahedron; Si:O ratio = **1:3** (Si6O18). Examples: **Beryl** (emerald/aquamarine), **Tourmaline**, **Cordierite**.\n\n4. **Inosilicates (Chain Silicates)**:\n   - *Single Chain*: Tetrahedra share 2 oxygens in continuous single chains; Si:O = **1:3** (Si2O6). Prismatic cleavage at ~87°/93°. Anhydrous. Example: **Pyroxene Group (Augite, Hypersthene, Enstatite)**.\n   - *Double Chain*: Alternate tetrahedra share 2 and 3 oxygens in parallel double chains; Si:O = **4:11** (Si8O22). Prismatic cleavage at ~56°/124°. Hydrous (contains essential OH). Example: **Amphibole Group (Hornblende, Tremolite, Actinolite)**.\n\n5. **Phyllosilicates (Sheet Silicates)**: Tetrahedra share 3 oxygens to form infinite 2D hexagonal sheets; Si:O = **2:5** (Si4O10). Yields perfect 1-directional basal cleavage. Examples: **Mica Group (Muscovite, Biotite)**, **Talc**, **Chlorite**, **Serpentine**, **Kaolinite**.\n\n6. **Tectosilicates (Framework Silicates)**: Complete 3D framework where every tetrahedron shares all 4 oxygens with neighbors; Si:O = **1:2** (SiO2). The most abundant crustal subclass (>60% of crust). Examples: **Feldspar Group**, **Quartz / Silica Group**, **Zeolite Group**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.67-68; geo.rudra p.4"
+          },
+          "verified": true,
+          "tags": [
+            "nesosilicates",
+            "sorosilicates",
+            "cyclosilicates",
+            "inosilicates",
+            "phyllosilicates",
+            "tectosilicates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-05-rock-forming-silicates",
+      "title": "Major Rock-Forming Silicate Groups",
+      "slug": "rock-forming-silicate-groups",
+      "order": 7,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "11-05-b020",
+          "type": "explanation",
+          "depth": 1,
+          "title": "The Feldspar Group (~50% of Earth's Crust)",
+          "body": "Feldspars are the single most abundant mineral group in the crust. Divided into:\n\n- **Alkali Feldspars (K-Na series)**: Potassium-rich feldspars:\n  - **Orthoclase (KAlSi3O8)**: Monoclinic, pink/white, two sets of cleavage at exactly 90°, H=6.\n  - **Microcline (KAlSi3O8)**: Triclinic polymorph of orthoclase, cleavages at 89°30', shows green variety (Amazonstone).\n\n- **Plagioclase Feldspars (Na-Ca complete solid-solution series, triclinic)**:\n  1. **Albite** (NaAlSi3O8, 100–90% Na, An0–10)\n  2. **Oligoclase** (An10–30)\n  3. **Andesine** (An30–50)\n  4. **Labradorite** (An50–70, displays blue-green labradorescence, main mineral in gabbro and basalt)\n  5. **Bytownite** (An70–90)\n  6. **Anorthite** (CaAl2Si2O8, 90–100% Ca, An90–100)",
+          "source": {
+            "type": "textbook",
+            "ref": "p.68-70; Table 5.2 & 5.3"
+          },
+          "verified": true,
+          "tags": [
+            "feldspar",
+            "orthoclase",
+            "plagioclase",
+            "albite",
+            "anorthite",
+            "labradorite"
+          ]
+        },
+        {
+          "id": "11-05-b021",
+          "type": "explanation",
+          "depth": 1,
+          "title": "The Quartz / Silica Group (2nd Most Abundant)",
+          "body": "Chemical formula **SiO2**, H=7, conchoidal fracture, **lacks cleavage**, specific gravity 2.65:\n\n- **Macrocrystalline Varieties**:\n  - *Rock Crystal*: Perfectly colourless, transparent hexagonal prisms capped by pyramids.\n  - *Amethyst*: Purple to violet gemstone (trace Fe³⁺).\n  - *Rose Quartz*: Translucent rose-pink (trace Ti/Mn).\n  - *Smoky Quartz*: Smoky brown to black (natural irradiation).\n  - *Milky Quartz*: Opaque white due to millions of trapped microscopic fluid inclusions.\n\n- **Cryptocrystalline Varieties**:\n  - *Chalcedony*: Translucent microfibrous silica with waxy lustre.\n  - *Agate*: Concentric multicolored banded silica formed in basalt cavities.\n  - *Onyx*: Flat, parallel black-and-white banded chalcedony.\n  - *Jasper*: Opaque red, yellow, or brown silica heavily pigmented by iron oxides.\n  - *Flint*: Dark grey to black nodular silica found in chalk.\n\n- **Amorphous Hydrated Silica**: **Opal** (SiO2·nH2O, non-crystalline, 3–10% water, displays fiery play of colours).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.70-73; Ultimate Guide p.7"
+          },
+          "verified": true,
+          "tags": [
+            "quartz",
+            "amethyst",
+            "chalcedony",
+            "agate",
+            "opal",
+            "flint"
+          ]
+        },
+        {
+          "id": "11-05-b022",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Pyroxene Group vs Amphibole Group (The Big Comparison)",
+          "body": "**Pyroxene Group**:\n- Single chain inosilicates (Si:O = 1:3). **Anhydrous** (no hydroxyl OH).\n- Two sets of prismatic cleavage intersecting at **87° and 93° (approx 90°)**.\n- Crystal habit is short, stout, stubby prisms with square or octagonal cross-sections.\n- Key minerals: **Augite** (common in basalt, dark green/black), **Hypersthene**, **Diopside**.\n\n**Amphibole Group**:\n- Double chain inosilicates (Si:O = 4:11). **Hydrous** (contains essential hydroxyl (OH)⁻).\n- Two sets of prismatic cleavage intersecting at **56° and 124°**.\n- Crystal habit is elongated, slender, blade-like or fibrous prisms with diamond-shaped cross-sections.\n- Key minerals: **Hornblende** (dark green/black), **Tremolite** (white/grey), **Actinolite** (bright green fibrous).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.73-75; geo.rudra p.4"
+          },
+          "verified": true,
+          "tags": [
+            "pyroxene",
+            "amphibole",
+            "augite",
+            "hornblende",
+            "comparison"
+          ]
+        },
+        {
+          "id": "11-05-b023",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Mica Group & Olivine Group",
+          "body": "**Mica Group (Phyllosilicates)**: Characterized by perfect 1-directional basal cleavage that peels into thin, elastic, transparent foils (H=2–3):\n- **Muscovite (Potash Mica)**: Colourless, silver, or pale brown. Outstanding dielectric strength, used in high-voltage electrical insulators and heating elements.\n- **Biotite (Black Iron-Magnesium Mica)**: Dark brown to black, common in granites, schists, and gneisses.\n\n**Olivine Group (Nesosilicates)**: Complete solid-solution series between **Forsterite (Mg2SiO4)** and **Fayalite (Fe2SiO4)**. Formula (Mg,Fe)2SiO4. Distinctive olive-green colour, glassy vitreous lustre, H=6.5–7, conchoidal fracture, **no cleavage**, high SG (3.2–4.3). Primary constituent of the Earth's upper mantle and basic/ultrabasic rocks (basalt, gabbro, dunite).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.75-76; notes"
+          },
+          "verified": true,
+          "tags": [
+            "micas",
+            "muscovite",
+            "biotite",
+            "olivine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-05-cavity-and-non-silicates",
+      "title": "Deccan Basalt Cavity Minerals & Non-Silicates",
+      "slug": "cavity-minerals-and-non-silicates",
+      "order": 8,
+      "estimatedMinutes": 10,
+      "blocks": [
+        {
+          "id": "11-05-b024",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Zeolite Group: Secondary Cavity Minerals of Maharashtra",
+          "body": "Zeolites are hydrated framework aluminosilicates with open, cage-like crystal structures containing exchangeable water and cations ('molecular sieves'). They form as secondary minerals in the gas cavities (amygdales) and geodes of Maharashtra's **Deccan Trap basalts**:\n\n- **Stilbite**: Characterized by its unique **'bowtie' or sheaf-like crystal aggregates**, vitreous to pearly lustre, H=3.5–4. Maharashtra's state mineral emblem!\n- **Heulandite**: Distinctive coffin-shaped, tabular crystals with pearly lustre on cleavage planes.\n- **Scolecite & Mesolite**: Spectacular radiating, needle-like (acicular) crystals forming starburst spheres.\n- **Natrolite**: Fine, elongated prismatic crystals terminating in low pyramids.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.77-78; notes"
+          },
+          "verified": true,
+          "tags": [
+            "zeolites",
+            "stilbite",
+            "heulandite",
+            "scolecite",
+            "deccan-basalt"
+          ]
+        },
+        {
+          "id": "11-05-b025",
+          "type": "explanation",
+          "depth": 2,
+          "title": "The Apophyllite Group of Maharashtra",
+          "body": "Apophyllites are famous phyllosilicate secondary cavity minerals found in world-class specimens in Maharashtra (Pune, Jalgaon, Nashik quarries):\n- **Fluorapophyllite**: Green, yellow, or colourless tetragonal prisms with flat pinacoidal terminations (F > OH).\n- **Hydroxyapophyllite**: White or colourless (OH > F).\n- **Natroapophyllite**: Brown to yellowish-brown (Na replaces K).",
+          "source": {
+            "type": "textbook",
+            "ref": "p.78-79"
+          },
+          "verified": true,
+          "tags": [
+            "apophyllite",
+            "fluorapophyllite",
+            "jalgaon",
+            "pune"
+          ]
+        },
+        {
+          "id": "11-05-b026",
+          "type": "explanation",
+          "depth": 1,
+          "title": "Calcite & Gypsum: The Two Key Non-Silicate Minerals",
+          "body": "**Calcite (CaCO3)**:\n- Hardness = **3** (Mohs reference). Specific gravity = 2.71.\n- 3 sets of perfect rhombohedral cleavage intersecting at **75° and 105°**.\n- **Vigorous effervescence** (bubbles of CO2) with cold dilute hydrochloric acid (HCl).\n- Varieties: **Iceland Spar** (colourless, doubly refracting optical variety), Dogtooth Spar, Nail-head Spar, Chalk, Travertine, Stalactites.\n\n**Gypsum (CaSO4·2H2O)**:\n- Hardness = **2** (easily scratched by fingernail). Specific gravity = 2.3.\n- **Does NOT react** with cold dilute HCl (easy test to distinguish from calcite!).\n- Varieties: **Selenite** (transparent cleavable plates), **Satin Spar** (silky fibrous variety), **Alabaster** (snow-white fine-grained massive variety used in ornamental carving).\n- When heated to ~120°C, loses 75% of its water to form **Plaster of Paris**.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.80-82; Ultimate Guide p.7"
+          },
+          "verified": true,
+          "tags": [
+            "calcite",
+            "gypsum",
+            "iceland-spar",
+            "selenite",
+            "satin-spar"
+          ]
+        },
+        {
+          "id": "11-05-b027",
+          "type": "explanation",
+          "depth": 2,
+          "title": "Talc & Fluorite",
+          "body": "**Talc (Mg3Si4O10(OH)2)**:\n- Softest mineral known (Hardness = **1** on Mohs scale). Sectile, soapy or greasy feel, pearly lustre.\n- Massive compact variety is called **Soapstone (Steatite)**.\n- Widely used in cosmetics (talcum powder), ceramics, paint, paper filler, and refractory electrical insulators.\n\n**Fluorite (CaF2)**:\n- Hardness = **4** on Mohs scale. Specific gravity = 3.18.\n- 4 sets of perfect **octahedral cleavage**.\n- Exhibits vibrant cubic and octahedral crystals in yellow, green, purple, and blue.\n- Displays prominent **fluorescence** under UV light. Used as a flux in steel smelting.",
+          "source": {
+            "type": "textbook",
+            "ref": "p.79, 82"
+          },
+          "verified": true,
+          "tags": [
+            "talc",
+            "fluorite",
+            "soapstone",
+            "cleavage"
+          ]
+        }
+      ]
+    }
+  ],
+  "diagrams": [],
+  "distinguishPairs": [
+    {
+      "id": "11-05-dp001",
+      "topicId": "11-05-physical-props-cohesion",
+      "itemA": "Cleavage",
+      "itemB": "Fracture",
+      "rows": [
+        {
+          "aspect": "Definition",
+          "a": "Tendency of a mineral to split along flat planar surfaces of weak atomic bonding",
+          "b": "Irregular or non-planar breakage in directions other than cleavage planes"
+        },
+        {
+          "aspect": "Surface appearance",
+          "a": "Produces smooth, flat, shiny, and parallel planes",
+          "b": "Produces rough, uneven, curved (conchoidal), or jagged surfaces"
+        },
+        {
+          "aspect": "Crystallographic control",
+          "a": "Strictly controlled by internal crystal lattice planes of weakness",
+          "b": "Occurs when atomic bond strength is approximately equal in all directions"
+        },
+        {
+          "aspect": "Examples",
+          "a": "Mica (1 set basal), Calcite (3 sets rhombohedral), Galena (3 sets cubic)",
+          "b": "Quartz (conchoidal fracture), Magnetite (uneven), Copper (hackly)"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "textbook",
+        "ref": "p.64-65; Ultimate Guide p.7"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp002",
+      "topicId": "11-05-cavity-and-non-silicates",
+      "itemA": "Calcite",
+      "itemB": "Quartz",
+      "rows": [
+        {
+          "aspect": "Hardness (Mohs)",
+          "a": "Hardness = 3 (easily scratched by a copper coin or steel knife)",
+          "b": "Hardness = 7 (scratches window glass, knife blades, and steel files)"
+        },
+        {
+          "aspect": "Acid reaction",
+          "a": "Effervesces vigorously (fizzes with CO2 bubbles) in cold dilute HCl",
+          "b": "Completely insoluble; no reaction with cold dilute hydrochloric acid"
+        },
+        {
+          "aspect": "Cleavage vs Fracture",
+          "a": "Perfect rhombohedral cleavage in 3 directions at 75°/105°",
+          "b": "Completely lacks cleavage; breaks with prominent conchoidal fracture"
+        },
+        {
+          "aspect": "Chemical composition",
+          "a": "Calcium Carbonate (CaCO3) — Carbonate class",
+          "b": "Silicon Dioxide (SiO2) — Silicate (Tectosilicate) class"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.7, p.10"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp003",
+      "topicId": "11-05-rock-forming-silicates",
+      "itemA": "Pyroxene Group",
+      "itemB": "Amphibole Group",
+      "rows": [
+        {
+          "aspect": "Silicate structure",
+          "a": "Single-chain inosilicate (Si:O = 1:3)",
+          "b": "Double-chain inosilicate (Si:O = 4:11)"
+        },
+        {
+          "aspect": "Cleavage angle",
+          "a": "Two sets of cleavage intersecting at approximately 90° (87° and 93°)",
+          "b": "Two sets of cleavage intersecting at 56° and 124°"
+        },
+        {
+          "aspect": "Chemical constitution",
+          "a": "Anhydrous (contains no hydroxyl OH group)",
+          "b": "Hydrous (contains essential hydroxyl (OH)⁻ group)"
+        },
+        {
+          "aspect": "Crystal habit & example",
+          "a": "Short, stout, stubby prisms. Example: Augite",
+          "b": "Elongated, slender, blade-like prisms. Example: Hornblende"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "textbook",
+        "ref": "p.73-75; geo.rudra p.4"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp004",
+      "topicId": "11-05-cavity-and-non-silicates",
+      "itemA": "Calcite",
+      "itemB": "Gypsum",
+      "rows": [
+        {
+          "aspect": "Hardness (Mohs)",
+          "a": "Hardness = 3 (cannot be scratched by fingernail)",
+          "b": "Hardness = 2 (easily scratched by human fingernail)"
+        },
+        {
+          "aspect": "Reaction with dilute HCl",
+          "a": "Effervesces vigorously with cold dilute HCl releasing CO2",
+          "b": "Shows no effervescence or reaction with cold dilute HCl"
+        },
+        {
+          "aspect": "Chemical composition",
+          "a": "Calcium Carbonate (CaCO3)",
+          "b": "Hydrated Calcium Sulfate (CaSO4·2H2O)"
+        },
+        {
+          "aspect": "Industrial use",
+          "a": "Manufacture of cement, lime, and optical prisms",
+          "b": "Manufacture of Plaster of Paris and soil conditioning"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "textbook",
+        "ref": "p.80-82"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp005",
+      "topicId": "11-05-rock-forming-silicates",
+      "itemA": "Muscovite",
+      "itemB": "Biotite",
+      "rows": [
+        {
+          "aspect": "Common name",
+          "a": "White mica or Potash mica",
+          "b": "Black mica or Iron-Magnesium mica"
+        },
+        {
+          "aspect": "Colour in hand specimen",
+          "a": "Colourless, silvery-white, or pale transparent",
+          "b": "Dark brown, black, or dark green"
+        },
+        {
+          "aspect": "Dominant cations",
+          "a": "Potassium (K) and Aluminium (Al)",
+          "b": "Potassium (K), Magnesium (Mg), and Iron (Fe)"
+        },
+        {
+          "aspect": "Industrial application",
+          "a": "Superb electrical and thermal insulator",
+          "b": "Limited industrial use due to high iron content"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "textbook",
+        "ref": "p.75; notes"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp006",
+      "topicId": "11-05-rock-forming-silicates",
+      "itemA": "Orthoclase Feldspar",
+      "itemB": "Plagioclase Feldspar",
+      "rows": [
+        {
+          "aspect": "Crystal system",
+          "a": "Monoclinic system",
+          "b": "Triclinic system"
+        },
+        {
+          "aspect": "Cleavage angle",
+          "a": "Two sets of cleavage at exactly 90° (right angle)",
+          "b": "Two sets of cleavage intersecting at approximately 86° (not 90°)"
+        },
+        {
+          "aspect": "Chemical series",
+          "a": "Alkali Potassium Feldspar (KAlSi3O8)",
+          "b": "Continuous Na-Ca solid-solution series (Albite to Anorthite)"
+        },
+        {
+          "aspect": "Diagnostic feature",
+          "a": "Often flesh-pink to white; Carlsbad twinning",
+          "b": "Polysynthetic striations on basal cleavage; labradorescence"
+        }
+      ],
+      "marks": 4,
+      "source": {
+        "type": "textbook",
+        "ref": "p.68-70"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp007",
+      "topicId": "11-05-physical-props-light",
+      "itemA": "Metallic Lustre",
+      "itemB": "Non-Metallic Lustre",
+      "rows": [
+        {
+          "aspect": "Light appearance",
+          "a": "Brilliant, highly reflective shine of an opaque polished metal",
+          "b": "Lacks metallic shine; resembles glass, resin, silk, pearl, or wax"
+        },
+        {
+          "aspect": "Opacity",
+          "a": "Completely opaque even on the thinnest edges",
+          "b": "Transparent to translucent on thin edges"
+        },
+        {
+          "aspect": "Diagnostic streak",
+          "a": "Produces dark, dense, or coloured streaks",
+          "b": "Produces white, colourless, or very pale streaks"
+        },
+        {
+          "aspect": "Examples",
+          "a": "Galena, Pyrite, Magnetite, Chalcopyrite",
+          "b": "Quartz (vitreous), Diamond (adamantine), Talc (pearly)"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "textbook",
+        "ref": "p.60-61"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp008",
+      "topicId": "11-05-physical-props-form",
+      "itemA": "Crystalline Minerals",
+      "itemB": "Amorphous Mineraloids",
+      "rows": [
+        {
+          "aspect": "Internal atomic structure",
+          "a": "Possesses a regular, periodic, 3-dimensional crystal lattice",
+          "b": "Completely lacks periodic atomic order or repeating lattice"
+        },
+        {
+          "aspect": "External faces",
+          "a": "Capable of growing planar natural crystal faces",
+          "b": "Forms irregular, rounded, or gel-like masses without faces"
+        },
+        {
+          "aspect": "Melting point",
+          "a": "Sharp, distinct, well-defined melting temperature",
+          "b": "Softens gradually over a broad temperature range"
+        },
+        {
+          "aspect": "Examples",
+          "a": "Quartz, Calcite, Halite, Pyrite",
+          "b": "Opal (hydrated silica), Amber, Obsidian"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "textbook",
+        "ref": "p.62"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-dp009",
+      "topicId": "11-05-mineral-classification-systems",
+      "itemA": "Isomorphism",
+      "itemB": "Polymorphism",
+      "rows": [
+        {
+          "aspect": "Fundamental concept",
+          "a": "Different chemical compounds crystallizing in the same crystal form",
+          "b": "The same chemical compound crystallizing in different crystal forms"
+        },
+        {
+          "aspect": "Controlling factor",
+          "a": "Similar ionic radii and analogous chemical formulas",
+          "b": "Differing temperature and pressure conditions during growth"
+        },
+        {
+          "aspect": "Examples",
+          "a": "Forsterite (Mg2SiO4) and Fayalite (Fe2SiO4) in Olivine",
+          "b": "Diamond (isometric) and Graphite (hexagonal) for pure Carbon"
+        }
+      ],
+      "marks": 3,
+      "source": {
+        "type": "notes",
+        "ref": "mineralogy notes sheet 4"
+      },
+      "verified": true
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Mineral",
+      "definition": "A naturally occurring, inorganic, homogeneous solid substance having a definite chemical composition and an ordered internal atomic structure.",
+      "topicId": "11-05-intro-history-nomenclature",
+      "source": {
+        "type": "textbook",
+        "ref": "p.57"
+      }
+    },
+    {
+      "term": "Mineralogy",
+      "definition": "The branch of geology that deals with the scientific study of minerals, their chemical composition, crystal structure, physical properties, and origin.",
+      "topicId": "11-05-intro-history-nomenclature",
+      "source": {
+        "type": "textbook",
+        "ref": "p.57"
+      }
+    },
+    {
+      "term": "Agricola Georgius",
+      "definition": "16th-century German scholar (1494–1555) celebrated as the 'Father of Mineralogy' for publishing De Re Metallica and De Natura Fossilium.",
+      "topicId": "11-05-intro-history-nomenclature",
+      "source": {
+        "type": "textbook",
+        "ref": "p.58"
+      }
+    },
+    {
+      "term": "Idiochromatic",
+      "definition": "Minerals whose colour is an intrinsic property determined by their fundamental chemical constituents (e.g. malachite green, azurite blue).",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.59"
+      }
+    },
+    {
+      "term": "Allochromatic",
+      "definition": "Minerals that are colourless in pure form but display varied colours due to trace chemical impurities or lattice defects (e.g. quartz varieties).",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.59-60"
+      }
+    },
+    {
+      "term": "Streak",
+      "definition": "The colour of a mineral's finely powdered form obtained by rubbing across an unglazed porcelain streak plate; diagnostic for metallic minerals.",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.60"
+      }
+    },
+    {
+      "term": "Lustre",
+      "definition": "The visual appearance of a mineral's fresh surface in reflected light (e.g. metallic, adamantine, vitreous, pearly, silky, dull).",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.60"
+      }
+    },
+    {
+      "term": "Adamantine Lustre",
+      "definition": "The brilliant, fiery lustre of diamond and zircon resulting from exceptionally high refractive indices.",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.60"
+      }
+    },
+    {
+      "term": "Vitreous Lustre",
+      "definition": "The shine of broken glass, representing the most common lustre among rock-forming silicate minerals like quartz and fluorite.",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.61"
+      }
+    },
+    {
+      "term": "Birefringence (Double Refraction)",
+      "definition": "The optical property where a crystal splits incident light into two refracted rays traveling at different velocities, doubling images (exemplified by Iceland Spar).",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.61"
+      }
+    },
+    {
+      "term": "Labradorescence",
+      "definition": "Spectacular play of blue-green spectral colours produced by light scattering from submicroscopic exsolution lamellae in labradorite feldspar.",
+      "topicId": "11-05-physical-props-light",
+      "source": {
+        "type": "textbook",
+        "ref": "p.62"
+      }
+    },
+    {
+      "term": "Cleavage",
+      "definition": "The tendency of a crystallized mineral to split cleanly along definite crystallographic planes parallel to atomic lattice weaknesses.",
+      "topicId": "11-05-physical-props-cohesion",
+      "source": {
+        "type": "textbook",
+        "ref": "p.64"
+      }
+    },
+    {
+      "term": "Fracture",
+      "definition": "The characteristic irregular surface produced when a mineral breaks in directions other than its cleavage planes.",
+      "topicId": "11-05-physical-props-cohesion",
+      "source": {
+        "type": "textbook",
+        "ref": "p.65"
+      }
+    },
+    {
+      "term": "Conchoidal Fracture",
+      "definition": "A smooth, curved fracture surface marked by concentric shell-like ridges, characteristic of quartz, obsidian, and opal.",
+      "topicId": "11-05-physical-props-cohesion",
+      "source": {
+        "type": "textbook",
+        "ref": "p.65"
+      }
+    },
+    {
+      "term": "Hardness",
+      "definition": "The resistance offered by a smooth mineral surface to abrasion or scratching, measured against Mohs scale (1 to 10).",
+      "topicId": "11-05-physical-props-cohesion",
+      "source": {
+        "type": "textbook",
+        "ref": "p.65"
+      }
+    },
+    {
+      "term": "Mohs Scale",
+      "definition": "A relative scale of ten reference minerals from Talc (1) to Diamond (10) devised in 1812 to determine mineral hardness.",
+      "topicId": "11-05-physical-props-cohesion",
+      "source": {
+        "type": "textbook",
+        "ref": "p.65"
+      }
+    },
+    {
+      "term": "Tenacity",
+      "definition": "The degree of cohesion of a mineral, governing how it responds to mechanical forces like cutting, bending, crushing, or hammering.",
+      "topicId": "11-05-physical-props-cohesion",
+      "source": {
+        "type": "notes",
+        "ref": "mineralogy notes sheet 4"
+      }
+    },
+    {
+      "term": "Silicon-Oxygen Tetrahedron",
+      "definition": "The structural unit (SiO4)⁴⁻ of all silicates, with one central silicon cation bonded tetrahedrally to four oxygen anions.",
+      "topicId": "11-05-silicate-structures",
+      "source": {
+        "type": "textbook",
+        "ref": "p.67"
+      }
+    },
+    {
+      "term": "Nesosilicate",
+      "definition": "A silicate subclass featuring isolated independent (SiO4) tetrahedra bonded only by intervening metallic cations (Si:O = 1:4, e.g. olivine, garnet).",
+      "topicId": "11-05-silicate-structures",
+      "source": {
+        "type": "textbook",
+        "ref": "p.67"
+      }
+    },
+    {
+      "term": "Inosilicate",
+      "definition": "A silicate subclass consisting of single chains (pyroxenes, Si:O = 1:3) or double chains (amphiboles, Si:O = 4:11) of linked tetrahedra.",
+      "topicId": "11-05-silicate-structures",
+      "source": {
+        "type": "textbook",
+        "ref": "p.67-68"
+      }
+    },
+    {
+      "term": "Phyllosilicate",
+      "definition": "A silicate subclass in which tetrahedra share three oxygens to form infinite 2D sheets (Si:O = 2:5), producing perfect basal cleavage (e.g. micas, talc).",
+      "topicId": "11-05-silicate-structures",
+      "source": {
+        "type": "textbook",
+        "ref": "p.68"
+      }
+    },
+    {
+      "term": "Tectosilicate",
+      "definition": "A silicate subclass in which every tetrahedron shares all four oxygens in an interconnected 3D framework (Si:O = 1:2, e.g. quartz, feldspars, zeolites).",
+      "topicId": "11-05-silicate-structures",
+      "source": {
+        "type": "textbook",
+        "ref": "p.68"
+      }
+    },
+    {
+      "term": "Plagioclase",
+      "definition": "A continuous solid-solution feldspar series from Albite (NaAlSi3O8) to Anorthite (CaAl2Si2O8), displaying characteristic polysynthetic albite twinning.",
+      "topicId": "11-05-rock-forming-silicates",
+      "source": {
+        "type": "textbook",
+        "ref": "p.69-70"
+      }
+    },
+    {
+      "term": "Zeolites",
+      "definition": "A family of hydrated tectosilicate minerals with porous open frameworks ('molecular sieves') common in Deccan basalt vesicles (e.g. stilbite, heulandite).",
+      "topicId": "11-05-cavity-and-non-silicates",
+      "source": {
+        "type": "textbook",
+        "ref": "p.77"
+      }
+    },
+    {
+      "term": "Polymorphism",
+      "definition": "The property of a chemical substance to crystallize in two or more distinct crystal structures with differing physical properties (e.g. diamond and graphite).",
+      "topicId": "11-05-mineral-classification-systems",
+      "source": {
+        "type": "notes",
+        "ref": "mineralogy notes sheet 4"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "11-05-q001",
+      "topicId": "11-05-intro-history-nomenclature",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Who is historically recognized as the 'Father of Mineralogy' for authoring De Re Metallica and De Natura Fossilium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Friedrich Mohs"
+        },
+        {
+          "id": "b",
+          "text": "Georgius Agricola"
+        },
+        {
+          "id": "c",
+          "text": "Nicolaus Steno"
+        },
+        {
+          "id": "d",
+          "text": "Theophrastus"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Georgius Agricola (1494–1555) is celebrated as the Father of Mineralogy for establishing the first systematic classification of minerals based on physical properties.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.58; Exercise Q.1(1)"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q002",
+      "topicId": "11-05-intro-history-nomenclature",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which of the following substances satisfies all 5 criteria and is classified as a genuine mineral?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Naturally formed glacier Ice"
+        },
+        {
+          "id": "b",
+          "text": "Liquid Petroleum"
+        },
+        {
+          "id": "c",
+          "text": "Volcanic Obsidian Glass"
+        },
+        {
+          "id": "d",
+          "text": "Synthetic Cubic Zirconia"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Natural ice is a homogeneous, solid, inorganic substance with a definite chemical formula (H2O) and an ordered hexagonal crystal lattice.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.57; Ultimate Guide p.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q003",
+      "topicId": "11-05-intro-history-nomenclature",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "The mineral Muscovite derives its name from which historical geographical location?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muscat, Oman"
+        },
+        {
+          "id": "b",
+          "text": "Muscovy (Moscow), Russia"
+        },
+        {
+          "id": "c",
+          "text": "Mussoorie, India"
+        },
+        {
+          "id": "d",
+          "text": "Mount Vesuvius, Italy"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Muscovite is named after Muscovy (the ancient province of Moscow, Russia), where thick transparent sheets were once used as window panes ('Muscovy-glass').",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.57"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q004",
+      "topicId": "11-05-mineral-classification-systems",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Silicate minerals constitute approximately what percentage of the Earth's crust?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Over 95%"
+        },
+        {
+          "id": "b",
+          "text": "About 50%"
+        },
+        {
+          "id": "c",
+          "text": "Around 25%"
+        },
+        {
+          "id": "d",
+          "text": "Less than 10%"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Silicates are by far the dominant crustal mineral class, making up over 95% of the total crust by volume.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.67; Ultimate Guide p.7"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q005",
+      "topicId": "11-05-mineral-classification-systems",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Which of the following is classified as an atomic (nuclear) mineral source for Thorium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pitchblende"
+        },
+        {
+          "id": "b",
+          "text": "Monazite"
+        },
+        {
+          "id": "c",
+          "text": "Chalcopyrite"
+        },
+        {
+          "id": "d",
+          "text": "Bauxite"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Monazite beach sand is the primary atomic mineral source of Thorium. Pitchblende is the principal ore mineral for Uranium.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "mineralogy notes sheet 1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q006",
+      "topicId": "11-05-physical-props-light",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "What is the characteristic streak colour of Hematite?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Black"
+        },
+        {
+          "id": "b",
+          "text": "Cherry-red or brick-red"
+        },
+        {
+          "id": "c",
+          "text": "Greenish-black"
+        },
+        {
+          "id": "d",
+          "text": "Golden yellow"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Even though hematite often appears metallic steel-grey or black on its surface, its powder streak on a porcelain plate is unmistakably cherry-red to brick-red.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.60; geo.rudra p.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q007",
+      "topicId": "11-05-physical-props-light",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which mineral displays the phenomenon of double refraction (birefringence), splitting an underlying text into two images?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rock crystal quartz"
+        },
+        {
+          "id": "b",
+          "text": "Iceland Spar (Calcite)"
+        },
+        {
+          "id": "c",
+          "text": "Fluorite"
+        },
+        {
+          "id": "d",
+          "text": "Gypsum selenite"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Clear rhombohedral calcite known as Iceland Spar strongly splits light into ordinary and extraordinary polarized rays, doubling images viewed through it.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.61, 81"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q008",
+      "topicId": "11-05-physical-props-light",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "The brilliant, fiery lustre shown by Diamond and Zircon resulting from their exceptionally high refractive index is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vitreous"
+        },
+        {
+          "id": "b",
+          "text": "Adamantine"
+        },
+        {
+          "id": "c",
+          "text": "Resinous"
+        },
+        {
+          "id": "d",
+          "text": "Pearly"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Adamantine lustre is the exceptional sparkle characteristic of diamond, zircon, and corundum.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.60; Ultimate Guide p.7"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q009",
+      "topicId": "11-05-physical-props-form",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Which descriptive mineral habit resembles a bunch of grapes packed together?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acicular"
+        },
+        {
+          "id": "b",
+          "text": "Botryoidal"
+        },
+        {
+          "id": "c",
+          "text": "Reniform"
+        },
+        {
+          "id": "d",
+          "text": "Dendritic"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Botryoidal habit (from Greek botrys = bunch of grapes) exhibits globular, grape-like rounded masses (e.g. chalcedony, prehnite).",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.63"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q010",
+      "topicId": "11-05-physical-props-cohesion",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which mineral represents Hardness = 7 on Mohs scale and serves as the benchmark for scratching window glass?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Orthoclase"
+        },
+        {
+          "id": "b",
+          "text": "Fluorite"
+        },
+        {
+          "id": "c",
+          "text": "Quartz"
+        },
+        {
+          "id": "d",
+          "text": "Topaz"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Quartz is standard number 7 on Mohs scale, easily scratching glass (5.5) and pocketknives (5.5).",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.65; Table 5.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q011",
+      "topicId": "11-05-physical-props-cohesion",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "How many sets of cleavage does the mineral Fluorite exhibit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 set (basal)"
+        },
+        {
+          "id": "b",
+          "text": "2 sets (prismatic)"
+        },
+        {
+          "id": "c",
+          "text": "3 sets (cubic)"
+        },
+        {
+          "id": "d",
+          "text": "4 sets (octahedral)"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Fluorite displays 4 directions of perfect cleavage parallel to the octahedral crystal faces {111}.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.64, 82"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q012",
+      "topicId": "11-05-silicate-structures",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "In which silicate subclass do isolated tetrahedra occur completely independently without sharing any oxygen atoms (Si:O = 1:4)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tectosilicates"
+        },
+        {
+          "id": "b",
+          "text": "Phyllosilicates"
+        },
+        {
+          "id": "c",
+          "text": "Nesosilicates (Orthosilicates)"
+        },
+        {
+          "id": "d",
+          "text": "Inosilicates"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Nesosilicates (like olivine and garnet) have isolated (SiO4) tetrahedra held together exclusively by intermediate metal cations.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.67; geo.rudra p.4"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q013",
+      "topicId": "11-05-rock-forming-silicates",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "What is the diagnostic cleavage angle that distinguishes Amphiboles (e.g. Hornblende) from Pyroxenes (e.g. Augite)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amphiboles cleave at 56° and 124°; Pyroxenes cleave at approximately 90° (87°/93°)"
+        },
+        {
+          "id": "b",
+          "text": "Amphiboles cleave at 90°; Pyroxenes cleave at 124°"
+        },
+        {
+          "id": "c",
+          "text": "Both cleave at exactly 45°"
+        },
+        {
+          "id": "d",
+          "text": "Amphiboles lack cleavage; Pyroxenes show 3 sets"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Double-chain amphiboles have cleavage planes intersecting at 56° and 124°, whereas single-chain pyroxenes have cleavages meeting at ~87° and 93° (nearly 90°).",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.73-75; geo.rudra p.4"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q014",
+      "topicId": "11-05-cavity-and-non-silicates",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which zeolite mineral from Maharashtra's Deccan Traps is renowned for its unique 'bowtie' or sheaf-like crystal aggregates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heulandite"
+        },
+        {
+          "id": "b",
+          "text": "Stilbite"
+        },
+        {
+          "id": "c",
+          "text": "Natrolite"
+        },
+        {
+          "id": "d",
+          "text": "Scolecite"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Stilbite is world-famous for its bowtie-shaped crystal bundles found in basalt amygdales throughout Maharashtra.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.77"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q015",
+      "topicId": "11-05-cavity-and-non-silicates",
+      "type": "mcq",
+      "marks": 1,
+      "difficulty": "easy",
+      "prompt": "Which quick chemical test instantly differentiates Calcite from Gypsum?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcite effervesces with cold dilute HCl; Gypsum shows no effervescence"
+        },
+        {
+          "id": "b",
+          "text": "Gypsum dissolves in kerosene; Calcite does not"
+        },
+        {
+          "id": "c",
+          "text": "Calcite produces a cherry-red streak; Gypsum produces a black streak"
+        },
+        {
+          "id": "d",
+          "text": "Gypsum is harder than quartz; Calcite is softer than talc"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Calcite (carbonate) vigorously fizzes with cold dilute HCl releasing CO2 bubbles. Gypsum (sulfate) has no effervescence.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.81; Ultimate Guide p.7"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q016",
+      "topicId": "11-05-rock-forming-silicates",
+      "type": "oddOneOut",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Identify the odd one out among these quartz group varieties:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chalcedony"
+        },
+        {
+          "id": "b",
+          "text": "Agate"
+        },
+        {
+          "id": "c",
+          "text": "Opal"
+        },
+        {
+          "id": "d",
+          "text": "Jasper"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Opal is non-crystalline and amorphous (hydrated silica). Chalcedony, Agate, and Jasper are all cryptocrystalline microfibrous varieties of quartz.",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.7"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q017",
+      "topicId": "11-05-silicate-structures",
+      "type": "oddOneOut",
+      "marks": 1,
+      "difficulty": "medium",
+      "prompt": "Identify the odd one out based on silicate structural subclass:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muscovite"
+        },
+        {
+          "id": "b",
+          "text": "Biotite"
+        },
+        {
+          "id": "c",
+          "text": "Talc"
+        },
+        {
+          "id": "d",
+          "text": "Olivine"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Olivine is a Nesosilicate (isolated tetrahedra, 1:4). Muscovite, Biotite, and Talc are all Phyllosilicates (sheet silicates, 2:5).",
+      "phoneFriendly": true,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "Ultimate Guide p.7"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q018",
+      "topicId": "11-05-physical-props-cohesion",
+      "type": "matchPairs",
+      "marks": 2,
+      "difficulty": "medium",
+      "prompt": "Match the minerals with their exact position on Mohs scale of hardness:",
+      "pairs": [
+        {
+          "left": "Talc",
+          "right": "Hardness 1"
+        },
+        {
+          "left": "Calcite",
+          "right": "Hardness 3"
+        },
+        {
+          "left": "Orthoclase",
+          "right": "Hardness 6"
+        },
+        {
+          "left": "Corundum",
+          "right": "Hardness 9"
+        }
+      ],
+      "explanation": "Mohs standards: 1 Talc, 3 Calcite, 6 Orthoclase, 9 Corundum.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.65; Table 5.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q019",
+      "topicId": "11-05-physical-props-light",
+      "type": "matchPairs",
+      "marks": 2,
+      "difficulty": "medium",
+      "prompt": "Match the minerals with their characteristic lustre type:",
+      "pairs": [
+        {
+          "left": "Diamond",
+          "right": "Adamantine"
+        },
+        {
+          "left": "Quartz",
+          "right": "Vitreous"
+        },
+        {
+          "left": "Satin Spar Gypsum",
+          "right": "Silky"
+        },
+        {
+          "left": "Kaolinite",
+          "right": "Dull / Earthy"
+        }
+      ],
+      "explanation": "Diamond = adamantine; Quartz = vitreous; Satin spar = silky; Kaolinite = dull/earthy.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.60-61"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q020",
+      "topicId": "11-05-intro-history-nomenclature",
+      "type": "shortAnswer",
+      "marks": 2,
+      "difficulty": "easy",
+      "prompt": "State the five scientific criteria required for a substance to be classified as a mineral.",
+      "answer": "1. Naturally occurring (not man-made)\n2. Formed by inorganic processes\n3. Homogeneous solid substance\n4. Definite chemical composition\n5. Ordered internal atomic crystal structure.",
+      "explanation": "All five criteria must be stated clearly.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.57; Ultimate Guide p.3"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q021",
+      "topicId": "11-05-physical-props-light",
+      "type": "shortAnswer",
+      "marks": 2,
+      "difficulty": "medium",
+      "prompt": "Why is streak considered a more reliable property than colour for identifying metallic minerals?",
+      "answer": "Colour can be misleading because trace chemical impurities, surface oxidation, or weathering easily alter the superficial colour of a hand specimen (for example, pyrite appears golden). However, powdering the mineral destroys external tarnish, yielding a constant, unvarying streak colour (pyrite always produces a greenish-black streak; hematite always yields cherry-red).",
+      "explanation": "Explains surface tarnish vs invariant powder colour.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.60"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q022",
+      "topicId": "11-05-physical-props-cohesion",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "List the ten reference minerals of Mohs scale of hardness in ascending order from softest to hardest.",
+      "answer": "1. Talc, 2. Gypsum, 3. Calcite, 4. Fluorite, 5. Apatite, 6. Orthoclase, 7. Quartz, 8. Topaz, 9. Corundum, 10. Diamond.",
+      "explanation": "Exact sequence of 10 minerals from 1 to 10.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.65; Table 5.1"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q023",
+      "topicId": "11-05-silicate-structures",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Explain the fundamental structural unit of silicate minerals with its chemical formula and geometry.",
+      "answer": "The fundamental unit is the **Silicon-Oxygen Tetrahedron (SiO4)⁴⁻**. It consists of one central Silicon cation (Si⁴⁺) coordinated tetrahedrally to four surrounding Oxygen anions (O²⁻). The four oxygens occupy the four corners of a regular tetrahedron with the silicon situated at the center.",
+      "explanation": "Covers name, formula (SiO4)4-, coordination, and tetrahedral shape.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.67"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q024",
+      "topicId": "11-05-mineral-classification-systems",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "hard",
+      "prompt": "What is polymorphism? Explain with the classic example of pure carbon.",
+      "answer": "Polymorphism is the ability of a single chemical compound to crystallize in two or more distinct crystal structures with completely different physical properties under differing pressure and temperature conditions.\n\n**Example (Carbon)**:\n- **Diamond**: Crystallizes in the Isometric (cubic) system under extreme mantle pressures. Bonds are strong covalent in 3D, making it the hardest known substance (H=10) and an electrical insulator.\n- **Graphite**: Crystallizes in the Hexagonal system under lower pressures. Atoms form loosely bonded planar sheets that slide easily, making it one of the softest minerals (H=1), opaque black, and an electrical conductor.",
+      "explanation": "Clear definition followed by detailed Diamond vs Graphite comparison.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "notes",
+        "ref": "mineralogy notes sheet 4"
+      },
+      "verified": true
+    },
+    {
+      "id": "11-05-q025",
+      "topicId": "11-05-rock-forming-silicates",
+      "type": "shortAnswer",
+      "marks": 3,
+      "difficulty": "medium",
+      "prompt": "Name the six member minerals of the Plagioclase feldspar series from sodium-rich to calcium-rich end-members.",
+      "answer": "1. **Albite** (NaAlSi3O8, 100%–90% Albite)\n2. **Oligoclase** (90%–70% Albite)\n3. **Andesine** (70%–50% Albite)\n4. **Labradorite** (50%–30% Albite)\n5. **Bytownite** (30%–10% Albite)\n6. **Anorthite** (CaAl2Si2O8, 10%–0% Albite / 90%–100% Anorthite).",
+      "explanation": "Must name all six in correct order from sodic to calcic.",
+      "phoneFriendly": false,
+      "teacherFlagged": true,
+      "source": {
+        "type": "textbook",
+        "ref": "p.70; Table 5.3"
+      },
+      "verified": true
+    }
+  ],
+  "meta": {
+    "schemaVersion": "1.0",
+    "lastUpdated": "2026-09-05",
+    "authoredBy": "antigravity",
+    "reviewStatus": "draft",
+    "sourceDocuments": [
+      "Maharashtra State Board 11th Geology Textbook Chapter 5 pp.57-88",
+      "mineralogy handwritten notes standard 11 geology/ (20 scanned study sheets)",
+      "Ultimate_Geology_Guide_Rudra_standard 11 and contains mineralogy and rock forming processes.docx (Chapter 5)",
+      "Complete_Geology_Guide_ALL_Topics_standard 11 and includes mineralogy and rock forming processes.docx",
+      "geo.rudra and contains mineralogy and rock forming processes.pdf (Mineralogy section)"
+    ],
+    "openQuestions": []
+  }
+}

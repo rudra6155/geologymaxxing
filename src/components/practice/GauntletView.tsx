@@ -121,7 +121,7 @@ export function GauntletView({ chapter }: GauntletViewProps) {
       <main className="min-h-dvh flex flex-col px-4 py-6">
         <header className="mb-8">
           <Link
-            href={`/12/${chapter.slug}`}
+            href={`/${chapter.std ?? 12}/${chapter.slug}`}
             className="inline-flex items-center gap-1 text-chalk-muted text-xs font-medium 
                        hover:text-chalk transition-colors mb-4"
             style={{ fontFamily: 'var(--font-mono)' }}

@@ -146,12 +146,12 @@ export function StudyMode({ chapter, depthView, topics, onExit, onChangeDepth }:
           </div>
         )}
 
-        <DistinguishPairsView pairs={chapter.distinguishPairs} />
-        <GlossaryView entries={chapter.glossary} />
+        <DistinguishPairsView pairs={chapter.distinguishPairs || []} />
+        <GlossaryView entries={chapter.glossary || []} />
 
         <div className="mt-12 flex justify-center">
           <Link
-            href={`/12/${chapter.slug}/practice`}
+            href={`/${chapter.std ?? 12}/${chapter.slug}/practice`}
             className="inline-flex items-center gap-2 bg-core/15 border border-core/30
                        text-core font-semibold text-sm rounded-full px-6 py-3
                        hover:bg-core/20 transition-colors"
@@ -160,7 +160,7 @@ export function StudyMode({ chapter, depthView, topics, onExit, onChangeDepth }:
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
             </svg>
-            Practice Questions ({chapter.questions.length})
+            Practice Questions ({chapter.questions?.length ?? 0})
           </Link>
         </div>
       </div>

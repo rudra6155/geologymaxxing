@@ -5,7 +5,7 @@ interface DistinguishPairsViewProps {
 }
 
 export function DistinguishPairsView({ pairs }: DistinguishPairsViewProps) {
-  if (pairs.length === 0) return null;
+  if (!pairs || pairs.length === 0) return null;
 
   return (
     <section className="mt-8">

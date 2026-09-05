@@ -43,7 +43,7 @@ export function ChapterOverview({ chapter, depthStats, onSelectDepth }: ChapterO
       <header className="px-4 pt-5 pb-4">
         <div className="flex flex-col gap-3 mb-5 sm:flex-row sm:items-center sm:justify-between">
           <Link
-            href="/12"
+            href={`/${chapter.std ?? 12}`}
             className="inline-flex items-center gap-1 text-chalk-muted text-xs font-medium
                        hover:text-chalk transition-colors w-fit shrink-0"
             style={{ fontFamily: 'var(--font-mono)' }}
@@ -56,7 +56,7 @@ export function ChapterOverview({ chapter, depthStats, onSelectDepth }: ChapterO
 
           <div className="flex items-center gap-2 overflow-x-auto hide-scrollbar pb-1 -mx-4 px-4 sm:mx-0 sm:px-0">
             <Link
-              href={`/12/${chapter.slug}/live/host`}
+              href={`/${chapter.std ?? 12}/${chapter.slug}/live/host`}
               className="shrink-0 inline-flex items-center gap-1.5 text-xs font-medium text-amber-500
                          bg-amber-500/10 border border-amber-500/20 rounded-full px-3 py-1
                          hover:bg-amber-500/15 transition-colors"
@@ -68,7 +68,7 @@ export function ChapterOverview({ chapter, depthStats, onSelectDepth }: ChapterO
               Host Live
             </Link>
             <Link
-              href={`/12/${chapter.slug}/gauntlet`}
+              href={`/${chapter.std ?? 12}/${chapter.slug}/gauntlet`}
               className="shrink-0 inline-flex items-center gap-1.5 text-xs font-medium text-core
                          bg-core/10 border border-core/20 rounded-full px-3 py-1
                          hover:bg-core/15 transition-colors"
@@ -80,7 +80,7 @@ export function ChapterOverview({ chapter, depthStats, onSelectDepth }: ChapterO
               Gauntlet
             </Link>
             <Link
-              href={`/12/${chapter.slug}/practice`}
+              href={`/${chapter.std ?? 12}/${chapter.slug}/practice`}
               className="shrink-0 inline-flex items-center gap-1.5 text-xs font-medium text-moss
                          bg-moss/10 border border-moss/20 rounded-full px-3 py-1
                          hover:bg-moss/15 transition-colors"

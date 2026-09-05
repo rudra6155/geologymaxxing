@@ -150,7 +150,7 @@ export function LiveHostView({ chapter }: LiveHostViewProps) {
             <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[rgba(89,73,55,0.3)] to-transparent" />
           </div>
           
-          <Link href={`/12/${chapter.slug}`} className="relative inline-flex items-center gap-1 text-chalk-muted text-xs font-medium hover:text-chalk transition-colors mb-5" style={{ fontFamily: 'var(--font-mono)' }}>
+          <Link href={`/${chapter.std ?? 12}/${chapter.slug}`} className="relative inline-flex items-center gap-1 text-chalk-muted text-xs font-medium hover:text-chalk transition-colors mb-5" style={{ fontFamily: 'var(--font-mono)' }}>
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg> Back
           </Link>
           
