@@ -56,18 +56,6 @@ export function ChapterOverview({ chapter, depthStats, onSelectDepth }: ChapterO
 
           <div className="flex items-center gap-2 overflow-x-auto hide-scrollbar pb-1 -mx-4 px-4 sm:mx-0 sm:px-0">
             <Link
-              href={`/${chapter.std ?? 12}/${chapter.slug}/live/host`}
-              className="shrink-0 inline-flex items-center gap-1.5 text-xs font-medium text-amber-500
-                         bg-amber-500/10 border border-amber-500/20 rounded-full px-3 py-1
-                         hover:bg-amber-500/15 transition-colors"
-              style={{ fontFamily: 'var(--font-mono)' }}
-            >
-              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-              </svg>
-              Host Live
-            </Link>
-            <Link
               href={`/${chapter.std ?? 12}/${chapter.slug}/gauntlet`}
               className="shrink-0 inline-flex items-center gap-1.5 text-xs font-medium text-core
                          bg-core/10 border border-core/20 rounded-full px-3 py-1
