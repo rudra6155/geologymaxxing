@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'geology.filtree.in — Maharashtra Board Geology',
-    short_name: 'Geology Filtree',
+    name: 'filgeo — Maharashtra Board Geology',
+    short_name: 'filgeo',
     description: 'Free offline-first study guide for Maharashtra State Board Geology',
     start_url: '/',
     display: 'standalone',

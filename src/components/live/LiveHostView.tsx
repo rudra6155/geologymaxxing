@@ -225,7 +225,7 @@ export function LiveHostView({ chapter }: LiveHostViewProps) {
 
         <div className="flex-1 flex flex-col items-center justify-center px-6 text-center relative z-10 pb-28">
           <p className="text-chalk-muted font-medium uppercase tracking-[0.2em] text-[10px] mb-3" style={{ fontFamily: 'var(--font-mono)' }}>
-            Join at geology.filtree.in/live
+            Join at filgeo/live
           </p>
           
           {/* Stone tablet room code */}

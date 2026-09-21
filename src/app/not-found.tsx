@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Page Not Found',
-  description: "This page doesn't exist — head back to geology.filtree.in.",
+  description: "This page doesn't exist — head back to filgeo.",
 };
 
 export default function NotFound() {

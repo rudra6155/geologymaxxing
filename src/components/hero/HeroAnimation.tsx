@@ -311,10 +311,7 @@ export function HeroAnimation() {
           >
             <h1 style={{ fontFamily: 'var(--font-display)' }}>
               <span className="block text-[2.75rem] leading-[1.05] font-bold bg-clip-text text-transparent bg-gradient-to-br from-core via-core-bright to-chalk">
-                geology
-              </span>
-              <span className="block text-xl text-chalk-muted font-light tracking-tight -mt-1">
-                .filtree.in
+                filgeo
               </span>
             </h1>
           </motion.div>

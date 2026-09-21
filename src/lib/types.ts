@@ -1,5 +1,5 @@
 /**
- * TypeScript types for geology.filtree.in content schema v1.0
+ * TypeScript types for filgeo content schema v1.0
  * Mirrors CONTENT_SCHEMA.md exactly. Do not add fields without updating the schema first.
  */
 

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { HeroAnimation, HeroHeadline } from '@/components/hero/HeroAnimation';
 
 export const metadata: Metadata = {
-  title: 'geology.filtree.in — Maharashtra Board Geology Study Guide',
+  title: 'filgeo — Maharashtra Board Geology Study Guide',
 };
 
 export default function HomePage() {

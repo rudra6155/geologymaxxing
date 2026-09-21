@@ -25,8 +25,8 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'geology.filtree.in — Maharashtra Board Geology Study Guide',
-    template: '%s | geology.filtree.in',
+    default: 'filgeo — Maharashtra Board Geology Study Guide',
+    template: '%s | filgeo',
   },
   description:
     'Free offline-first study guide for Maharashtra State Board Geology (Std 11 & 12). Lessons, revision sheets, last-minute notes, diagrams, and practice questions.',
@@ -38,23 +38,23 @@ export const metadata: Metadata = {
     'Board exam preparation',
     'Structural Geology',
     'Petrology',
-    'filtree',
+    'filgeo',
   ],
-  authors: [{ name: 'geology.filtree.in' }],
-  creator: 'geology.filtree.in',
+  authors: [{ name: 'filgeo' }],
+  creator: 'filgeo',
   metadataBase: new URL('https://geology.filtree.in'),
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    siteName: 'geology.filtree.in',
-    title: 'geology.filtree.in — Maharashtra Board Geology Study Guide',
+    siteName: 'filgeo',
+    title: 'filgeo — Maharashtra Board Geology Study Guide',
     description:
       'Free offline-first study guide for Maharashtra State Board Geology. Lessons, revision, last-minute notes, and practice questions.',
   },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Geology Filtree',
+    title: 'filgeo',
   },
 };
 
